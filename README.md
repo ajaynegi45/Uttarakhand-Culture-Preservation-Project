@@ -33,7 +33,7 @@ Feel free to update this README file with your ideas, suggestions, or any additi
 
 ### Providing Ideas
 
-Feel free to update this [Project Idea file](https://github.com/ajaynegi45/Uttarakhandi-Cultural-Preservation-Project/blob/main/Project-Idea.md) by share your ideas for website features, content categories, or engagement strategies that can enhance the user experience and cultural preservation efforts.
+Feel free to update [Project Idea file](https://github.com/ajaynegi45/Uttarakhandi-Cultural-Preservation-Project/blob/main/Project-Idea.md) by share your ideas for website features, content categories, or engagement strategies that can enhance the user experience and cultural preservation efforts.
 
 <br/>
 

@@ -75,7 +75,7 @@ You can be a valuable part of our mission to showcase the rich culture, history,
 - **For Non-Code Contributions:**
     - If you are not a coder, you can still make a significant impact:
         - **Website Design**: Share your creativity and design skills to help improve the look and feel of the website.
-        - **Content Gathering**: Select a feature or aspect of Uttarakhand and start gathering authentic and insightful information. Please provide the sources or links from where you obtained the information. If the information is your own, make sure to mention that, and at the bottom, write, "The above information is my personal contribution."
+        - **Content Gathering**: Select a feature or aspect of Uttarakhand and start gathering authentic and insightful information. Please provide the sources or links from where you obtained the information. If the information is your own, make sure to mention.
         - Organize the information in a structured manner and create issues with your suggestions, designs, or content contributions..
         - If your contribution aligns with our mission to provide valuable and insightful content, we will gladly incorporate it into our website and give proper credit to you.
 

@@ -79,6 +79,9 @@ You can be a valuable part of our mission to showcase the rich culture, history,
         - Organize the information in a structured manner and create issues with your suggestions, designs, or content contributions..
         - If your contribution aligns with our mission to provide valuable and insightful content, we will gladly incorporate it into our website and give proper credit to you.
 
+- **Help Us Find the Perfect Name for the Website**:
+    - **Suggest a Name** : We are in search of a unique and concise name for our website that reflects its purpose. We encourage you to suggest a name in Uttarakhandi language that is both meaningful and easy to remember. Your input is highly valued, and we'll consider all suggestions to choose the most fitting name. Please share your name suggestions via **[E-mail](mailto:contact@ajaynegi.co)** with "Website Name Suggestion" as the subject line.
+
 We are committed to recognizing the efforts of our contributors. Soon, we will create a "Contributions" page on our website where we will showcase the photos and names of all our contributors.
 
 Your participation, whether in code or content, will help us make this project more informative and enriching for all users.

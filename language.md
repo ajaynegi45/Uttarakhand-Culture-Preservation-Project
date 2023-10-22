@@ -5,8 +5,21 @@ Tell me how to implement this feature.
 -Language-hindi is the official language of Uttarakhand.Additionally,Garhwali and Kumaoni are the widely spoken languages in the respective regions.These languages are integral part of the cultural
 -identity of the people.
 -Religion-the majority of the population in Uttarakhand practices Hinduism.
+-Language --> distribution of population on the basis of languages spoken(in percentage)
+-Hindi               43.37
+-Garhwali            23.03
+-Kumaoni             19.94
+-Urdu                4.22
+-Punjabi             2.61
+-Bengali             1.50
+-Jaunsari            1.35
+-Nepali              1.05
+-Bhojpuri            0.95
+-others              1.98
 
-
+Apart from this,Uttarakhand is also home to a number of indigenous Sino-Tibetan languages.These include Jad,Rongpo
+and several languages of Pithoragarh district in the north east.
+Additionally,two non-indigenous Sino-Tibetan languages are also represented:Kulung and Tibetan.
 
 
 [For Reference](https://ajaynegi.notion.site/Uttarakhand-Website-4713f6589ea44011ac9e1f096216b3e9?pvs=4)

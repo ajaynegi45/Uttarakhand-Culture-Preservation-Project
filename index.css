@@ -74,7 +74,6 @@ img{
 
   -webkit-mask-image: linear-gradient(#000000, rgba(0, 0, 0, 0));
   mask-image: linear-gradient(#000000, rgba(0, 0, 0, 0));
-
 }
 
 .slide {
@@ -82,7 +81,7 @@ img{
   height: 100%;
   /* border-radius: 12px; */
   position: absolute;
-  transition: transform 10ms ease-in;
+  transition: transform 1ms;
 }
 
 .slide img {

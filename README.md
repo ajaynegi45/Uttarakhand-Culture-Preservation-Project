@@ -1,4 +1,4 @@
-# Uttarakhandi-Cultural-Preservation-Project
+# Uttarakhand-Culture-Preservation-Project
 
 ### Introduction
 

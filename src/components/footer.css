@@ -1,0 +1,13 @@
+.footer{
+    margin-top: 200px ;
+    background-color: hsla(147, 17%, 46%, 0.65);
+    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-para{
+    color: #FF9800;
+    font-size: 20px;
+}

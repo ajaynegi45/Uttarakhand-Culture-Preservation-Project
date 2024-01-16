@@ -1,3 +1,6 @@
+import "./explorecard.css"
+
+import aipanArt from "../assets/images/aipanart.png";
 
 function EXploreCard() {
     return (
@@ -10,17 +13,17 @@ function EXploreCard() {
 
 
                     <div className="explore-card">
-                        <a href="./pages/architecture.html">
-                            <img src="/assets/images/aipan-art.png" alt=""/>
+
+                            <img src={aipanArt} alt=""/>
                             <div className="explore-card-description">
                                 <p>Architectural Wonders</p>
                             </div>
-                        </a>
+
                     </div>
 
 
                     <div className="explore-card">
-                        <img src="/assets/images/aipan-art.png" alt=""/>
+                        <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>Art and Painting</p>
                         </div>
@@ -28,60 +31,60 @@ function EXploreCard() {
 
 
                     <div className="explore-card">
-                        <img src="/assets/images/aipan-art.png" alt=""/>
+                        <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>Festivals and Fairs</p>
                         </div>
                     </div>
 
                     <div className="explore-card">
-                        <img src="/assets/images/aipan-art.png" alt=""/>
+                        <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>Temples of Uttarakhand</p>
                         </div>
                     </div>
 
                     <div className="explore-card">
-                        <img src="/assets/images/aipan-art.png" alt=""/>
+                        <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>Cuisine</p>
                         </div>
                     </div>
 
                     <div className="explore-card">
-                        <img src="/assets/images/aipan-art.png" alt=""/>
+                        <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>Traditional Dresses</p>
                         </div>
                     </div>
                     <div className="explore-card">
-                        <img src="/assets/images/aipan-art.png" alt=""/>
+                        <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>Flora and Fauna</p>
                         </div>
                     </div>
                     <div className="explore-card">
-                        <img src="/assets/images/aipan-art.png" alt=""/>
+                        <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>Music & Dance</p>
                         </div>
                     </div>
                     <div className="explore-card">
-                        <img src="/assets/images/aipan-art.png" alt=""/>
+                        <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>Peaks & Mountains</p>
                         </div>
                     </div>
 
                     <div className="explore-card">
-                        <img src="/assets/images/aipan-art.png" alt=""/>
+                        <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>History of Uttarakhand</p>
                         </div>
                     </div>
 
                     <div className="explore-card">
-                        <img src="/assets/images/aipan-art.png" alt=""/>
+                        <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>Language</p>
                         </div>

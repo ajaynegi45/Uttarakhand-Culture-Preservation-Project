@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <>
             <header className="navbar-header">
-                <h1 className="title">Dadi</h1>
+                <h1 className="title">UK Culture Preservation</h1>
 
                 <nav className="navbar">
                     <ul className="navbar-list">

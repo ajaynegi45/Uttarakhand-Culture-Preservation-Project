@@ -25,6 +25,10 @@
     background-color: #820300;
     text-decoration: none;
 }
+.explore-card img{
+    width: 100%;
+    height: 185px;
+}
 .explore-card > a{
     text-decoration: none;
 }

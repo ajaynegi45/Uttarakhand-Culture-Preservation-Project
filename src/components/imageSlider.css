@@ -27,29 +27,28 @@
 }
 
 .carousel-wrapper .btn {
-    font-size: 2rem;
+    font-size: 4rem;
     background: transparent;
     color: #FF9800;
-    padding: 8px 10px;
+    padding: 6px 10px;
     border-radius: 50%;
     border: none;
     margin: 10px;
     position: absolute;
     transform: translateY(-50%);
     cursor: pointer;
-}
+    }
 .carousel-wrapper .btn:hover {
     color: white;
     background:  #FF9800;
 }
 
-.btn.previous {
+.previous {
     top: 50%;
     left: 0;
 }
-.btn.next {
+
+.next {
     top: 50%;
     right: 0;
 }
-
-

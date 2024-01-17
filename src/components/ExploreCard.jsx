@@ -1,8 +1,8 @@
 import "./explorecard.css"
 
-import aipanArt from "../assets/images/aipanart.png";
+import aipanArt from '../assets/images/aipanart.png';
 
-function EXploreCard() {
+function ExploreCard() {
     return (
         <>
 
@@ -13,12 +13,10 @@ function EXploreCard() {
 
 
                     <div className="explore-card">
-
-                            <img src={aipanArt} alt=""/>
+                            <img src={aipanArt} alt="aipan"/>
                             <div className="explore-card-description">
                                 <p>Architectural Wonders</p>
                             </div>
-
                     </div>
 
 
@@ -98,4 +96,4 @@ function EXploreCard() {
     );
 }
 
-export default EXploreCard;
+export default ExploreCard;

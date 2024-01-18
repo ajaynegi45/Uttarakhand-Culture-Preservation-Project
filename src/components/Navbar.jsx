@@ -1,10 +1,13 @@
 
 import "./navbar.css"
+import {Link} from "react-router-dom";
 function Navbar() {
     return (
         <>
             <header className="navbar-header">
-                <h1 className="title">UK Culture Preservation</h1>
+                <Link to={"/"}>
+                    <h1 className="title">UK Culture Preservation</h1>
+                </Link>
 
                 <nav className="navbar">
                     <ul className="navbar-list">

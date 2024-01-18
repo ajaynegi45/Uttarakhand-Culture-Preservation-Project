@@ -20,15 +20,12 @@ function App() {
     return (
     <>
         <div>
-            <Navbar/>
 
             <div>
                 <ImageSlider images={images}/>
             </div>
 
             <ExploreCard/>
-            <Footer/>
-
 
         </div>
 

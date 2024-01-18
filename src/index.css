@@ -20,4 +20,12 @@
 
 body{
   background-color: #000000;
+  h1{
+    color: white;
+  }
+
+  a{
+    color: red;
+    text-decoration: none;
+  }
 }

@@ -1,4 +1,5 @@
 import "./explorecard.css"
+import {Link} from "react-router-dom";
 
 import aipanArt from '../assets/images/aipanart.png';
 
@@ -13,10 +14,20 @@ function ExploreCard() {
 
 
                     <div className="explore-card">
-                            <img src={aipanArt} alt="aipan"/>
+                        <img src={aipanArt} alt="aipan"/>
+                        <div className="explore-card-description">
+                            <p>Architectural Wonders</p>
+                        </div>
+                    </div>
+
+
+                    <div className="explore-card">
+                        <Link to={"/language"}>
+                            <img src={aipanArt} alt=""/>
                             <div className="explore-card-description">
-                                <p>Architectural Wonders</p>
+                                <p>Language</p>
                             </div>
+                        </Link>
                     </div>
 
 
@@ -78,13 +89,6 @@ function ExploreCard() {
                         <img src={aipanArt} alt=""/>
                         <div className="explore-card-description">
                             <p>History of Uttarakhand</p>
-                        </div>
-                    </div>
-
-                    <div className="explore-card">
-                        <img src={aipanArt} alt=""/>
-                        <div className="explore-card-description">
-                            <p>Language</p>
                         </div>
                     </div>
 

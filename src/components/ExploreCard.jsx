@@ -2,8 +2,20 @@ import "./explorecard.css"
 import {Link} from "react-router-dom";
 
 import aipanArt from '../assets/images/aipanart.png';
+import Linguistic from '../assets/images/Linguistic.png';
+import Food1 from '../assets/images/foodUk.jpg';
+import Temple from '../assets/images/Temple.jpg';
+import dress from '../assets/images/dress.png';
+import dressArt from '../assets/images/dressArt.jpg';
+import Dhol from '../assets/images/Dhol.png'
+import "./explorecard.css"
 
 function ExploreCard() {
+
+    function showAlert() {
+        alert("We are currently working on it. You can come back after a few days to check.\nCurrently, only the Language card is live, you can check it out. \n\nThank you for your patience! ❤️");
+    }
+
     return (
         <>
 
@@ -12,87 +24,89 @@ function ExploreCard() {
 
                 <div className="explore-card-list">
 
-
                     <div className="explore-card">
-                        <img src={aipanArt} alt="aipan"/>
-                        <div className="explore-card-description">
-                            <p>Architectural Wonders</p>
-                        </div>
-                    </div>
-
-
-                    <div className="explore-card">
-                        <Link to={"/language"}>
-                            <img src={aipanArt} alt=""/>
-                            <div className="explore-card-description">
-                                <p>Language</p>
+                        <Link to={"/language"} className="explore-card-link">
+                            <div className="explore-card-image-container">
+                                <img src={Linguistic} alt="Linguistic Survey of India Book Image"
+                                     className="explore-card-image"/>
+                            </div>
+                            <div className="explore-card-text-container">
+                                <p className="explore-card-text">Language</p>
                             </div>
                         </Link>
                     </div>
 
-
                     <div className="explore-card">
-                        <img src={aipanArt} alt=""/>
-                        <div className="explore-card-description">
-                            <p>Art and Painting</p>
-                        </div>
-                    </div>
-
-
-                    <div className="explore-card">
-                        <img src={aipanArt} alt=""/>
-                        <div className="explore-card-description">
-                            <p>Festivals and Fairs</p>
-                        </div>
+                        <Link to={"#"} className="explore-card-link" onClick={showAlert} >
+                            <div className="explore-card-image-container">
+                                <img src={Food1} alt="Linguistic Survey of India Book Image"
+                                     className="explore-card-image"/>
+                            </div>
+                            <div className="explore-card-text-container">
+                                <p className="explore-card-text">Cuisine</p>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="explore-card">
-                        <img src={aipanArt} alt=""/>
-                        <div className="explore-card-description">
-                            <p>Temples of Uttarakhand</p>
-                        </div>
+                        <Link to={"#"} className="explore-card-link"  onClick={showAlert} >
+                            <div className="explore-card-image-container">
+                                <img src={Temple} alt="Linguistic Survey of India Book Image"
+                                     className="explore-card-image"/>
+                            </div>
+                            <div className="explore-card-text-container">
+                                <p className="explore-card-text">Temples</p>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="explore-card">
-                        <img src={aipanArt} alt=""/>
-                        <div className="explore-card-description">
-                            <p>Cuisine</p>
-                        </div>
+                        <Link to={"#"} className="explore-card-link"  onClick={showAlert} >
+                            <div className="explore-card-image-container">
+                                <img src={dressArt} alt="Linguistic Survey of India Book Image"
+                                     className="explore-card-image"/>
+                            </div>
+                            <div className="explore-card-text-container">
+                                <p className="explore-card-text">Traditional Dresses</p>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="explore-card">
-                        <img src={aipanArt} alt=""/>
-                        <div className="explore-card-description">
-                            <p>Traditional Dresses</p>
-                        </div>
-                    </div>
-                    <div className="explore-card">
-                        <img src={aipanArt} alt=""/>
-                        <div className="explore-card-description">
-                            <p>Flora and Fauna</p>
-                        </div>
-                    </div>
-                    <div className="explore-card">
-                        <img src={aipanArt} alt=""/>
-                        <div className="explore-card-description">
-                            <p>Music & Dance</p>
-                        </div>
-                    </div>
-                    <div className="explore-card">
-                        <img src={aipanArt} alt=""/>
-                        <div className="explore-card-description">
-                            <p>Peaks & Mountains</p>
-                        </div>
+                        <Link to={"#"} className="explore-card-link"  onClick={showAlert} >
+                            <div className="explore-card-image-container">
+                                <img src={aipanArt} alt="Linguistic Survey of India Book Image"
+                                     className="explore-card-image"/>
+                            </div>
+                            <div className="explore-card-text-container">
+                                <p className="explore-card-text">Art</p>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="explore-card">
-                        <img src={aipanArt} alt=""/>
-                        <div className="explore-card-description">
-                            <p>History of Uttarakhand</p>
-                        </div>
+                        <Link to={"#"} className="explore-card-link"  onClick={showAlert} >
+                            <div className="explore-card-image-container">
+                                <img src={dress} alt="Linguistic Survey of India Book Image"
+                                     className="explore-card-image"/>
+                            </div>
+                            <div className="explore-card-text-container">
+                                <p className="explore-card-text">Dance</p>
+                            </div>
+                        </Link>
                     </div>
 
-
+                    <div className="explore-card">
+                        <Link to={"#"} className="explore-card-link"  onClick={showAlert} >
+                            <div className="explore-card-image-container">
+                                <img src={Dhol} alt="Linguistic Survey of India Book Image"
+                                     className="explore-card-image"/>
+                            </div>
+                            <div className="explore-card-text-container">
+                                <p className="explore-card-text">Music</p>
+                            </div>
+                        </Link>
+                    </div>
                 </div>
             </section>
 

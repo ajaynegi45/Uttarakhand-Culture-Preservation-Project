@@ -6,7 +6,7 @@ function Navbar() {
         <>
             <header className="navbar-header">
                 <Link to={"/"}>
-                    <h1 className="title">UK Culture Preservation</h1>
+                    <h1 className="title">UK Culture</h1>
                 </Link>
 
                 <nav className="navbar">

@@ -1,7 +1,7 @@
 
 
 .navbar-backside-frame{
-    height: 75px;
+    height: 76px;
 }
 
 .navbar-header {
@@ -59,10 +59,13 @@ nav > ul > li > .navbar-link:hover{
     font-size: 20px;
 }
 
-h2{
-    color: white;
+.title{
+    color: #FF9800;
 }
 
-p{
-    color: white;
+
+@media only screen and (max-width: 900px) {
+    .title{
+     font-size: 1.5rem;
+    }
 }

@@ -1,0 +1,40 @@
+.language-header-image{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+
+    -webkit-mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
+}
+
+.language-header-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.language-about-container{
+    margin: 30px;
+}
+.language-about-container > h1{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.language-about-container > p{
+    color: white;
+}
+
+.language-map{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.language-map > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

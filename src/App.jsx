@@ -1,10 +1,6 @@
 import './App.css'
-import Navbar from './components/Navbar.jsx';
-import Footer from './components/Footer.jsx';
 import ExploreCard from './components/ExploreCard.jsx';
 import ImageSlider from './components/ImageSlider.jsx';
-
-// Import images
 import lakeImage from './assets/images/lake.jpg';
 import snowImage from './assets/images/snow.jpg';
 import trekkingImage from './assets/images/trekking.jpg';
@@ -20,15 +16,12 @@ function App() {
     return (
     <>
         <div>
-
             <div>
                 <ImageSlider images={images}/>
             </div>
 
             <ExploreCard/>
-
         </div>
-
     </>
     )
 }

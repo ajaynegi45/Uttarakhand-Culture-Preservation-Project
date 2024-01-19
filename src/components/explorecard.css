@@ -1,40 +1,88 @@
 .explore-section{
-    margin: 10px 50px 10px 50px;
-
+    margin: 30px 50px 10px 50px;
 }
-
 
 .explore-uttarakhand{
     text-align: center;
     color: #FF9800;
     font-size: 40px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    .explore-uttarakhand{
+        font-size: 30px;
+    }
 }
 
 .explore-card-list{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    gap: 10px;
-}
-.explore-card{
-    margin-top: 20px;
-    border-radius: 5%;
-    width: 250px;
-    height: 230px;
-    overflow: hidden;
-    background-color: #820300;
-    text-decoration: none;
-}
-.explore-card img{
-    width: 100%;
-    height: 185px;
-}
-.explore-card > a{
-    text-decoration: none;
+    gap: 30px;
 }
 
-.explore-card-description{
-    color: white;
-    text-align: center;
-    font-size: 20px;
+.explore-card{
+    margin-top: 20px;
+    border-radius: 3.5%;
+    width: 250px;
+    height: 250px;
+    /*background-color: #820300;*/
+    background-color: white;
+    text-decoration: none;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
 }
+
+.explore-card-image-container {
+    border-radius: 3%;
+    margin: 5px 5px 2px 5px;
+    height: 210px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.explore-card-image {
+    width: 100%;
+    height: 100%; /* Ensure the image takes the full height of the container */
+    object-fit: cover; /* Stretch the image to cover the entire container */
+    transition: 0.5s;
+}
+
+.explore-card-image:hover{
+    scale: 1.2;
+}
+
+.explore-card-text-container{
+    text-align: center;
+}
+
+.explore-card-text{
+    color: #B80000;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.explore-card-text:hover{
+    /*color: #820300;*/
+    color: #FF9800;
+}
+
+
+
+
+
+
+/*.explore-card img{*/
+/*    width: 100%;*/
+/*    height: 185px;*/
+/*}*/
+/*.explore-card > a{*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.explore-card-description{*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    font-size: 20px;*/
+/*}*/

@@ -20,7 +20,7 @@ const ImageSlider = (images) => {
     useEffect(() => {
         const interval = setInterval(
             nextSlide
-        , 5000);
+        , 2000);
 
         // Clean up the interval when the component is unmounted or when the dependency array changes
         return () => clearInterval(interval);

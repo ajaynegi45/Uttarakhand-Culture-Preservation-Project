@@ -1,13 +1,140 @@
-.footer{
-    margin-top: 200px ;
-    background-color: hsla(147, 17%, 46%, 0.65);
-    text-align: center;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/*.footer{*/
+/*    margin-top: 200px ;*/
+/*    background-color: hsla(147, 17%, 46%, 0.65);*/
+/*    text-align: center;*/
+/*    height: 70px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*.footer-para{*/
+/*    color: #FF9800;*/
+/*    font-size: 20px;*/
+/*}*/
+
+
+.footer-image-container{
+    -webkit-mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
 }
-.footer-para{
+
+.footer-image-container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/*.footer-content > h4{*/
+/*    color: #B80000;*/
+/*    margin-bottom: 1.5rem;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.footer-content > li{*/
+/*    margin-bottom: 16px;*/
+/*}*/
+
+/*.footer-content > li > a{*/
+/*    display: block;*/
+/*    color: blue;*/
+/*    font-size: 15px;*/
+/*    font-weight: 400;*/
+/*    transition: all .40s ease;*/
+/*}*/
+
+/*.footer-content > li > a:hover{*/
+/*    transform: translateY(-3px) translateX(-5px);*/
+/*}*/
+
+body{
+    color: white;
+}
+
+footer{
+    margin-top: 10em;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -17px 3em 5em 3em;
+    justify-content: space-between;
+
+}
+
+.footer-content > h1{
     color: #FF9800;
-    font-size: 20px;
+    margin-block-start: 24px;
+}
+.footer-content > p{
+    color: white;
+    font-weight: bold;
+}
+.footer-content > li {
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-content > li > a {
+    display: block;
+    color: white;
+    /*font-weight: bold;*/
+    transition: all .45s ease-in-out;
+}
+.footer-content > li > a:hover{
+    /*transform: translateY(-3px) translateX(-5px);*/
+    color: #B80000;
+}
+.footer-icon{
+    width: 40px;
+    margin: 10px 30px 20px 0;
+    transition: all .40s ease;
+}
+
+.footer-icon:hover{
+    transform: translateY(-3px) translateX(-5px);
+}
+
+.footer-content > h3 {
+    margin-top: 2em;
+    color: #FF9800;
+
+}
+.foot-note{
+    text-align: center;
+    /*background: red;*/
+    margin-bottom: 10px;
+    /*font-weight: bold;*/
+}
+
+.Chevron{
+    width: 20px;
+    margin-bottom: -5px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+
+@media only screen and (max-width: 500px) {
+    .footer-section{
+        text-align: center;
+    }
+
+    .footer-content-links{
+        text-align: left;
+    }
+
+    .footer-section{
+        margin: -17px 1em 5em 1em;
+    }
+
+    .footer-links{
+        gap: 2em;
+    }
 }

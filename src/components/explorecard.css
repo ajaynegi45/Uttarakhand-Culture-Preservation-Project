@@ -33,6 +33,9 @@
     /*display: flex;*/
     /*justify-content: space-between;*/
 }
+.explore-card:hover{
+    /*box-shadow: 4px 4px 2px white;*/
+}
 
 .explore-card-image-container {
     border-radius: 3%;
@@ -44,14 +47,15 @@
 
 .explore-card-image {
     width: 100%;
-    height: 100%; /* Ensure the image takes the full height of the container */
-    object-fit: cover; /* Stretch the image to cover the entire container */
-    transition: 0.5s;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s; /* Use the 'transform' property for scaling */
 }
 
-.explore-card-image:hover{
-    scale: 1.2;
+.explore-card-image:hover {
+    transform: scale(1.2); /* Scale the image when hovered */
 }
+
 
 .explore-card-text-container{
     text-align: center;

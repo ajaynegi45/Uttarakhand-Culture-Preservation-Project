@@ -1,0 +1,50 @@
+.uttarakhand-map{
+    margin: 8em  0;
+}
+.uttarakhand-map-heading{
+    text-align: center;
+    color: #FF9800;
+}
+.uttarakhand-map-container{
+    background: white;
+    padding: 0;
+    margin: 1em;
+    overflow: hidden;
+
+    /* Zoom in out feature */
+    /*transform-origin: 0px 0px;*/
+    /*transform: scale(1) translate(0px, 0px);*/
+    /*cursor: grab;*/
+}
+
+.uttarakhand-map-container > img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.uttarakhand-map > p{
+    font-weight: bold;
+    text-align: center;
+    color: grey;
+}
+
+.contributor-cardlist{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.contributor-profile{
+    margin-top: 2em;
+    text-align: center;
+}
+.contributor-profile-image-container > img{
+    width: 150px;
+}
+@media only screen and (max-width: 500px) {
+    .uttarakhand-map-container{
+        margin: 0.1em;
+    }
+}

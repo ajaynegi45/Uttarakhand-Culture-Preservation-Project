@@ -20,12 +20,12 @@
 
 body{
   background-color: #000000;
-  h1{
-    color: white;
-  }
+}
 
-  a{
-    color: red;
-    text-decoration: none;
-  }
+body::-webkit-scrollbar{
+  display: none;
+}
+
+a{
+  text-decoration: none;
 }

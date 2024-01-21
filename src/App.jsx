@@ -112,6 +112,7 @@ const App = () => {
                     {/*    <img src={map} alt="Important Map of Uttarkhand"/>*/}
                     {/*</div>*/}
 
+                    <p>Detailed map of uttarakhand</p>
 
                     <div className={"uttarakhand-map-container"}>
                         <img src={map} alt="Important Map of Uttarkhand" loading="lazy"/>

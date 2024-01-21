@@ -2,13 +2,9 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import "./language.css"
 import LanguageList from "/src/assets/images/LanguageList.jpg";
-import Linguistic from "../../assets/images/Linguistic.png";
 import languageMap from '../../assets/images/languageMap.png';
-import kumaoniLanguage from '../../assets/images/kumaoniLanguage.jpg'
-import Kumaoni from '../../assets/images/Kumaoni.svg';
 import kumaoni from '../../assets/images/images.png';
 import Garhwali from '../../assets/images/garhwali.png';
-import garhwaliDesign from '../../assets/images/garhwali.png';
 import Jaunsari from '../../assets/images/Jaunsari.png';
 import Rwalty from '../../assets/images/Rwalty.png';
 import Jaunpuri from '../../assets/images/Jaunpuri.png';

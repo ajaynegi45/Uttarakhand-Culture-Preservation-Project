@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import "./App.css";
 import ExploreCard from "./components/ExploreCard.jsx";
 import ImageSlider from "./components/ImageSlider.jsx";
@@ -7,10 +7,6 @@ import snowImage from "./assets/images/snow.webp";
 import trekkingImage from "./assets/images/trekking.webp";
 import nainitalImage from "./assets/images/nanital.webp";
 import map from "./assets/images/map-uttarakhand (1).svg";
-
-import ZoomImage from "./components/ZoomImage.jsx";
-import {Link} from "react-router-dom";
-import Linguistic from "./assets/images/Linguistic.png";
 import Ajay from './assets/images/ajay.png';
 import Contributor from './assets/images/contributor.png'
 

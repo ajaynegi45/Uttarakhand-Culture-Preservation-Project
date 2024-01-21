@@ -40,6 +40,15 @@
     margin-top: 2em;
     text-align: center;
 }
+.contributor-profile-name > p{
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.contributor-profile-name > h3{
+    color: white;
+}
 .contributor-profile-image-container > img{
     width: 150px;
 }

@@ -6,7 +6,24 @@
     color: #FF9800;
     text-align: center;
 }
+.kumaoni-language-about{
+    color: white;
+    margin: 2em;
+}
+.kumaoni-language-about > div > h4 {
+    color: #FF9800;
+    font-weight: bold;
+}
 
+
+.kumaoni-language-about > div > ul {
+    margin: 1em 0 2em 2em;
+    list-style: disc;
+}
+
+.Language-family > ul{
+    list-style: none;
+}
 .kumaoni-language-table-container {
     margin: 2em;
     color: white;

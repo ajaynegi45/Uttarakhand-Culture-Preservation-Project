@@ -47,6 +47,8 @@ function Language() {
 
             <h1 className="explore-uttarakhand">Explore Local Languages</h1>
 
+            <p className={"loacl-language-p"}>Only Kumoani is live</p>
+
             <div className="explore-card-list">
 
                 <div className="explore-card">

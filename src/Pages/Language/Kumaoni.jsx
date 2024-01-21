@@ -7,16 +7,140 @@ function Kumaoni() {
         <div className={"kumaoni-language-container"}>
             <h1>Kumaoni Language</h1>
 
-            <div className={"kumaoni-language-table-container"}>
+            <div className={"kumaoni-language-about"}>
+                <p> Kumaoni (कुमाऊँनी; pronounced [kuːmɑːʊni]) is an Indo-Aryan language spoken by over two million
+                    people of the Kumaon region of the state of Uttarakhand in northern India and parts of Doti region
+                    in Western Nepal. As per 1961 survey there were 1,030,254 Kumaoni speakers in India. The number of
+                    speakers increased to 2.2 million in 2011.
 
+                    <br/> <br/>Kumaoni
+                    is not endangered but UNESCO's Atlas of the World's Languages in Danger designates it as a language
+                    in the unsafe category, meaning it requires consistent conservation efforts.
+
+                    <br/> <br/>
+                    Kumaoni is written using the Devanagari script.</p>
+
+                <div>
+                    <h4>Geographic distribution and dialects</h4>
+
+                    <p>
+                        There are several dialects spoken in the Kumaon region. There is not single accepted method of
+                        dividing up the dialects of Kumaoni. Broadly speaking, Kali (or Central) Kumaoni is spoken in
+                        Almora and northern Nainital. North-eastern Kumaoni is spoken in Pithoragarh. South-eastern
+                        Kumaoni is spoken in South-eastern Nainital. Western Kumaoni is spoken west of Almora and
+                        Nainital. Here are some dialects which were spoken in Kumaon region.
+                    </p>
+                    <ul>
+                        <li>Johari of the Malla and Talla Johar (Milam, Munsiyari)</li>
+                        <li>Askoti of Askot</li>
+                        <li>Bhabhri of Haldwani and Ramnagar</li>
+                        <li>Danpuriya of Danpur (Bageshwar, Kapkot)</li>
+                        <li>Gangoli of Ganai-Gangoli (Kanda, Berinag, Gangolihat)</li>
+                        <li>Khasparjiya of Almora</li>
+                        <li>Kumaiyya of Champawat</li>
+                        <li>Pachhai of Pali-Pachhhau (Ranikhet, Dwarahat)</li>
+                        <li>Phaldakotiya of Phaldkot</li>
+                        <li>Rhau-Chaubyansi, (Nainital)</li>
+                        <li>Sirali of Sirakot (Didihat)</li>
+                        <li>Soriyali of Sor Valley (Pithoragarh)</li>
+                    </ul>
+
+                </div>
+
+                <div className={"Language-family"}>
+                    <h4>Language family</h4>
+                    <ul>
+                        <li>
+                            <details>
+                                <summary>Indo-European</summary>
+                                <ul>
+                                    <li>
+                                        <details>
+                                            <summary>Classical Indo-European</summary>
+                                            <ul>
+                                                <li>
+                                                    <details>
+                                                        <summary>Indo-Iranian</summary>
+                                                        <ul>
+                                                            <li>
+                                                                <details>
+                                                                    <summary>Indo-Aryan</summary>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <details>
+                                                                                <summary>Middle-Modern Indo-Aryan
+                                                                                </summary>
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <details>
+                                                                                            <summary>Continental
+                                                                                                Indo-Aryan
+                                                                                            </summary>
+                                                                                            <ul>
+                                                                                                <li>
+                                                                                                    <details>
+                                                                                                        <summary>Midlands
+                                                                                                            Indo-Aryan
+                                                                                                        </summary>
+                                                                                                        <ul>
+                                                                                                            <li>
+                                                                                                                <details>
+                                                                                                                    <summary>Indo-Aryan
+                                                                                                                        Northern
+                                                                                                                        Zone
+                                                                                                                    </summary>
+                                                                                                                    <ul>
+                                                                                                                        <li>
+                                                                                                                            <details>
+                                                                                                                                <summary>Central
+                                                                                                                                    Pahari
+                                                                                                                                </summary>
+                                                                                                                                <ul>
+                                                                                                                                    <li>
+                                                                                                                                        Garhwali
+                                                                                                                                    </li>
+                                                                                                                                    <li>Kumaoni</li>
+                                                                                                                                </ul>
+                                                                                                                            </details>
+                                                                                                                        </li>
+                                                                                                                    </ul>
+                                                                                                                </details>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </details>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </details>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </details>
+                                                                        </li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            </ul>
+
+                                        </details>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className={"kumaoni-language-table-container"}>
 
                 <table className={"kumaoni-language-table"}>
                     <thead>
-                        <tr>
-                            <th>English</th>
-                            <th>Hindi</th>
-                            <th>Kumaoni</th>
-                        </tr>
+                    <tr>
+                        <th>English</th>
+                        <th>Hindi</th>
+                        <th>Kumaoni</th>
+                    </tr>
                     </thead>
 
                     <tbody>

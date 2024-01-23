@@ -1,33 +1,25 @@
 import {useEffect, useState} from 'react';
 import './imageSlider.css';
-
 const ImageSlider = (images) => {
-
     const [currentIndex, setCurrentIndex] = useState(0);
-
     const nextSlide = () => {
         setCurrentIndex((prevIndex) =>
             prevIndex === images.images.length - 1 ? 0 : prevIndex + 1
         );
     };
-
     const prevSlide = () => {
         setCurrentIndex((prevIndex) =>
             prevIndex === 0 ? images.images.length - 1 : prevIndex - 1
         );
     };
-
     useEffect(() => {
         const interval = setInterval(
             nextSlide
         , 4000);
-
         // Clean up the interval when the component is unmounted or when the dependency array changes
         return () => clearInterval(interval);
     }, []); // Empty dependency array means the effect runs once when the component mounts
-
     return (
-        <>
             <section className="carousel-wrapper">
                 {/* Slides */}
                 <div className="slide" >
@@ -40,8 +32,6 @@ const ImageSlider = (images) => {
                     </button>
                 </div>
             </section>
-        </>
     );
 };
-
 export default ImageSlider;

@@ -1,15 +1,12 @@
 import "./footer.css";
 import forest from "../assets/images/forest.svg";
 import {Link} from "react-router-dom";
-
 function Footer() {
     return (
-        <>
             <footer>
                 <div className={"footer-image-container"}>
                     <img src={forest} alt="forest" loading="lazy" />
                 </div>
-
                 <div className={"footer-section"}>
                     <div className={"footer-content"}>
                         <h1>UK Culture</h1>
@@ -23,11 +20,8 @@ function Footer() {
                                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoNS4xMiw1LjEyKSI+PHBhdGggZD0iTTUuOTE5OTIsNmwxNC42NjIxMSwyMS4zNzVsLTE0LjM1MTU2LDE2LjYyNWgzLjE3OTY5bDEyLjU3NjE3LC0xNC41NzgxMmwxMCwxNC41NzgxM2gxMi4wMTM2N2wtMTUuMzE4MzYsLTIyLjMzMDA4bDEzLjUxNzU4LC0xNS42Njk5MmgtMy4xNjk5MmwtMTEuNzUzOTEsMTMuNjE3MTlsLTkuMzQxOCwtMTMuNjE3MTl6TTkuNzE2OCw4aDcuMTY0MDZsMjMuMzIyMjcsMzRoLTcuMTY0MDZ6Ij48L3BhdGg+PC9nPjwvZz4KPC9zdmc+"/></Link>
                         </div>
                     </div>
-
-                    {/*<div className={"footer-links"}>*/}
                         <div className={"footer-content footer-content-links"}>
-                            <h3>Explore Uttarakhand</h3>
-
+                            <p>Explore Uttarakhand</p>
                             <ul>
                                 <li><Link to={"/language"}><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K" alt="Chevron forward icon" className={"Chevron"}/>Language</Link>
                                 </li>
@@ -45,9 +39,8 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
-
                         <div className={"footer-content footer-content-links"}>
-                            <h3>Useful Links</h3>
+                            <p>Useful Links</p>
                             <ul>
                             <li><Link to={"#"}><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K" alt="Chevron forward icon" className={"Chevron"}/>About
                                 Us</Link></li>
@@ -57,15 +50,12 @@ function Footer() {
                                 to contribute</Link></li>
                             </ul>
                         </div>
-                    {/*</div>*/}
                 </div>
                 <div className={"foot-note"}>
                     <p>Developed with ❤️ by Ajay Negi</p>
                     <p>©️ {(new Date().getFullYear())} UK Culture</p>
                 </div>
             </footer>
-        </>
     );
 }
-
 export default Footer;

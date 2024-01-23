@@ -1,4 +1,3 @@
-import React from 'react';
 import {Link} from "react-router-dom";
 import "./language.css"
 import LanguageList from "/src/assets/images/LanguageList.webp";
@@ -15,7 +14,6 @@ import Johari from '../../assets/images/Johari.webp';
 import Tharu from '../../assets/images/Tharu.webp';
 import Rad from '../../assets/images/Rad.webp';
 import Raji from '../../assets/images/Raji.webp';
-
 function Language() {
     return (
         <section>

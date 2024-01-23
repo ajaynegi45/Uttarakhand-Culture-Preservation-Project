@@ -1,7 +1,4 @@
-import React from 'react';
-import {Link} from "react-router-dom";
 import "./kumaoni.css"
-
 function Kumaoni() {
     return (
         <div className={"kumaoni-language-container"}>

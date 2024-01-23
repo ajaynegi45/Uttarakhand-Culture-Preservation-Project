@@ -36,8 +36,10 @@
     font-size: 12px;
     font-weight: bold;
 }
-.contributor-profile-name > h3{
+.contributor-profile-name > .profile-name{
     color: white;
+    font-size: 1.1em;
+    margin-bottom: 5px;
 }
 .contributor-profile-image-container > img{
     width: 150px;

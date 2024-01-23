@@ -10,6 +10,9 @@ import map from "./assets/images/map-uttarakhand.svg";
 import Ajay from './assets/images/ajay.webp';
 import Contributor from './assets/images/contributor.webp'
 
+import Banner from "./assets/images/Banner.jpg"
+import CallToAction from "./assets/images/Call-to-action.jpg"
+
 const App = () => {
     const images = [
         { src: lakeImage, alt: "Lake Image" },
@@ -19,7 +22,6 @@ const App = () => {
     ];
 
     return (
-        <>
             <div>
                 <div>
                     <ImageSlider images={images}/>
@@ -63,7 +65,6 @@ const App = () => {
                     </div>
                 </div>
             </div>
-        </>
     );
 };
 

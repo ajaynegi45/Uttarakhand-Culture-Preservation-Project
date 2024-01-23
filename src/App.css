@@ -20,6 +20,7 @@
 .uttarakhand-map-container > img{
     width: 100%;
     height: auto;
+    aspect-ratio: 10800/6900;
     object-fit: cover;
 }
 
@@ -51,6 +52,7 @@
 }
 .contributor-profile-image-container > img{
     width: 150px;
+    aspect-ratio: 793/797;
 }
 @media only screen and (max-width: 500px) {
     .uttarakhand-map-container{

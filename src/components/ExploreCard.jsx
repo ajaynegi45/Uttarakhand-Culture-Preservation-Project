@@ -4,9 +4,9 @@ import aipanArt from '../assets/images/aipanart.webp';
 import Linguistic from '../assets/images/Linguistic.webp';
 import Food1 from '../assets/images/foodUk.webp';
 import Temple from '../assets/images/Temple.webp';
-import Dance from '../assets/images/dress.png';
+import Dance from '../assets/images/dress.webp';
 import Dress from '../assets/images/dressArt.webp';
-import Dhol from '../assets/images/Dhol.webp'
+import Dhol from '../assets/images/Dhol.webp';
 import Architecture from '../assets/images/Architecture.webp';
 
 function ExploreCard() {

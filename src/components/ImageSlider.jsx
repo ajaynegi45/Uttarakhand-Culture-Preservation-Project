@@ -34,10 +34,9 @@ const ImageSlider = (images) => {
                     <button className="btn previous" onClick={prevSlide}>
                         ❰
                     </button>
-                    <img src={images.images[currentIndex].src} alt={`Slide ${images.images[currentIndex].alt}`} loading="lazy" />
+                    <img src={images.images[currentIndex].src} alt={`Slide ${images.images[currentIndex].alt}`}/>
                     <button className="btn next" onClick={nextSlide}>
                         ❱
-
                     </button>
                 </div>
             </section>

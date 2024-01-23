@@ -1,20 +1,20 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import "./language.css"
-import LanguageList from "/src/assets/images/LanguageList.jpg";
+import LanguageList from "/src/assets/images/LanguageList.webp";
 import languageMap from '../../assets/images/languageMap.png';
-import kumaoni from '../../assets/images/images.png';
-import Garhwali from '../../assets/images/garhwali.png';
-import Jaunsari from '../../assets/images/Jaunsari.png';
-import Rwalty from '../../assets/images/Rwalty.png';
-import Jaunpuri from '../../assets/images/Jaunpuri.png';
-import Bangani from '../../assets/images/Bangani.png';
-import Buksani from '../../assets/images/Buksani.png';
-import Marchha from '../../assets/images/Marchha.png';
-import Johari from '../../assets/images/Johari.png';
-import Tharu from '../../assets/images/Tharu.png';
-import Rad from '../../assets/images/Rad.png';
-import Raji from '../../assets/images/Raji.png';
+import kumaoni from '../../assets/images/images.webp';
+import Garhwali from '../../assets/images/garhwali.webp';
+import Jaunsari from '../../assets/images/Jaunsari.webp';
+import Rwalty from '../../assets/images/Rwalty.webp';
+import Jaunpuri from '../../assets/images/Jaunpuri.webp';
+import Bangani from '../../assets/images/Bangani.webp';
+import Buksani from '../../assets/images/Buksani.webp';
+import Marchha from '../../assets/images/Marchha.webp';
+import Johari from '../../assets/images/Johari.webp';
+import Tharu from '../../assets/images/Tharu.webp';
+import Rad from '../../assets/images/Rad.webp';
+import Raji from '../../assets/images/Raji.webp';
 
 function Language() {
     return (

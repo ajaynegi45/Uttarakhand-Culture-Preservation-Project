@@ -1,5 +1,5 @@
 import "./footer.css";
-import forest1 from "../assets/images/forest1.svg";
+import forest from "../assets/images/forest.svg";
 import {Link} from "react-router-dom";
 
 function Footer() {
@@ -7,7 +7,7 @@ function Footer() {
         <>
             <footer>
                 <div className={"footer-image-container"}>
-                    <img src={forest1} alt="forest" loading="lazy" />
+                    <img src={forest} alt="forest" loading="lazy" />
                 </div>
 
                 <div className={"footer-section"}>

@@ -10,13 +10,11 @@ import map from "./assets/images/map-uttarakhand.svg";
 import Ajay from './assets/images/ajay.webp';
 import Contributor from './assets/images/contributor.webp'
 
-import Banner from "./assets/images/Banner.jpg"
-import CallToAction from "./assets/images/Call-to-action.jpg"
 
 const App = () => {
     const images = [
         { src: lakeImage, alt: "Lake Image" },
-        { src: snowImage, alt: "Snow Image" },
+        { src: snowImage , alt: "Snow Image" },
         { src: trekkingImage, alt: "Trekking Image" },
         { src: nainitalImage, alt: "Nainital Image" },
     ];

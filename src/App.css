@@ -10,31 +10,22 @@
     padding: 0;
     margin: 1em;
     overflow: hidden;
-
-    /* Zoom in out feature */
-    /*transform-origin: 0px 0px;*/
-    /*transform: scale(1) translate(0px, 0px);*/
-    /*cursor: grab;*/
 }
-
 .uttarakhand-map-container > img{
     width: 100%;
     height: auto;
+    aspect-ratio: 10800/6900;
     object-fit: cover;
 }
-
-
 .uttarakhand-map > p{
     font-weight: bold;
     text-align: center;
     color: grey;
 }
-
 .contributor-cardlist{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
 .contributor-profile{
     margin-top: 2em;
@@ -45,12 +36,14 @@
     font-size: 12px;
     font-weight: bold;
 }
-
-.contributor-profile-name > h3{
+.contributor-profile-name > .profile-name{
     color: white;
+    font-size: 1.1em;
+    margin-bottom: 5px;
 }
 .contributor-profile-image-container > img{
     width: 150px;
+    aspect-ratio: 793/797;
 }
 @media only screen and (max-width: 500px) {
     .uttarakhand-map-container{

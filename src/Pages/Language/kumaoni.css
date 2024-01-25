@@ -1,0 +1,85 @@
+.kumaoni-language-container {
+    margin-top: 3em;
+}
+
+.kumaoni-language-container > h1 {
+    color: #FF9800;
+    text-align: center;
+}
+.kumaoni-language-about{
+    color: white;
+    margin: 2em;
+}
+.kumaoni-language-about > div > h4 {
+    color: #FF9800;
+    font-weight: bold;
+}
+
+
+.kumaoni-language-about > div > ul {
+    margin: 1em 0 2em 2em;
+    list-style: disc;
+}
+
+.Language-family > ul{
+    list-style: none;
+}
+.kumaoni-language-table-container {
+    margin: 2em;
+    color: white;
+    overflow: hidden;
+}
+
+.kumaoni-language-table-container > .table-caption {
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.kumaoni-language-table {
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-size: 0.9em;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+
+.kumaoni-language-table th,
+.kumaoni-language-table td {
+    padding: 10px 8px;
+    border-right: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+
+.kumaoni-language-table > thead > tr {
+    background-color: #B80000;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.kumaoni-language-table thead th:last-of-type,
+.kumaoni-language-table tbody td:last-of-type {
+    border-right: 0;
+}
+
+.kumaoni-language-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.kumaoni-language-table tbody tr:last-of-type {
+    border-bottom: 2px solid #B80000;
+}
+
+.table-caption {
+    margin-top: 2em;
+}
+
+.kumaoni-language-table-responsive {
+    overflow-x: auto;
+}
+
+/* Additional styles can be added as needed */

@@ -1,17 +1,16 @@
-import React from 'react'
-
+import {lazy , Suspense} from 'react'
 import { Outlet } from 'react-router-dom'
-import Navbar from "./components/Navbar.jsx";
-import Footer from "./components/Footer.jsx";
-
+const Navbar = lazy(() => import("./components/Navbar.jsx"));
+const Footer = lazy(()=> import("./components/Footer.jsx"));
 function Layout() {
     return (
         <>
-            <Navbar/>
-            <Outlet />
-            <Footer/>
+            <Suspense>
+                <Navbar/>
+                <Outlet />
+                <Footer/>
+            </Suspense>
         </>
     )
 }
-
 export default Layout

@@ -1,0 +1,13 @@
+.garhwali-language-container{
+    margin-top: 20em;
+}
+
+.garhwali-language-container > div > p{
+    color: grey;
+    text-align: center;
+}
+
+.garhwali-language-container > div > p > a {
+    color: #FF9800;
+}
+

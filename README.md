@@ -27,7 +27,7 @@ Here are the features we offer:
 4. **Temples of Uttarakhand**: Discover the spiritual heritage through:
     - Temple stories
     - Legends of deities
-5. **Cuisine**: Delve into the flavors of Uttarakhand with authentic recipes.
+5. **Food**: Delve into the flavors of Uttarakhand with authentic recipes.
     - Relish the authentic tastes of Uttarakhand with traditional recipes.
     - Learn to cook like a local.
 6. **Festivals and Fairs**: Celebrate the rich cultural events.

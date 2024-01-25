@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react';
 import './imageSlider.css';
-import lakeImage from "../assets/images/lake.webp";
+import lake from "../assets/images/lake.webp";
+import lakeMin from "../assets/images/lake-min.webp";
 // import snowImage from "../assets/images/snow.webp";
 // import snow500 from "../assets/images/snow-min.webp";
 // import trekkingImage from "../assets/images/trekking.webp";
 // import nainitalImage from "../assets/images/nanital.webp";
-
 const ImageSlider = () => {
     // const [width, setWidth] = useState(window.innerWidth);
     // const [images, setImages] = useState([
@@ -53,7 +52,6 @@ const ImageSlider = () => {
     //         { src: nainitalImage, alt: "Nainital Image" },
     //     ]);
     // }, [width]);
-
     return (
         <section className="carousel-wrapper">
             {/* Slides */}
@@ -68,7 +66,19 @@ const ImageSlider = () => {
             {/*</div>*/}
 
             <div className="slide">
-                <img src={lakeImage} alt={"Lake Image"}/>
+
+                <picture>
+                    <source media="(max-width: 400px)" srcSet={lakeMin}/>
+                    <img
+                        src={lake}
+                        alt={"Lake Image"}
+                        // sizes="(max-width: 500px) 500vw, 800vw"
+                        // srcSet={`${snowImage} 800w, ${lake} 1200w`}
+                        decoding="async"
+                        loading="eager"
+                    />
+                </picture>
+
             </div>
 
 

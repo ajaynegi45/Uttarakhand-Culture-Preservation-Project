@@ -15,7 +15,7 @@ const App = () => {
                 <h1 className={"uttarakhand-map-heading"}>Map of Uttarakhand</h1>
                 <p>Detailed map of uttarakhand</p>
                 <div className={"uttarakhand-map-container"}>
-                    <img src={map} alt="Important Map of Uttarkhand" loading="lazy" />
+                    <img src={map} alt="Important Map of Uttarkhand" loading="eager" decoding="async" />
                 </div>
                 <p>Zoom to view Map</p>
             </div>
@@ -24,7 +24,7 @@ const App = () => {
                 <div className={"contributor-cardlist"}>
                     <div className={"contributor-profile"}>
                         <div className={"contributor-profile-image-container"}>
-                            <img src={Ajay} alt="ajay Image" loading="lazy" />
+                            <img src={Ajay} alt="ajay Image" loading="lazy"  decoding="async"/>
                         </div>
                         <div className={"contributor-profile-name"}>
                             <p className={"profile-name"}>Ajay Negi</p>
@@ -33,7 +33,7 @@ const App = () => {
                     </div>
                     <div className={"contributor-profile"}>
                         <div className={"contributor-profile-image-container"}>
-                            <img src={Contributor} alt="ajay Image" loading="lazy" />
+                            <img src={Contributor} alt="ajay Image" loading="lazy" decoding="async" />
                         </div>
                         <div className={"contributor-profile-name"}>
                             <p className={"profile-name"} >Waiting 🌟</p>

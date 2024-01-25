@@ -5,7 +5,7 @@ const Footer = lazy(()=> import("./components/Footer.jsx"));
 function Layout() {
     return (
         <>
-            <Suspense>
+            <Suspense fallback={<div className={"loading"}> <img src={"/loading.svg"}/> </div>}>
                 <Navbar/>
                 <Outlet />
                 <Footer/>

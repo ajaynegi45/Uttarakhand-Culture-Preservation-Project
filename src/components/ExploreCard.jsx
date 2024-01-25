@@ -17,10 +17,10 @@ function ExploreCard() {
             <h1 className="explore-uttarakhand">Explore Uttarakhand</h1>
             <div className="explore-card-list">
                 <div className="explore-card">
-                    <Link to={"/language"} className="explore-card-link">
+                    <Link to={"/language"} className="explore-card-link" >
                         <div className="explore-card-image-container">
                             <img src={Linguistic} alt="Linguistic Survey of India Book Image"
-                                 className="explore-card-image" loading="lazy"/>
+                                 className="explore-card-image" loading="lazy" decoding="async" />
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Language</p>
@@ -31,10 +31,10 @@ function ExploreCard() {
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Food1} alt="Food Image"
-                                 className="explore-card-image" loading="lazy"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
-                            <p className="explore-card-text">Cuisine</p>
+                            <p className="explore-card-text">Food</p>
                         </div>
                     </Link>
                 </div>
@@ -42,7 +42,7 @@ function ExploreCard() {
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Temple} alt="Temple Image"
-                                 className="explore-card-image" loading="lazy" />
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Temples</p>
@@ -53,7 +53,7 @@ function ExploreCard() {
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Dress} alt="Dress Image"
-                                 className="explore-card-image" loading="lazy" />
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Traditional Dresses</p>
@@ -64,7 +64,7 @@ function ExploreCard() {
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={aipanArt} alt="Aipan Image"
-                                 className="explore-card-image" loading="lazy" />
+                                 className="explore-card-image" loading="lazy"  decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Art</p>
@@ -75,7 +75,7 @@ function ExploreCard() {
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Dance} alt="Dance Image"
-                                 className="explore-card-image" loading="lazy" />
+                                 className="explore-card-image" loading="lazy" decoding="async" />
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Dance</p>
@@ -86,7 +86,7 @@ function ExploreCard() {
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Dhol} alt="Dhol Image"
-                                 className="explore-card-image" loading="lazy" />
+                                 className="explore-card-image" loading="lazy" decoding="async"   />
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Music</p>
@@ -97,7 +97,7 @@ function ExploreCard() {
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Architecture} alt="Dhol Image"
-                                 className="explore-card-image" loading="lazy" />
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Architecture</p>

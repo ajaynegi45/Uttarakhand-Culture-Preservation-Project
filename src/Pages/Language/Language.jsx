@@ -18,7 +18,7 @@ function Language() {
     return (
         <section>
             <div className={"language-header-image"}>
-                <img src={LanguageList} alt="Local Language Image"/>
+                <img src={LanguageList} alt="Local Language Image" loading="lazy" decoding="async" />
             </div>
 
             <div className="language-about-container">
@@ -38,22 +38,22 @@ function Language() {
 
                 <div className={"language-map"}>
                     <h1 className="explore-uttarakhand">Dialects of Language</h1>
-                    <img src={languageMap} alt="Local Language Image"/>
+                    <img src={languageMap} alt="Local Language Image" loading="lazy" decoding="async" />
                     <p>Zoom to view Map</p>
                 </div>
             </div>
 
             <h1 className="explore-uttarakhand">Explore Local Languages</h1>
 
-            <p className={"loacl-language-p"}>Only Kumoani is live</p>
+            <p className={"local-language-p"}>Only Kumoani is live</p>
 
             <div className="explore-card-list">
 
                 <div className="explore-card">
-                    <Link to="/language/kumaoni" className="explore-card-link">
+                    <Link to="kumaoni" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={kumaoni} alt="Kumaoni Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Kumaoni</p>
@@ -62,10 +62,10 @@ function Language() {
                 </div>
 
                 <div className="explore-card">
-                    <Link to="/language/garhwali" className="explore-card-link">
+                    <Link to="garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Garhwali} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Garhwali</p>
@@ -77,7 +77,7 @@ function Language() {
                     <Link to="/language/garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Jaunsari} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Jaunsari</p>
@@ -89,7 +89,7 @@ function Language() {
                     <Link to="/language/garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Jaunpuri} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Jaunpuri</p>
@@ -101,7 +101,7 @@ function Language() {
                     <Link to="/language/garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Rwalty} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Rwalty</p>
@@ -113,7 +113,7 @@ function Language() {
                     <Link to="/language/garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Bangani} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Bangani</p>
@@ -125,7 +125,7 @@ function Language() {
                     <Link to="/language/garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Marchha} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Marchha</p>
@@ -137,7 +137,7 @@ function Language() {
                     <Link to="/language/garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Johari} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Johari</p>
@@ -149,7 +149,7 @@ function Language() {
                     <Link to="/language/garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Tharu} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Tharu</p>
@@ -161,7 +161,7 @@ function Language() {
                     <Link to="/language/garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Buksani} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Buksani</p>
@@ -173,7 +173,7 @@ function Language() {
                     <Link to="/language/garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Rad} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Rad Lvu</p>
@@ -185,7 +185,7 @@ function Language() {
                     <Link to="/language/garhwali" className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={Raji} alt="Garhwali Word Image"
-                                 className="explore-card-image"/>
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Raji</p>
@@ -194,6 +194,7 @@ function Language() {
                 </div>
 
             </div>
+
         </section>
     );
 }

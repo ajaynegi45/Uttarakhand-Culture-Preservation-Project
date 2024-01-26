@@ -1,6 +1,11 @@
 import "./contact.css"
 import {useState} from "react";
 function Contact() {
+<<<<<<< HEAD
+=======
+    alert("Thank you for contacting us ❤️\nYour message has been successfully submitted!");
+
+>>>>>>> de98151 (Contact Page Added)
     const [userData, setUserData] = useState({
         name: "",
         phone: "",
@@ -23,6 +28,7 @@ function Contact() {
         const { name, phone, email, subject, message } = userData;
 
         if (name && phone && email && subject && message) {
+<<<<<<< HEAD
 
             const ipAddress = await getIPAddress();
             const locationInfo = await getLocationInfo(ipAddress);
@@ -38,6 +44,8 @@ function Contact() {
                 second: '2-digit'
             });
 
+=======
+>>>>>>> de98151 (Contact Page Added)
             const res = await fetch(
                 `${import.meta.env.VITE_DATABASE_URL}`,
                 {
@@ -51,8 +59,11 @@ function Contact() {
                         email,
                         subject,
                         message,
+<<<<<<< HEAD
                         date: formattedDate,
                         location: locationInfo,
+=======
+>>>>>>> de98151 (Contact Page Added)
                     }),
                 }
             );
@@ -74,6 +85,7 @@ function Contact() {
         }
     };
 
+<<<<<<< HEAD
     const getIPAddress = async () => {
         const res = await fetch("https://api64.ipify.org?format=json");
         const data = await res.json();
@@ -98,6 +110,8 @@ function Contact() {
         };
     };
 
+=======
+>>>>>>> de98151 (Contact Page Added)
     return (
         <section className={"contact-section"}>
         <div className="contact-us">
@@ -119,9 +133,15 @@ function Contact() {
                 <input id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" value={userData.phone}
                        onChange={postUserData}/>
 
+<<<<<<< HEAD
                 <label htmlFor="subject">SUBJECT <em>&#x2a;</em></label>
                 <input id="subject" name="subject" type="text" value={userData.subject}
                        onChange={postUserData} required="" />
+=======
+                <label htmlFor="subject">SUBJECT</label>
+                <input id="subject" name="subject" type="text" value={userData.subject}
+                       onChange={postUserData}/>
+>>>>>>> de98151 (Contact Page Added)
 
                 <label htmlFor="message">YOUR MESSAGE <em>&#x2a;</em></label>
                 <textarea id="message" name="message" required="" rows="4" value={userData.message}

@@ -4,6 +4,7 @@ import ImageSlider from "./components/ImageSlider.jsx";
 import map from "./assets/images/map-uttarakhand.svg";
 import Ajay from './assets/images/ajay.webp';
 import Contributor from './assets/images/contributor.webp'
+import Card from "./components/Card.jsx";
 const App = () => {
     return (
         <div>

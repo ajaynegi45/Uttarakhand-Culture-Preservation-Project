@@ -16,7 +16,7 @@ Here are the features we offer:
     - Kumaoni
     - Garhwali
     - Jaunsari
-2. **Stories**: Explore tales of:
+2. **Stories**: Card tales of:
     - Historical Kings
     - Famous Personalities
 3. **History of Uttarakhand**: Dive into the historical narratives of:
@@ -34,7 +34,7 @@ Here are the features we offer:
 7. **Event Calendar**: Highlight upcoming cultural events and festivals of Uttarakhand.
 8. **Architectural Wonders**: Discover the Building Marvels
     - Marvel at the architectural gems that adorn Uttarakhand.
-    - Explore the history and significance of these structures.
+    - Card the history and significance of these structures.
 9. **Art and Painting**: Appreciate Traditional Art
     - Dive into the world of traditional art, including the intricate Aipan art.
     - Learn about the techniques and symbolism behind the art.
@@ -45,16 +45,16 @@ Here are the features we offer:
     - Get acquainted with the traditional clothing of Uttarakhand.
     - Discover the cultural and historical significance of these outfits.
 12. **Music & Dance**: Experience the melodious traditions with details on:
-    - Explore the regional music
+    - Card the regional music
     - Understand the unique musical instruments like Dhol, Damama, Hurka, Binai, Turturi, Damru, Muruli, Mushak Been, etc., with detailed explanations.
     - Experience the grace and rhythm of local dances, including Jhora, Mukhota, Cholia, Bhotia, Pandav Nritya, and more.
 13. **Flora and Fauna**: Discover the region's diverse plant and animal life.
-14. **Tourist Treasures**: Explore Scenic Delights
+14. **Tourist Treasures**: Card Scenic Delights
     - Plan your visit to Uttarakhand's most beautiful destinations.
     - Get travel tips and recommendations for an unforgettable experience.
 15. **Glaciers and Rivers**: Nature's Lifelines
     - Gain insights into the origin and routes of Uttarakhand's rivers.
-    - Explore the majestic glaciers that feed these waterways.
+    - Card the majestic glaciers that feed these waterways.
 16. **Peaks & Mountains**: Stories of the Peaks
     - Uncover the legends and tales behind the grand mountains of Uttarakhand.
     - Learn about their significance and historical context.

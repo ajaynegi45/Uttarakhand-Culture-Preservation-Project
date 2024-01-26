@@ -3,6 +3,7 @@ function ErrorPage() {
     const error = useRouteError();
     console.error(error);
     const navigate = useNavigate();
+
     const errorPageStyles = {
         display: 'flex',
         flexDirection: 'column',

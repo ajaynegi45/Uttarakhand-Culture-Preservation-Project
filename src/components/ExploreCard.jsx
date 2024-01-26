@@ -28,7 +28,7 @@ function ExploreCard() {
                     </Link>
                 </div>
                 <div className="explore-card">
-                    <Link to={"#"} className="explore-card-link" onClick={showAlert}>
+                    <Link to={"/food"} className="explore-card-link" >
                         <div className="explore-card-image-container">
                             <img src={Food1} alt="Food Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>

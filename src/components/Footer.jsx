@@ -3,7 +3,6 @@ import forest from "../assets/images/forest.svg";
 import {Link} from "react-router-dom";
 function Footer() {
 
-
     return (
             <footer>
                 <div className={"footer-image-container"}>

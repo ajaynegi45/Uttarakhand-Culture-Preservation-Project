@@ -23,6 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
+# Secret file
 .env
 .env.local
 .env.development.local

@@ -108,24 +108,19 @@ function Contact() {
                 </div>
 
                 <label htmlFor="name">NAME <em>&#x2a;</em></label>
-                <input id="name" name="name" required="" type="text" value={userData.name}
-                       onChange={postUserData}/>
+                <input id="name" name="name" type="text" value={userData.name} onChange={postUserData} required/>
 
                 <label htmlFor="email">EMAIL <em>&#x2a;</em></label>
-                <input id="email" name="email" required="" type="email" value={userData.email}
-                       onChange={postUserData}/>
+                <input id="email" name="email" type="email" value={userData.email} onChange={postUserData} required/>
 
                 <label htmlFor="phone">PHONE</label>
-                <input id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" value={userData.phone}
-                       onChange={postUserData}/>
+                <input id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" value={userData.phone} onChange={postUserData}/>
 
                 <label htmlFor="subject">SUBJECT <em>&#x2a;</em></label>
-                <input id="subject" name="subject" type="text" value={userData.subject}
-                       onChange={postUserData} required="" />
+                <input id="subject" name="subject" type="text" value={userData.subject} onChange={postUserData} required />
 
                 <label htmlFor="message">YOUR MESSAGE <em>&#x2a;</em></label>
-                <textarea id="message" name="message" required="" rows="4" value={userData.message}
-                          onChange={postUserData}></textarea>
+                <textarea id="message" name="message" rows="4" value={userData.message} onChange={postUserData} required />
 
                 {/*<h3>*/}
                 {/*    Please provide all the information about your issue you can.*/}

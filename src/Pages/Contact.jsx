@@ -122,12 +122,6 @@ function Contact() {
                 <label htmlFor="message">YOUR MESSAGE <em>&#x2a;</em></label>
                 <textarea id="message" name="message" rows="4" value={userData.message} onChange={postUserData} required />
 
-                {/*<h3>*/}
-                {/*    Please provide all the information about your issue you can.*/}
-                {/*</h3>*/}
-                {/*<label htmlFor="spamProtection">SPAM PROTECTION <em>&#x2a; </em><span>&nbsp;&nbsp;&nbsp;&nbsp;What day comes before July 11th?</span></label><input*/}
-                {/*id="spamProtection" name="spamProtection" type="text"/>*/}
-
                 <div className={"submit-button"}><button id="form-submit" onClick={submitData}>SUBMIT</button>
                 </div>
             </form>

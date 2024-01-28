@@ -15,12 +15,22 @@ function Contact() {
         value = event.target.value;
 
         setUserData({ ...userData, [name]: value });
+
+        console.log(name);
+        console.log(value);
     };
 
     // connect with firebase
     const submitData = async (event) => {
         event.preventDefault();
         const { name, phone, email, subject, message } = userData;
+
+        const formElement = event.target.form;
+        if (!formElement.checkValidity()) {
+            formElement.reportValidity();
+            alert("type check failed");
+            return;
+        }
 
         if (name && phone && email && subject && message) {
 

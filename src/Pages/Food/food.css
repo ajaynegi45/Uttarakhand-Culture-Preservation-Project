@@ -1,0 +1,12 @@
+.food{
+    color: white;
+    margin: 0 1em 0 1em;
+}
+
+.food-banner > img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1200/468;
+    object-fit: cover;
+    margin-bottom: 1em;
+}

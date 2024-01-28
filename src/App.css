@@ -9,13 +9,45 @@
     background: white;
     padding: 0;
     margin: 1em;
-    overflow: hidden;
+    overflow: auto;
+
+    aspect-ratio: 10800/6900;
+
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
 }
 .uttarakhand-map-container > img{
     width: 100%;
     height: auto;
     aspect-ratio: 10800/6900;
     object-fit: cover;
+    cursor: grab;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+
+    transform: translateZ(0);
+}
+.zoom-button-container{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 1em 0 1em 0;
+}
+.zoom-level-button {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 2px solid var(--green);
+}
+.zoom-level-button:hover{
+    background-color: var(--green);
+    color: var(--orange);
+    cursor: pointer;
 }
 .uttarakhand-map > p{
     font-weight: bold;
@@ -56,4 +88,16 @@
         text-align: center;
         color: grey;
     }
+}
+
+.embed-class{
+    object-fit: cover;
+    overflow: auto;
+}
+
+embed{
+    background-color: white;
+
+    color: white;
+    object-fit: cover;
 }

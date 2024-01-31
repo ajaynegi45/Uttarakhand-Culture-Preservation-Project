@@ -88,7 +88,6 @@ Your participation, whether in code or content, will help us make this project m
 
 [For Reference](https://ajaynegi.notion.site/Uttarakhand-Website-4713f6589ea44011ac9e1f096216b3e9?pvs=4)
 
-
 ## Contact
 If you have any questions or would like to connect, please don't hesitate to reach out. I'd be more than happy to chat and learn from your experiences too.
 <br><br>
@@ -98,6 +97,37 @@ If you have any questions or would like to connect, please don't hesitate to rea
 <a href="https://linkedin.com/in/ajaynegi45/" target="blank" rel="noopener noreferrer" >
 <img align="center" src="https://img.icons8.com/color/48/linkedin.png" alt="ajaynegi45/" width="40" height="40"  t/></a>
 
+## Acknowledgements
+
+This project wouldn't be possible without the contributions of our amazing community. Thank you for being part of our journey! 🙌
+
+<a href = "https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=ajaynegi45/Uttarakhand-Culture-Preservation-Project"/>
+</a>
+
+<br/>
+
+### Stargazers
+
+<p align="center">
+  <i>If you like Uttarakhand Culture Preservation Project, please <a href="../../stargazers">★</a> star this repository to show your support! 🤩</i>
+ <br/>
+<!--   <a href="https://star-history.com/#ajaynegi45/Uttarakhand-Culture-Preservation-Project&Date"> -->
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ajaynegi45/Uttarakhand-Culture-Preservation-Project&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ajaynegi45/Uttarakhand-Culture-Preservation-Project&type=Date" />
+      <img align="center" alt="Star History Chart" src="https://api.star-history.com/svg?repos=ajaynegi45/Uttarakhand-Culture-Preservation-Project&type=Date" />
+    </picture>
+<!--   </a> -->
+</p>
+
 ---
 
 We appreciate your interest in preserving Uttarakhandi culture. Together, we can ensure that this invaluable heritage is passed down to future generations.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Made with ❤️ by Ajay Negi
+© 2024 Uttarakhand Culture Preservation

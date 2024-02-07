@@ -3,7 +3,6 @@ import {useState} from "react";
 function Contact() {
     const [userData, setUserData] = useState({
         name: "",
-        phone: "",
         email: "",
         subject: "",
         message: "",
@@ -13,31 +12,22 @@ function Contact() {
     const postUserData = (event) => {
         name = event.target.name;
         value = event.target.value;
-
         setUserData({ ...userData, [name]: value });
-
-        console.log(name);
-        console.log(value);
     };
 
     // connect with firebase
     const submitData = async (event) => {
         event.preventDefault();
-        const { name, phone, email, subject, message } = userData;
-
+        const { name, email, subject, message } = userData;
         const formElement = event.target.form;
         if (!formElement.checkValidity()) {
             formElement.reportValidity();
-            alert("type check failed");
+            alert("Fill proper information");
             return;
         }
-
-        if (name && phone && email && subject && message) {
-
+        if (name &&  email && subject && message) {
             const ipAddress = await getIPAddress();
             const locationInfo = await getLocationInfo(ipAddress);
-            console.log(locationInfo);
-
             const currentDate = new Date();
             const formattedDate = currentDate.toLocaleString('en-GB', {
                 day: '2-digit',
@@ -57,7 +47,6 @@ function Contact() {
                     },
                     body: JSON.stringify({
                         name,
-                        phone,
                         email,
                         subject,
                         message,
@@ -70,7 +59,6 @@ function Contact() {
             if (res) {
                 setUserData({
                     name: "",
-                    phone: "",
                     email: "",
                     subject: "",
                     message: "",
@@ -87,11 +75,8 @@ function Contact() {
     const getIPAddress = async () => {
         const res = await fetch("https://api64.ipify.org?format=json");
         const data = await res.json();
-
-        console.log(data.ip);
         return data.ip;
     };
-
     const getLocationInfo = async (ipAddress) => {
         const res = await fetch(`https://ipapi.co/${ipAddress}/json/`);
         const data = await res.json();
@@ -111,20 +96,17 @@ function Contact() {
     return (
         <section className={"contact-section"}>
         <div className="contact-us">
-            <form method="POST">
+            <form method="POST" action={"#"}>
 
                 <div className={"form-title"}>
                     <h1>Contact Us</h1>
                 </div>
 
                 <label htmlFor="name">NAME <em>&#x2a;</em></label>
-                <input id="name" name="name" type="text" value={userData.name} onChange={postUserData} required/>
+                <input id="name" name="name" type="text" value={userData.name} onChange={postUserData} autoFocus={true} required/>
 
                 <label htmlFor="email">EMAIL <em>&#x2a;</em></label>
                 <input id="email" name="email" type="email" value={userData.email} onChange={postUserData} required/>
-
-                <label htmlFor="phone">PHONE</label>
-                <input id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" value={userData.phone} onChange={postUserData}/>
 
                 <label htmlFor="subject">SUBJECT <em>&#x2a;</em></label>
                 <input id="subject" name="subject" type="text" value={userData.subject} onChange={postUserData} required />
@@ -132,7 +114,8 @@ function Contact() {
                 <label htmlFor="message">YOUR MESSAGE <em>&#x2a;</em></label>
                 <textarea id="message" name="message" rows="4" value={userData.message} onChange={postUserData} required />
 
-                <div className={"submit-button"}><button id="form-submit" onClick={submitData}>SUBMIT</button>
+                <div className={"submit-button"}>
+                    <button id="form-submit" type={"submit"} onClick={submitData} >SUBMIT</button>
                 </div>
             </form>
         </div>

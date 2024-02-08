@@ -4,9 +4,10 @@
 
 Welcome to the Uttarakhand Culture Preservation Project! This project aims to digitally document and celebrate the rich cultural heritage of Uttarakhand. We're dedicated to saving and promoting the culture of Uttarakhand.
 
-[Live link 01](https://www.uttarakhandculture.co/) <br/>
+<a href="https://www.uttarakhandculture.co/" target="_blank">Live link 01</a>
+<br/>
+<a href="https://ukculture.netlify.app/" target="_blank">Live link 02</a>
 
-[Live link 02](https://ukculture.netlify.app/)  
 
 ### Problem
 

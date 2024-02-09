@@ -93,32 +93,34 @@ function Contact() {
         };
     };
 
+    console.log("Render");
+
     return (
         <section className={"contact-section"}>
         <div className="contact-us">
-            <form method="POST" action={"#"}>
+                <form method="POST" action={"#"}>
 
-                <div className={"form-title"}>
-                    <h1>Contact Us</h1>
-                </div>
+                    <div className={"form-title"}>
+                        <h1>Contact Us</h1>
+                    </div>
 
-                <label htmlFor="name">NAME <em>&#x2a;</em></label>
-                <input id="name" name="name" type="text" value={userData.name} onChange={postUserData} autoFocus={true} required/>
+                    <label htmlFor="name">NAME <em>&#x2a;</em></label>
+                    <input id="name" name="name" type="text" value={userData.name} onChange={postUserData} autoFocus={true} required/>
 
-                <label htmlFor="email">EMAIL <em>&#x2a;</em></label>
-                <input id="email" name="email" type="email" value={userData.email} onChange={postUserData} required/>
+                    <label htmlFor="email">EMAIL <em>&#x2a;</em></label>
+                    <input id="email" name="email" type="email" value={userData.email} onChange={postUserData} required/>
 
-                <label htmlFor="subject">SUBJECT <em>&#x2a;</em></label>
-                <input id="subject" name="subject" type="text" value={userData.subject} onChange={postUserData} required />
+                    <label htmlFor="subject">SUBJECT <em>&#x2a;</em></label>
+                    <input id="subject" name="subject" type="text" value={userData.subject} onChange={postUserData} required />
 
-                <label htmlFor="message">YOUR MESSAGE <em>&#x2a;</em></label>
-                <textarea id="message" name="message" rows="4" value={userData.message} onChange={postUserData} required />
+                    <label htmlFor="message">YOUR MESSAGE <em>&#x2a;</em></label>
+                    <textarea id="message" name="message" rows="4" value={userData.message} onChange={postUserData} required />
 
-                <div className={"submit-button"}>
-                    <button id="form-submit" type={"submit"} onClick={submitData} >SUBMIT</button>
-                </div>
-            </form>
-        </div>
+                    <div className={"submit-button"}>
+                        <button id="form-submit" type={"submit"} onClick={submitData} >SUBMIT</button>
+                    </div>
+                </form>
+            </div>
         </section>
     );
 }

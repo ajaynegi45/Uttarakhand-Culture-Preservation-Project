@@ -16,7 +16,7 @@ function Contribution() {
         <section>
             <div style={check}>
                 <h3>Currently working on this page</h3>
-                <p>Mean while checkout <Link to={"https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project"} >Github</Link></p>
+                <p>Mean while checkout <Link to={"https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project"} style={{color: "#FF9800", textDecoration:"underline"}}>Github</Link></p>
             </div>
         </section>
     );

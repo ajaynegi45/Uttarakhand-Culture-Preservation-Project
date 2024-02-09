@@ -4,45 +4,62 @@ import ImageSlider from "./components/ImageSlider.jsx";
 import map from "./assets/images/map-uttarakhand.svg";
 import Ajay from './assets/images/ajay.webp';
 import Contributor from './assets/images/contributor.webp';
-import MapUk from "../src/assets/map-uttarakhand.pdf#toolbar=0"
-import PdfViewer from "../src//components/PdfViewer.jsx";
-import {useState} from "react";
+import {useRef} from "react";
+import Map from "./components/Map.jsx";
 const App = () => {
-    const [zoomLevel, setZoomLevel] = useState(1);
-    const [marginLeftLevel, setMarginLeftLevel] = useState(0);
-    const [marginTopLevel, setMarginTopLevel] = useState(0);
+    const zoomLevelRef = useRef(1);
+    const marginLeftLevelRef = useRef(0);
+    const marginTopLevelRef = useRef(0);
+    const mapImageRef = useRef(null);
+
     const handleZoomIn = () => {
-        setZoomLevel(zoomLevel + 1);
-        setMarginLeftLevel(marginLeftLevel + 45.8);
-        setMarginTopLevel(marginTopLevel + 29);
+        zoomLevelRef.current += 1;
+        marginLeftLevelRef.current += 46.2;
+        marginTopLevelRef.current += 29;
+        updateMapStyle();
     };
+
     const handleZoomOut = () => {
-        if(zoomLevel>1) setZoomLevel(zoomLevel - 1);
-        if(marginLeftLevel>2) setMarginLeftLevel(marginLeftLevel - 45.8);
-        if(marginTopLevel>1) setMarginTopLevel(marginTopLevel - 29);
-
-
+        if (zoomLevelRef.current > 1) {
+            zoomLevelRef.current -= 1;
+            marginLeftLevelRef.current -= 46.2;
+            marginTopLevelRef.current -= 29;
+            updateMapStyle();
+        }
     };
 
-
+    const updateMapStyle = () => {
+        if (mapImageRef.current) {
+            mapImageRef.current.style.transform = `scale(${zoomLevelRef.current})`;
+            mapImageRef.current.style.marginTop = `${marginTopLevelRef.current}vw`;
+            mapImageRef.current.style.marginLeft = `${marginLeftLevelRef.current}vw`;
+        }
+    };
     return (
         <div>
-
             <div>
                 <ImageSlider/>
             </div>
             <ExploreCard/>
-            <div className={"uttarakhand-map"}>
-                <h1 className={"uttarakhand-map-heading"}>Map of Uttarakhand</h1>
-                <p>Detailed map of uttarakhand</p>
-                <div className={"uttarakhand-map-container"} >
-                    <img src={map} alt="Important Map of Uttarakhand" decoding="async" style={{transform: `scale(${zoomLevel})`, marginTop: `${marginTopLevel}vw`,marginLeft:`${marginLeftLevel}vw`}}/>
+            <div>
+                <div className={"uttarakhand-map"}>
+                    <h1 className={"uttarakhand-map-heading"}>Map of Uttarakhand</h1>
+                    <p>Detailed map of uttarakhand</p>
+                    <div className={"uttarakhand-map-container"}>
+                        <img ref={mapImageRef} src={map} alt="Important Map of Uttarakhand" decoding="async"/>
+
+
+                    </div>
+                    <div className={"zoom-button-container"}>
+                        <p onClick={handleZoomIn} className={"zoom-level-button"}>+</p>
+                        <p onClick={handleZoomOut} className={"zoom-level-button"}>-</p>
+                    </div>
+                    <p>Zoom to view Map</p>
                 </div>
-                <div className={"zoom-button-container"}>
-                    <p onClick={handleZoomIn}  className={"zoom-level-button"}>+</p>
-                    <p onClick={handleZoomOut} className={"zoom-level-button"} >- </p>
-                </div>
-                <p>Zoom to view Map</p>
+
+
+                {/*<Map/>*/}
+
             </div>
             <div className={"contributor-section"}>
                 <h1 className={"uttarakhand-map-heading"}>Contributor</h1>

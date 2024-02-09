@@ -1,8 +1,9 @@
 .navbar-backside-frame{
-    height: 76px;
+    height: 67px;
 }
 .navbar-header {
     padding: 20px 30px;
+    /*padding-bottom: 60px;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,9 +12,12 @@
     width: 100%;
     z-index: 1000;
     background-color: hsla(147, 17%, 46%, 0.65);
-    -webkit-backdrop-filter: saturate(180%) blur(11px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     box-shadow:  0 3px 20px 2px rgba(0,0,0,0.1);
+
+    /*-webkit-mask-image: linear-gradient(to bottom, #000000 55%, rgba(0, 0, 0, 0));*/
+    /*mask-image: linear-gradient(to bottom, #000000 5%, rgba(0, 0, 0, 0));*/
 }
 ul{
     list-style: none;
@@ -39,6 +43,6 @@ nav > ul > li > .navbar-link:hover{
     }
 
     .navbar-backside-frame{
-        height: 65px;
+        height: 63px;
     }
 }

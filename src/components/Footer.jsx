@@ -6,7 +6,7 @@ function Footer() {
     return (
             <footer>
                 <div className={"footer-image-container"}>
-                    <img src={forest} alt="forest" loading="lazy" decoding="async" />
+                    <img className={"footer-image"} src={forest} alt="forest" loading="lazy" decoding="async" />
                 </div>
                 <div className={"footer-section"}>
                     <div className={"footer-content"}>

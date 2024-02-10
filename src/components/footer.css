@@ -1,12 +1,43 @@
 .footer-image-container{
     -webkit-mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
+    overflow: clip;
 }
 .footer-image-container > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+
+
+
+@media only screen and (min-width: 925px) {
+    .footer-image-container > .footer-image {
+        animation: slide-ou 5s linear forwards; /* Corrected animation declaration */
+        animation-timeline: view();
+    }
+    @keyframes slide-ou {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        50%{
+            opacity: 1;
+        }
+        85%,100% {
+            transform: scale(1.5);
+            opacity: 1;
+        }
+    }
+}
+
+
+
+
+
+
+
 footer{
     margin-top: 10em;
 }

@@ -18,6 +18,8 @@
     justify-content:space-evenly;
     gap: 30px;
 }
+
+@media (prefers-reduced-motion: no-preference) {
 .explore-card{
     margin-top: 20px;
     border-radius: 3.5%;
@@ -26,8 +28,8 @@
     background-color: white;
     text-decoration: none;
 
-    animation: slide-in linear;
-    animation-timeline: view(1px);
+    animation: slide-in linear ;
+    animation-timeline: view();
 }
 @keyframes slide-in {
     1% {
@@ -38,10 +40,11 @@
         scale: 0.1;
         opacity: 0;
     }
-    40%{
+    30%{
         scale: 1;
         opacity: 1;
     }
+}
 }
 
 

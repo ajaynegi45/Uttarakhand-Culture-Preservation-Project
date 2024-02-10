@@ -5,8 +5,21 @@ import Ajay from './assets/images/ajay.webp';
 import Contributor from './assets/images/contributor.webp';
 import mapAvif from "./assets/images/map-uttarakhand.avif"
 import {Link} from "react-router-dom";
+import {useEffect} from "react";
 const App = () => {
     console.log("App.jsx");
+    useEffect(() => {
+        function isSafari() {
+            return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        }
+
+        if (isSafari()) {
+            const carouselWrapper = document.getElementById('contributor-cardlist-ani');
+            if (carouselWrapper) {
+                carouselWrapper.classList.remove('contributor-cardlist-animation');
+            }
+        }
+    }, []);
     return (
         <div>
             <div>
@@ -28,7 +41,7 @@ const App = () => {
             </div>
             <div className={"contributor-section"}>
                 <h1 className={"uttarakhand-map-heading"}>Contributor</h1>
-                <div className={"contributor-cardlist"}>
+                <div id={"contributor-cardlist-ani"} className={"contributor-cardlist contributor-cardlist-animation"}>
                     <div className={"contributor-profile"}>
                         <div className={"contributor-profile-image-container"}>
                             <img src={Ajay} alt="ajay Image" loading="lazy" decoding="async"/>

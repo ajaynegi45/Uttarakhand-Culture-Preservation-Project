@@ -7,6 +7,8 @@ import Contributor from './assets/images/contributor.webp';
 import {useRef} from "react";
 import Map from "./components/Map.jsx";
 const App = () => {
+    console.log("App.jsx");
+
     const zoomLevelRef = useRef(1);
     const marginLeftLevelRef = useRef(0);
     const marginTopLevelRef = useRef(0);
@@ -41,14 +43,13 @@ const App = () => {
                 <ImageSlider/>
             </div>
             <ExploreCard/>
+
             <div>
                 <div className={"uttarakhand-map"}>
                     <h1 className={"uttarakhand-map-heading"}>Map of Uttarakhand</h1>
                     <p>Detailed map of uttarakhand</p>
                     <div className={"uttarakhand-map-container"}>
-                        <img ref={mapImageRef} src={map} alt="Important Map of Uttarakhand" decoding="async"/>
-
-
+                        <img className={"map-image"} ref={mapImageRef} src={map} alt="Important Map of Uttarakhand" decoding="async"/>
                     </div>
                     <div className={"zoom-button-container"}>
                         <p onClick={handleZoomIn} className={"zoom-level-button"}>+</p>
@@ -56,10 +57,7 @@ const App = () => {
                     </div>
                     <p>Zoom to view Map</p>
                 </div>
-
-
                 {/*<Map/>*/}
-
             </div>
             <div className={"contributor-section"}>
                 <h1 className={"uttarakhand-map-heading"}>Contributor</h1>

@@ -2,6 +2,7 @@ import {lazy,Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import {Route,RouterProvider,createBrowserRouter,createRoutesFromElements} from 'react-router-dom';
 import './index.css';
+console.log("main.jsx");
 
 
 const Layout = lazy(() => import('./Layout.jsx'));
@@ -18,8 +19,6 @@ const ErrorPage = lazy(() => import('./components/ErrorPage.jsx'));
 const Contact = lazy(() => import("./Pages/Contact.jsx"));
 const About = lazy(() => import("./Pages/About.jsx"));
 const Contribution = lazy(() => import("./Pages/Contribution.jsx"));
-
-
 
 
 const router = createBrowserRouter(

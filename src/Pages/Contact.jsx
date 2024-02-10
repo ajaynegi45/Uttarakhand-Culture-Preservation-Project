@@ -1,30 +1,20 @@
 import "./contact.css"
-import {useState} from "react";
+import { useRef } from "react";
 function Contact() {
-    const [userData, setUserData] = useState({
-        name: "",
-        email: "",
-        subject: "",
-        message: "",
-    });
+    console.log("Contact.jsx");
 
-    let name, value;
-    const postUserData = (event) => {
-        name = event.target.name;
-        value = event.target.value;
-        setUserData({ ...userData, [name]: value });
-    };
+    const nameRef = useRef();
+    const emailRef = useRef();
+    const subjectRef = useRef();
+    const messageRef = useRef();
 
-    // connect with firebase
     const submitData = async (event) => {
         event.preventDefault();
-        const { name, email, subject, message } = userData;
-        const formElement = event.target.form;
-        if (!formElement.checkValidity()) {
-            formElement.reportValidity();
-            alert("Fill proper information");
-            return;
-        }
+        const name = nameRef.current.value;
+        const email = emailRef.current.value;
+        const subject = subjectRef.current.value;
+        const message = messageRef.current.value;
+
         if (name &&  email && subject && message) {
             const ipAddress = await getIPAddress();
             const locationInfo = await getLocationInfo(ipAddress);
@@ -57,12 +47,10 @@ function Contact() {
             );
 
             if (res) {
-                setUserData({
-                    name: "",
-                    email: "",
-                    subject: "",
-                    message: "",
-                });
+                nameRef.current.value = "";
+                emailRef.current.value = "";
+                subjectRef.current.value = "";
+                messageRef.current.value = "";
                 alert("Thank you for contacting us❤️\nYour message has been successfully submitted!");
             } else {
                 alert("Failed to submit the form. Please try again later.");
@@ -93,31 +81,29 @@ function Contact() {
         };
     };
 
-    console.log("Render");
-
     return (
         <section className={"contact-section"}>
-        <div className="contact-us">
-                <form method="POST" action={"#"}>
+            <div className="contact-us">
+                <form method="POST" onSubmit={submitData}>
 
                     <div className={"form-title"}>
                         <h1>Contact Us</h1>
                     </div>
 
                     <label htmlFor="name">NAME <em>&#x2a;</em></label>
-                    <input id="name" name="name" type="text" value={userData.name} onChange={postUserData} autoFocus={true} required/>
+                    <input id="name" name="name" type="text" ref={nameRef} autoFocus={true} required/>
 
                     <label htmlFor="email">EMAIL <em>&#x2a;</em></label>
-                    <input id="email" name="email" type="email" value={userData.email} onChange={postUserData} required/>
+                    <input id="email" name="email" type="email" ref={emailRef} required/>
 
                     <label htmlFor="subject">SUBJECT <em>&#x2a;</em></label>
-                    <input id="subject" name="subject" type="text" value={userData.subject} onChange={postUserData} required />
+                    <input id="subject" name="subject" type="text" ref={subjectRef} required />
 
                     <label htmlFor="message">YOUR MESSAGE <em>&#x2a;</em></label>
-                    <textarea id="message" name="message" rows="4" value={userData.message} onChange={postUserData} required />
+                    <textarea id="message" name="message" rows="4" ref={messageRef} required />
 
                     <div className={"submit-button"}>
-                        <button id="form-submit" type={"submit"} onClick={submitData} >SUBMIT</button>
+                        <button id="form-submit" type={"submit"}>SUBMIT</button>
                     </div>
                 </form>
             </div>

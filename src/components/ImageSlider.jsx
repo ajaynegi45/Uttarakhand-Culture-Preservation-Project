@@ -1,6 +1,7 @@
 import './imageSlider.css';
 import lake from "../assets/images/lake.webp";
 import lakeMin from "../assets/images/lake-min.webp";
+import {useEffect} from "react";
 // import snowImage from "../assets/images/snow.webp";
 // import snow500 from "../assets/images/snow-min.webp";
 // import trekkingImage from "../assets/images/trekking.webp";
@@ -52,9 +53,24 @@ const ImageSlider = () => {
     //         { src: nainitalImage, alt: "Nainital Image" },
     //     ]);
     // }, [width]);
+
+    useEffect(() => {
+        function isSafari() {
+            return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        }
+
+        if (isSafari()) {
+            const carouselWrapper = document.getElementById('carousel-wrapper');
+            if (carouselWrapper) {
+                carouselWrapper.classList.remove('carousel-wrapper-animation');
+            }
+        }
+    }, []);
+
+
     return (
         <div className={"animation-header-image"}>
-        <section className="carousel-wrapper">
+        <section id="carousel-wrapper" className="carousel-wrapper carousel-wrapper-animation">
             {/* Slides */}
             {/*<div className="slide">*/}
             {/*    <button className="btn previous" onClick={prevSlide}>*/}

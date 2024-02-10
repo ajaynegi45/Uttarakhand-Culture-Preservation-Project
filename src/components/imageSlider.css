@@ -23,13 +23,13 @@
     object-fit: cover;
     border-radius: inherit;
 }
-.carousel-wrapper{
-    animation: slide-out 5s linear forwards; /* Corrected animation declaration */
+
+.carousel-wrapper-animation{
+    animation: slide-out 5s linear both;
     animation-timeline: view();
     animation-range: exit;
 }
 @keyframes slide-out {
-
     from{
         transform: scale(1);
         opacity: 1;
@@ -39,6 +39,8 @@
         opacity: 0.1;
     }
 }
+
+/* https://scroll-driven-animations.style/tools/view-timeline/ranges/#range-start-name=cover&range-start-percentage=0&range-end-name=cover&range-end-percentage=100&view-timeline-axis=block&view-timeline-inset=0&subject-size=smaller&subject-animation=reveal&interactivity=clicktodrag&show-areas=yes&show-fromto=yes&show-labels=yes */
 /*.carousel-wrapper .btn {*/
 /*    font-size: 3rem;*/
 /*    background: transparent;*/

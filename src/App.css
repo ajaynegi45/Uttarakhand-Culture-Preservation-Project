@@ -74,12 +74,13 @@
     text-align: center;
     color: grey;
 }
-@media (prefers-reduced-motion: no-preference) {
 .contributor-cardlist{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
+}
+@media (prefers-reduced-motion: no-preference) {
+.contributor-cardlist-animation{
     animation: slide-in linear;
     animation-timeline: view(1px);
 }

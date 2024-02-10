@@ -8,15 +8,30 @@ import Dance from '../assets/images/dress.webp';
 import Dress from '../assets/images/dressArt.webp';
 import Dhol from '../assets/images/Dhol.webp';
 import Architecture from '../assets/images/Architecture.webp';
+import {useEffect} from "react";
 function ExploreCard() {
     function showAlert() {
         alert("We are currently working on it. You can come back after a few days to check.\nCurrently, only the Language card is live, you can check it out. \n\nThank you for your patience! ❤️");
     }
+
+    useEffect(() => {
+        function isSafari() {
+            return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        }
+
+        if (isSafari()) {
+            const carouselWrapper = document.getElementById('explore-card');
+            if (carouselWrapper) {
+                carouselWrapper.classList.remove('explore-card-animation');
+            }
+        }
+    }, []);
+
     return (
         <section className="explore-section">
             <h1 className="explore-uttarakhand">Explore Uttarakhand</h1>
             <div className="explore-card-list">
-                <div className="explore-card">
+                <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"/language"} className="explore-card-link" >
                         <div className="explore-card-image-container">
                             <img src={Linguistic} alt="Linguistic Survey of India Book Image"
@@ -27,7 +42,7 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
-                <div className="explore-card">
+                <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"/food"} className="explore-card-link" >
                         <div className="explore-card-image-container">
                             <img src={Food1} alt="Food Image"
@@ -38,7 +53,7 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
-                <div className="explore-card">
+                <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Temple} alt="Temple Image"
@@ -49,7 +64,7 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
-                <div className="explore-card">
+                <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Dress} alt="Dress Image"
@@ -60,7 +75,7 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
-                <div className="explore-card">
+                <div  id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={aipanArt} alt="Aipan Image"
@@ -71,7 +86,7 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
-                <div className="explore-card">
+                <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Dance} alt="Dance Image"
@@ -82,7 +97,7 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
-                <div className="explore-card">
+                <div  id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Dhol} alt="Dhol Image"
@@ -93,7 +108,7 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
-                <div className="explore-card">
+                <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
                             <img src={Architecture} alt="Dhol Image"

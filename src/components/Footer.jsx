@@ -1,12 +1,25 @@
 import "./footer.css";
 import forest from "../assets/images/forest.svg";
 import {Link} from "react-router-dom";
+import {useEffect} from "react";
 function Footer() {
+    useEffect(() => {
+        function isSafari() {
+            return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        }
+
+        if (isSafari()) {
+            const carouselWrapper = document.getElementById('footer-image');
+            if (carouselWrapper) {
+                carouselWrapper.classList.remove('footer-image');
+            }
+        }
+    }, []);
 
     return (
             <footer>
                 <div className={"footer-image-container"}>
-                    <img className={"footer-image"} src={forest} alt="forest" loading="lazy" decoding="async" />
+                    <img id={"footer-image"} className={"footer-image"} src={forest} alt="forest" loading="lazy" decoding="async" />
                 </div>
                 <div className={"footer-section"}>
                     <div className={"footer-content"}>

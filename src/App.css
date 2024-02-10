@@ -53,14 +53,14 @@
     text-align: center;
     color: grey;
 }
-
+@media (prefers-reduced-motion: no-preference) {
 .contributor-cardlist{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 
     animation: slide-in linear;
-    animation-timeline: view();
+    animation-timeline: view(1px);
 }
 @keyframes slide-in {
     1% {
@@ -75,6 +75,7 @@
         scale: 1;
         opacity: 1;
     }
+}
 }
 .contributor-profile{
     margin-top: 2em;

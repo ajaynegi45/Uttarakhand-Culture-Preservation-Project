@@ -53,6 +53,7 @@ const ImageSlider = () => {
     //     ]);
     // }, [width]);
     return (
+        <div className={"animation-header-image"}>
         <section className="carousel-wrapper">
             {/* Slides */}
             {/*<div className="slide">*/}
@@ -67,7 +68,7 @@ const ImageSlider = () => {
 
             <div className="slide">
 
-                <picture>
+                <picture className={"slide-img"}>
                     <source media="(max-width: 400px)" srcSet={lakeMin}/>
                     <img
                         src={lake}
@@ -83,8 +84,7 @@ const ImageSlider = () => {
 
 
         </section>
-
-
+        </div>
     );
 };
 export default ImageSlider;

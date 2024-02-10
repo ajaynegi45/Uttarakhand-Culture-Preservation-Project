@@ -46,3 +46,10 @@ nav > ul > li > .navbar-link:hover{
         height: 63px;
     }
 }
+
+
+@media only screen and (max-width: 500px) {
+    .navbar-backside-frame{
+        height: 67px;
+    }
+}

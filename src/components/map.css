@@ -5,27 +5,6 @@
     text-align: center;
     color: #FF9800;
 }
-
-.uttarakhand-fake-map-container{
-    background: white;
-    padding: 0;
-    margin: 1em;
-    overflow: hidden;
-    aspect-ratio: 10800/6900;
-}
-
-.uttarakhand-fake-map-container > img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 10800/6900;
-    object-fit: cover;
-    cursor: grab;
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-
-}
 .uttarakhand-map-container {
     background: white;
     padding: 0;
@@ -75,46 +54,28 @@
     color: grey;
 }
 @media (prefers-reduced-motion: no-preference) {
-.contributor-cardlist{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    .contributor-cardlist{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
 
-    animation: slide-in linear;
-    animation-timeline: view(1px);
-}
-@keyframes slide-in {
-    1% {
-        scale: 0;
-        opacity: 0;
+        animation: slide-in linear;
+        animation-timeline: view(1px);
     }
-    5% {
-        scale: 0.1;
-        opacity: 0;
+    @keyframes slide-in {
+        1% {
+            scale: 0;
+            opacity: 0;
+        }
+        5% {
+            scale: 0.1;
+            opacity: 0;
+        }
+        10%{
+            scale: 1;
+            opacity: 1;
+        }
     }
-    10%{
-        scale: 1;
-        opacity: 1;
-    }
-}
-}
-.contributor-profile{
-    margin-top: 2em;
-    text-align: center;
-}
-.contributor-profile-name > p{
-    color: grey;
-    font-size: 12px;
-    font-weight: bold;
-}
-.contributor-profile-name > .profile-name{
-    color: white;
-    font-size: 1.1em;
-    margin-bottom: 5px;
-}
-.contributor-profile-image-container > img{
-    width: 150px;
-    aspect-ratio: 793/797;
 }
 @media only screen and (max-width: 500px) {
     .uttarakhand-map-container{
@@ -129,14 +90,12 @@
     }
 }
 
-.embed-class{
-    object-fit: cover;
-    overflow: auto;
-}
+.map-arrow{
 
-embed{
-    background-color: white;
+    /*border: 2px solid red;*/
+    position: absolute;
 
-    color: white;
-    object-fit: cover;
+    margin-top: -20px;
+    margin-left: 39.2em;
+    transform: rotate(40deg);
 }

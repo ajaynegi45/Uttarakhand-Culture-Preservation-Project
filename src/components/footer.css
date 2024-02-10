@@ -8,10 +8,6 @@
     height: 100%;
     object-fit: cover;
 }
-
-
-
-
 @media only screen and (min-width: 925px) {
     .footer-image-container > .footer-image {
         animation: slide-ou 5s linear forwards; /* Corrected animation declaration */
@@ -31,13 +27,6 @@
         }
     }
 }
-
-
-
-
-
-
-
 footer{
     margin-top: 10em;
 }

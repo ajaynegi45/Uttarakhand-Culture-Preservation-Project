@@ -3,11 +3,9 @@
     -webkit-mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
 }
-
 .carousel-wrapper {
     width: 100%;
     aspect-ratio: 16/9;
-
     /*overflow: hidden;*/
     /*position: relative;*/
     /*-webkit-mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));*/
@@ -25,8 +23,6 @@
     object-fit: cover;
     border-radius: inherit;
 }
-
-
 .carousel-wrapper{
     animation: slide-out 5s linear forwards; /* Corrected animation declaration */
     animation-timeline: view();
@@ -43,40 +39,6 @@
         opacity: 0.1;
     }
 }
-
-
-/*@media only screen and (max-width: 500px) {*/
-/*    .carousel-wrapper{*/
-/*        animation: slide-out 5s linear forwards; !* Corrected animation declaration *!*/
-/*        animation-timeline: view();*/
-/*    }*/
-
-/*    @keyframes slide-out {*/
-/*        0% {*/
-/*            transform: scale(1);*/
-/*            opacity: 1;*/
-/*        }*/
-/*        60%{*/
-/*            opacity: 1;*/
-/*        }*/
-/*        85%,100% {*/
-/*            transform: scale(2);*/
-/*            opacity: 0.1;*/
-
-/*        }*/
-/*    }*/
-/*}*/
-
-
-
-
-
-
-
-
-
-
-
 /*.carousel-wrapper .btn {*/
 /*    font-size: 3rem;*/
 /*    background: transparent;*/

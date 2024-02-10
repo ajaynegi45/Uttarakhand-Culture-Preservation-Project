@@ -19,6 +19,7 @@ const ErrorPage = lazy(() => import('./components/ErrorPage.jsx'));
 const Contact = lazy(() => import("./Pages/Contact.jsx"));
 const About = lazy(() => import("./Pages/About.jsx"));
 const Contribution = lazy(() => import("./Pages/Contribution.jsx"));
+const Map = lazy(() => import("./components/Map.jsx"));
 
 
 const router = createBrowserRouter(
@@ -36,6 +37,7 @@ const router = createBrowserRouter(
             <Route path='food' element={<Food />} />
 
             {/* Useful Links */}
+            <Route path='map' element={<Map />} />
             <Route path='contact' element={<Contact/>} />
             <Route path='about' element={<About/>} />
             <Route path='contribution' element={<Contribution/>} />

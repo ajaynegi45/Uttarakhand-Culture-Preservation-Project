@@ -1,1 +1,7 @@
-
+.contribution-container > h1 {
+    color: var(--orange);
+    text-align: center;
+}
+*{
+    color: white;
+}

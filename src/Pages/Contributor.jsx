@@ -138,6 +138,24 @@ function Contribution() {
 
 
             <div className={"user-container"}>
+                <h1>Issues & Pull Request</h1>
+                <div className={"user-list"}>
+                    {Array.isArray(issues) && issues.slice(0, 10).map(issues => (
+                        <div key={issues.id} className={"commits-post issue-post"}>
+                            <Link to={issues.html_url} className={"commits-post-link"}>
+                                <img src={issues.user.avatar_url} alt={issues.user.login}
+                                     style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
+                                <p className={"issue-title"}>{issues.title}</p>
+
+                                <p>{issues.body}</p>
+                            </Link>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+
+            <div className={"user-container"}>
                 <h1>Forked Users</h1>
                 <div className={"user-list"}>
                     {Array.isArray(forks) && forks.map(forks => (
@@ -173,25 +191,8 @@ function Contribution() {
                             <Link to={commits.html_url} className={"commits-post-link"}>
                                 <img src={commits.author.avatar_url} alt={commits.author.login}
                                      style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
-                                <p>{commits.author.login}</p>
+                                <p className={"commits-post-auther"}>{commits.author.login}</p>
                                 <p className={"commits-post-info"}>{commits.commit.message}</p>
-                            </Link>
-                        </div>
-                    ))}
-                </div>
-            </div>
-
-
-            <div className={"user-container"}>
-                <h1>Issues</h1>
-                <div className={"user-list"}>
-                    {Array.isArray(issues) && issues.slice(0, 10).map(issues => (
-                        <div key={issues.id} className={"commits-post issue-post"}>
-                            <Link to={issues.html_url} className={"commits-post-link"}>
-                                <img src={issues.user.avatar_url} alt={issues.user.login}
-                                     style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
-                                <p className={"issue-title"}>{issues.title}</p>
-                                <p>{issues.body}</p>
                             </Link>
                         </div>
                     ))}

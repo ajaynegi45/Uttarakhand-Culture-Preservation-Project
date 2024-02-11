@@ -55,11 +55,20 @@
     align-items: center;
     margin-top: 1em;
     width: 195px;
-    /*border: 1px solid white;*/
     overflow: auto;
+    padding: 2px;
+
+    /*border: 1px solid var(--orange);*/
+    /*border-radius: 4%;*/
+}
+.commits-post::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
 }
 .commits-post > .commits-post-link > p {
     color: white;
+}
+.commits-post-auther{
+    margin-bottom: 5px;
 }
 .commits-post > .commits-post-link > .commits-post-info {
     text-decoration: underline;
@@ -67,9 +76,14 @@
 
 .issue-post{
     height: 250px;
+
+    /*border: 1px solid var(--orange);*/
+    /*border-radius: 4%;*/
+    padding: 2px;
 }
 
 .issue-post > .commits-post-link > .issue-title {
     color: var(--green);
     text-decoration: underline;
+    margin-bottom: 5px;
 }

@@ -39,6 +39,9 @@ const App = () => {
                     </div>
                 </Link>
             </div>
+
+            <Link to={"/contributors"}>
+
             <div className={"contributor-section"}>
                 <h1 className={"uttarakhand-map-heading"}>Contributor</h1>
                 <div id={"contributor-cardlist-ani"} className={"contributor-cardlist contributor-cardlist-animation"}>
@@ -60,7 +63,10 @@ const App = () => {
                         </div>
                     </div>
                 </div>
+
+                <p>Click to view more</p>
             </div>
+            </Link>
 
 
             {/*<PdfViewer pdfUrl={MapUk}/>*/}

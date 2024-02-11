@@ -26,7 +26,7 @@
 }
 
 .contributors-container > .user-container{
-    margin-top: 2em;
+    margin-top: 5em;
     color: var(--green);
     text-align: center;
 }
@@ -49,7 +49,26 @@
     color: white;
 }
 
+.commits-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    width: 195px;
+    /*border: 1px solid white;*/
+    overflow: auto;
+}
+.commits-post > .commits-post-link > p {
+    color: white;
+}
+.commits-post > .commits-post-link > .commits-post-info {
+    text-decoration: underline;
+}
 
-/**{*/
-/*    border: 1px solid red;*/
-/*}*/
+.issue-post{
+    height: 250px;
+}
+
+.issue-post > .commits-post-link > .title {
+    color: var(--green);
+}

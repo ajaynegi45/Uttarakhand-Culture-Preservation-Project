@@ -99,6 +99,14 @@
     }
 }
 }
+
+.contributor-section > p{
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+}
 .contributor-profile{
     margin-top: 2em;
     text-align: center;

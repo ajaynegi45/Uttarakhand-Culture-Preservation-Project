@@ -71,4 +71,5 @@
 
 .issue-post > .commits-post-link > .issue-title {
     color: var(--green);
+    text-decoration: underline;
 }

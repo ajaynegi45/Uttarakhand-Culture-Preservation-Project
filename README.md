@@ -4,6 +4,11 @@
 
 Welcome to the Uttarakhand Culture Preservation Project! This project aims to digitally document and celebrate the rich cultural heritage of Uttarakhand. We're dedicated to saving and promoting the culture of Uttarakhand.
 
+<a href="https://www.uttarakhandculture.co/" target="_blank">Live link 01</a>
+<br/>
+<a href="https://ukculture.netlify.app/" target="_blank">Live link 02</a>
+
+
 ### Problem
 
 As the younger generation in Uttarakhand grows, there is a concerning trend of forgetting their cultural heritage, traditional rituals etc. It's essential to bridge this gap and preserve Uttarakhandi culture for future generations. 
@@ -65,29 +70,11 @@ Here are the features we offer:
         - If we find your suggestion aligns with our mission to provide valuable and insightful content, we'll gladly incorporate it into our website, giving credit where it's due.
         - Together, we can create a more comprehensive resource that truly reflects the richness of Uttarakhand.
 
-### **How to Contribute to this Project**
+## **How to Contribute to this Project** 👨🏻‍💻
 
-You can be a valuable part of our mission to showcase the rich culture, history, and nature of Uttarakhand. We welcome contributions in both code and non-code forms:
+You can be a valuable part of our mission to showcase the rich culture, history, and nature of Uttarakhand. We welcome contributions in both code and non-code forms.
 
-- **For Code Contributions:**
-    - You can assist in building the website. We are using React for the frontend and Java for the backend. Your expertise in these technologies is greatly appreciated.
-    - To get involved, reach out to us, and we'll guide you on how to contribute to the codebase.
-- **For Non-Code Contributions:**
-    - If you are not a coder, you can still make a significant impact:
-        - **Website Design**: Share your creativity and design skills to help improve the look and feel of the website.
-        - **Content Gathering**: Select a feature or aspect of Uttarakhand and start gathering authentic and insightful information. Please provide the sources or links from where you obtained the information. If the information is your own, make sure to mention.
-        - Organize the information in a structured manner and create issues with your suggestions, designs, or content contributions..
-        - If your contribution aligns with our mission to provide valuable and insightful content, we will gladly incorporate it into our website and give proper credit to you.
-
-- **Help Us Find the Perfect Name for the Website**:
-    - **Suggest a Name** : We are in search of a unique and concise name for our website that reflects its purpose. We encourage you to suggest a name in Uttarakhandi language that is both meaningful and easy to remember. Your input is highly valued, and we'll consider all suggestions to choose the most fitting name. Please share your name suggestions via **[E-mail](mailto:contact@ajaynegi.co)** with "Website Name Suggestion" as the subject line.
-
-We are committed to recognizing the efforts of our contributors. Soon, we will create a "Contributions" page on our website where we will showcase the photos and names of all our contributors.
-
-Your participation, whether in code or content, will help us make this project more informative and enriching for all users.
-
-[For Reference](https://ajaynegi.notion.site/Uttarakhand-Website-4713f6589ea44011ac9e1f096216b3e9?pvs=4)
-
+Please take a moment to read the [Contributing.md](https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project/blob/main/contributing.md) file before making any contributions to the project. Your understanding and adherence to these guidelines are greatly appreciated
 
 ## Contact
 If you have any questions or would like to connect, please don't hesitate to reach out. I'd be more than happy to chat and learn from your experiences too.
@@ -98,6 +85,37 @@ If you have any questions or would like to connect, please don't hesitate to rea
 <a href="https://linkedin.com/in/ajaynegi45/" target="blank" rel="noopener noreferrer" >
 <img align="center" src="https://img.icons8.com/color/48/linkedin.png" alt="ajaynegi45/" width="40" height="40"  t/></a>
 
+## Acknowledgements
+
+This project wouldn't be possible without the contributions of our amazing community. Thank you for being part of our journey! 🙌
+
+<a href = "https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=ajaynegi45/Uttarakhand-Culture-Preservation-Project"/>
+</a>
+
+<br/>
+
+### Stargazers
+
+<p align="center">
+  <i>If you like Uttarakhand Culture Preservation Project, please <a href="../../stargazers">★</a> star this repository to show your support! 🤩</i>
+ <br/>
+<!--   <a href="https://star-history.com/#ajaynegi45/Uttarakhand-Culture-Preservation-Project&Date"> -->
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ajaynegi45/Uttarakhand-Culture-Preservation-Project&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ajaynegi45/Uttarakhand-Culture-Preservation-Project&type=Date" />
+      <img align="center" alt="Star History Chart" src="https://api.star-history.com/svg?repos=ajaynegi45/Uttarakhand-Culture-Preservation-Project&type=Date" />
+    </picture>
+<!--   </a> -->
+</p>
+
 ---
 
 We appreciate your interest in preserving Uttarakhandi culture. Together, we can ensure that this invaluable heritage is passed down to future generations.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Made with ❤️ by Ajay Negi
+© 2024 Uttarakhand Culture Preservation

@@ -60,7 +60,7 @@ const ImageSlider = () => {
         }
 
         if (isSafari()) {
-            const carouselWrapper = document.getElementById('carousel-wrapper');
+            const carouselWrapper = document.getElementById('carousel-wrapper-image');
             if (carouselWrapper) {
                 carouselWrapper.classList.remove('carousel-wrapper-animation');
             }
@@ -70,7 +70,7 @@ const ImageSlider = () => {
 
     return (
         <div className={"animation-header-image"}>
-        <section id="carousel-wrapper" className="carousel-wrapper carousel-wrapper-animation">
+        <section id="carousel-wrapper-image" className="carousel-wrapper carousel-wrapper-animation">
             {/* Slides */}
             {/*<div className="slide">*/}
             {/*    <button className="btn previous" onClick={prevSlide}>*/}

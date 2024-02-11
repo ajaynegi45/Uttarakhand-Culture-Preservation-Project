@@ -1,6 +1,5 @@
-import React from 'react';
 import {Link} from "react-router-dom";
-
+import "./contribution.css"
 function Contribution() {
 
     const check = {
@@ -14,7 +13,7 @@ function Contribution() {
     }
     return (
         <section>
-            <div style={check}>
+            <div className={""} style={check}>
                 <h3>Currently working on this page</h3>
                 <p>Mean while checkout <Link to={"https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project"} style={{color: "#FF9800", textDecoration:"underline"}}>Github</Link></p>
             </div>

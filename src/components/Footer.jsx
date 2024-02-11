@@ -56,12 +56,21 @@ function Footer() {
                         <div className={"footer-content footer-content-links"}>
                             <p>Useful Links</p>
                             <ul>
-                            <li><Link to={"about"}><img loading="lazy" decoding="async" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K" alt="Chevron forward icon" className={"Chevron"}/>About
-                                Us</Link></li>
-                            <li><Link to={"/contact"}><img loading="lazy" decoding="async" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K" alt="Chevron forward icon" className={"Chevron"}/>Contact
-                                Us</Link></li>
-                            <li><Link to={"contribution"}><img loading="lazy" decoding="async" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K" alt="Chevron forward icon" className={"Chevron"}/>Want
-                                to contribute</Link></li>
+                                <li><Link to={"about"}><img loading="lazy" decoding="async"
+                                                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
+                                                            alt="Chevron forward icon" className={"Chevron"}/>About
+                                    Us</Link></li>
+                                <li><Link to={"/contact"}><img loading="lazy" decoding="async"
+                                                               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
+                                                               alt="Chevron forward icon" className={"Chevron"}/>Contact
+                                    Us</Link></li>
+                                <li><Link to={"contribution"}><img loading="lazy" decoding="async"
+                                                                   src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
+                                                                   alt="Chevron forward icon" className={"Chevron"}/>Want
+                                    to contribute</Link></li>
+                                <li><Link to={"contributors"}><img loading="lazy" decoding="async"
+                                                                   src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
+                                                                   alt="Chevron forward icon" className={"Chevron"}/>Contributors</Link></li>
                             </ul>
                         </div>
                 </div>
@@ -72,4 +81,5 @@ function Footer() {
             </footer>
     );
 }
+
 export default Footer;

@@ -69,6 +69,6 @@
     height: 250px;
 }
 
-.issue-post > .commits-post-link > .title {
+.issue-post > .commits-post-link > .issue-title {
     color: var(--green);
 }

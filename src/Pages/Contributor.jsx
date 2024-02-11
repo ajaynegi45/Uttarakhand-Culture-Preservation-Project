@@ -190,7 +190,7 @@ function Contribution() {
                             <Link to={issues.html_url} className={"commits-post-link"}>
                                 <img src={issues.user.avatar_url} alt={issues.user.login}
                                      style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
-                                <p className={"title"}>{issues.title}</p>
+                                <p className={"issue-title"}>{issues.title}</p>
                                 <p className={"commits-post-info"}>{issues.body}</p>
                             </Link>
                         </div>

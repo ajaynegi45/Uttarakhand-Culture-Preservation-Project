@@ -12,20 +12,15 @@ function Contribution() {
         minHeight: '40vh',
     }
     return (
-        <section className={"contribution-container"}>
-            <div className={""} style={check}>
-                <h3>Currently working on this page</h3>
-                <p>Mean while checkout <Link
-                    to={"https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project"}
-                    style={{color: "#FF9800", textDecoration: "underline"}}>Github</Link></p>
-            </div>
+        <section className={"contribution"}>
 
-            <div>
-                <h2>How to Contribute 👀</h2>
+
+            <div className={"contribution-container"}>
+                <h1>How to Contribute 👀</h1>
                 <p>You can be a valuable part of our mission to showcase the rich culture, history, and nature of
                     Uttarakhand. We welcome contributions in both code and non-code forms:</p>
 
-                <h3>For Code Contributions:</h3>
+                <h4>For Code Contributions:</h4>
                 <ul>
                     <li><strong>🐞 Report a Bug:</strong> If you find a bug, create an issue with detailed information or
                         submit a pull request if you can fix it.
@@ -42,7 +37,7 @@ function Contribution() {
                     </li>
                 </ul>
 
-                <h3>For Non-Code Contributions:</h3>
+                <h4>For Non-Code Contributions:</h4>
                 <p>If you are not a coder, you can still make a significant impact:</p>
                 <ul>
                     <li><strong>📄 Improve Documentation:</strong> Help improve project documentation.</li>
@@ -60,19 +55,35 @@ function Contribution() {
                     </li>
                 </ul>
 
-                <h3>Help Us Find the Perfect Name for the Website:</h3>
-                <p><strong>Suggest a Name</strong>: We are in search of a unique and concise name for our website that
-                    reflects its purpose. We encourage you to suggest a name in Uttarakhandi language that is both
-                    meaningful and easy to remember. Your input is highly valued, and we'll consider all suggestions to
-                    choose the most fitting name. Please share your name suggestions via <a
-                        href="mailto:contact@ajaynegi.co">E-mail</a> with "Website Name Suggestion" as the subject line.
-                </p>
+                <h4>Help Us Find the Perfect Name for the Website:</h4>
+                <ul>
+                    <li>
+                        <p><strong>Suggest a Name</strong>: We are in search of a unique and concise name for our
+                            website that
+                            reflects its purpose. We encourage you to suggest a name in Uttarakhandi language that is
+                            both
+                            meaningful and easy to remember. Your input is highly valued, and we'll consider all
+                            suggestions to
+                            choose the most fitting name. Please share your name suggestions via <a
+                                href="mailto:contact@ajaynegi.co">E-mail</a> with "Website Name Suggestion" as the
+                            subject line.
+                        </p>
+                    </li>
+                </ul>
 
-                <p>We are committed to recognizing the efforts of our contributors. Soon, we will create a
-                    "Contributions" page on our website where we will showcase the photos and names of all our
-                    contributors.</p>
+
+                <p className={"last-line"}>We have created a  <Link to={"/contributors"}>'<span className={"contributor-link"}>Contributors</span>'</Link>
+                 page on our website where we showcase the photos and names of all our contributors. We are committed to recognizing their efforts.</p>
+
+
             </div>
 
+            <div className={""} style={check}>
+                <h3>Currently working on this page</h3>
+                <p>Mean while checkout <Link
+                    to={"https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project/blob/main/contributing.md"}
+                    style={{color: "#FF9800", textDecoration: "underline"}}>Github</Link></p>
+            </div>
 
         </section>
     );

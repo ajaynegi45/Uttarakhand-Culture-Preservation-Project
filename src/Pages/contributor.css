@@ -1,0 +1,55 @@
+.contributors-container{
+    margin-top: 2em;
+}
+.contributors-container-heading{
+
+}
+.contributors-container-heading > h1{
+    color: var(--orange);
+    text-align: center;
+}
+.contributors-container-heading > p{
+    color: white;
+    margin: 1em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .contributors-container-heading > h1{
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+    }
+    .contributors-container-heading > p{
+        font-size: 0.9em;
+        margin: 0.2em;
+    }
+}
+
+.contributors-container > .user-container{
+    margin-top: 2em;
+    color: var(--green);
+    text-align: center;
+}
+.contributors-container > .user-container > .user-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contributors-container > .user-container > .user-list .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin-top: 1em;
+
+}
+
+.contributors-container  .user-container> .user-list > .user > p {
+    color: white;
+}
+
+
+/**{*/
+/*    border: 1px solid red;*/
+/*}*/

@@ -19,7 +19,7 @@
     /*-webkit-mask-image: linear-gradient(to bottom, #000000 55%, rgba(0, 0, 0, 0));*/
     /*mask-image: linear-gradient(to bottom, #000000 5%, rgba(0, 0, 0, 0));*/
 }
-ul{
+.navbar > ul{
     list-style: none;
 }
 nav > ul > li > .navbar-link{

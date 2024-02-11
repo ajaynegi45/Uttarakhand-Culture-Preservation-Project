@@ -1,7 +1,35 @@
+*{
+    color: white;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 2em;
+    color: red;
+}
+
+.contribution-container{
+    padding: 1em;
+}
+
 .contribution-container > h1 {
     color: var(--orange);
     text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
 }
-*{
-    color: white;
+
+.contribution-container > h4 {
+    color: var(--green);
+    margin-top: 1em;
+}
+
+
+.contribution-container > .last-line{
+    margin-top: 1em;
+}
+
+.contributor-link{
+    color: var(--orange);
+    text-decoration: underline;
 }

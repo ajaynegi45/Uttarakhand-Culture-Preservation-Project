@@ -26,7 +26,7 @@
 
 .carousel-wrapper-animation{
     animation: slide-out 5s linear both;
-    animation-timeline: scroll();
+    animation-timeline: view();
     animation-range: exit;
 }
 @keyframes slide-out {

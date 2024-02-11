@@ -94,9 +94,9 @@ function Kumaoni() {
                                                                                                                                 </summary>
                                                                                                                                 <ul>
                                                                                                                                     <li>
-                                                                                                                                        Garhwali
+                                                                                                                                        Kumaoni
                                                                                                                                     </li>
-                                                                                                                                    <li>Kumaoni</li>
+                                                                                                                                    <li>Garhwali</li>
                                                                                                                                 </ul>
                                                                                                                             </details>
                                                                                                                         </li>
@@ -637,81 +637,77 @@ function Kumaoni() {
                     <tr>
                         <td>Baby</td>
                         <td>छोटा बच्चा</td>
-                        <td>भव्व (Bhavva)</td>
+                        <td>भव्व (Bhavva)</td>
                     </tr>
                     <tr>
                         <td>Children</td>
                         <td>बच्चे</td>
-                        <td>अशियान (Ashiyaan)</td>
+                        <td>अशियान (Ashiyaan)</td>
                     </tr>
                     <tr>
                         <td>In-law’s place</td>
                         <td>ससुराल</td>
-                        <td>पंज्यालो (Panjyalo)</td>
+                        <td>पंज्यालो (Panjyalo)</td>
                     </tr>
                     <tr>
                         <td>Parent’s place</td>
                         <td>मायका</td>
-                        <td>मैत (Mait)</td>
+                        <td>मैत (Mait)</td>
                     </tr>
                     <tr>
                         <td>Nephew ( A man’s relation to brother’ son)</td>
                         <td>भतीजा</td>
-                        <td>भतीजा (Bhatija)</td>
+                        <td>भतीजा (Bhatija)</td>
                     </tr>
                     <tr>
                         <td>Niece (A man’s relation to Brother’s daughter)</td>
-                        <td>भतीजी (Bhatiji)</td>
+                        <td>भतीजी (Bhatiji)</td>
                         <td>भतीजी</td>
                     </tr>
                     <tr>
                         <td>Nephew (A woman’s relation to brother’s son )</td>
                         <td>भतीजा</td>
-                        <td>भद्यो (Bhadyau)</td>
+                        <td>भद्यो (Bhadyau)</td>
                     </tr>
                     <tr>
                         <td>Niece ( A woman’s relation to brother’s daughter)</td>
                         <td>भतीजी</td>
-                        <td>भदे (Bhadye)</td>
+                        <td>भदे (Bhadye)</td>
                     </tr>
                     <tr>
                         <td>Nephew (Sister’s son)</td>
                         <td>भांजा</td>
-                        <td>भांज (Bhanja )/भानिज</td>
+                        <td>भांज (Bhanja)/भानिज</td>
                     </tr>
                     <tr>
-                        <td>Niece   (Sister’s daughter)</td>
+                        <td>Niece (Sister’s daughter)</td>
                         <td>भांजी</td>
-                        <td>भांजी (Bhanji)</td>
+                        <td>भांजी (Bhanji)</td>
                     </tr>
                     <tr>
                         <td>Grandson</td>
                         <td>पोता</td>
-                        <td>नाति (Naa-ti)</td>
+                        <td>नाति (Naa-ti)</td>
                     </tr>
                     <tr>
                         <td>Grandaughter</td>
                         <td>पोती</td>
-                        <td>नात्नी (Naatni)</td>
+                        <td>नात्नी (Naatni)</td>
                     </tr>
                     <tr>
                         <td>Wife’s sister’s husband</td>
                         <td>साडू</td>
-                        <td>साडू (Saadu)</td>
+                        <td>साडू (Saadu)</td>
                     </tr>
                     <tr>
                         <td>Bridegroom</td>
                         <td>दुल्हा</td>
-                        <td>ब्यौल (Byaul)  /
-
-                            बरजु (Barju) (हिंदी में ‘वर जी‘ )</td>
+                        <td>ब्यौल (Byaul)/बरजु (Barju) (हिंदी में वरजी)</td>
                     </tr>
                     <tr>
                         <td>Bride</td>
                         <td>दुल्हन</td>
-                        <td>ब्यौली (Byauli)  /
-
-                            दुल्हिनी (Dulhini)</td>
+                        <td>ब्यौली (Byauli)/दुल्हिनी (Dulhini)</td>
                     </tr>
 
                     </tbody>
@@ -754,7 +750,7 @@ function Kumaoni() {
                     <tr>
                         <td>Straight</td>
                         <td>सीधा</td>
-                        <td>सिद (sidh)</td>
+                        <td>सिद (sidh)</td>
                     </tr>
                     <tr>
                         <td>Hurry</td>
@@ -764,27 +760,27 @@ function Kumaoni() {
                     <tr>
                         <td>Late</td>
                         <td>देर</td>
-                        <td>देर (der )</td>
+                        <td>देर (der)</td>
                     </tr>
                     <tr>
                         <td>Remember/Memory</td>
                         <td>याद</td>
-                        <td>फाम (faam)</td>
+                        <td>फाम (faam)</td>
                     </tr>
                     <tr>
                         <td>Anyway/ Likewise</td>
                         <td>वैसे भी</td>
-                        <td>उस्सी कै (ussi kai)</td>
+                        <td>उस्सी कै (ussi kai)</td>
                     </tr>
                     <tr>
                         <td>Thus/ In this way</td>
                         <td>इस तरह से</td>
-                        <td>एस्यां (esyan)</td>
+                        <td>एस्यां (esyan)</td>
                     </tr>
                     <tr>
                         <td>In that way</td>
                         <td>उस तरह से</td>
-                        <td>उस्यां (usyan)</td>
+                        <td>उस्यां (usyan)</td>
                     </tr>
 
                     </tbody>

@@ -25,6 +25,10 @@
     }
 }
 
+.contributor-name {
+    color: white;
+}
+
 .contributors-container > .user-container{
     margin-top: 5em;
     color: var(--green);

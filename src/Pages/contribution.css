@@ -1,35 +1,63 @@
-*{
-    color: white;
-}
-
-ul {
+.contribution-container > ul {
     list-style-type: disc;
     margin-left: 2em;
     color: red;
+    color: white;
 }
-
+.contribution-container > p {
+    color: white;
+}
 .contribution-container{
     padding: 1em;
 }
-
 .contribution-container > h1 {
     color: var(--orange);
     text-align: center;
     margin-bottom: 0.5em;
     margin-top: 1em;
 }
-
 .contribution-container > h4 {
     color: var(--green);
     margin-top: 1em;
 }
-
-
 .contribution-container > .last-line{
     margin-top: 1em;
 }
-
 .contributor-link{
     color: var(--orange);
     text-decoration: underline;
+}
+.contribution > .user-container{
+    margin-top: 5em;
+    color: var(--orange);
+    text-align: center;
+}
+.contribution > .user-container > .user-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.commits-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    width: 195px;
+    overflow: auto;
+    padding: 2px;
+}
+.commits-post::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+.commits-post > .commits-post-link > p {
+    color: white;
+}
+.issue-post{
+    height: 150px;
+    padding: 2px;
+}
+.issue-post > .commits-post-link > .issue-title {
+    color: var(--green);
+    text-decoration: underline;
+    margin-bottom: 5px;
 }

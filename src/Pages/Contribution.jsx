@@ -1,7 +1,26 @@
 import {Link} from "react-router-dom";
 import "./contribution.css"
+import {useEffect, useState} from "react";
 function Contribution() {
+    const [issues, setIssues] = useState([]);
 
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(`${import.meta.env.VITE_GITHUB_ISSUES}`, {
+                    headers: {
+                        Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
+                        "X-GitHub-Api-Version": "2022-11-28"
+                    }
+                });
+                const data = await response.json();
+                setIssues(data);
+            } catch (error) {
+                console.error('Error fetching commits:', error);
+            }
+        };
+        fetchData();
+    }, []);
     const check = {
         margin:"20px",
         color:"white",
@@ -12,6 +31,8 @@ function Contribution() {
         minHeight: '40vh',
     }
     return (
+
+
         <section className={"contribution"}>
 
 
@@ -65,18 +86,39 @@ function Contribution() {
                             meaningful and easy to remember. Your input is highly valued, and we'll consider all
                             suggestions to
                             choose the most fitting name. Please share your name suggestions via <a
-                                href="mailto:contact@ajaynegi.co">E-mail</a> with "Website Name Suggestion" as the
+                                className={"contributor-link"}
+                                href="mailto:contact@ajaynegi.co">E-mail</a> 📨 with "Website Name Suggestion" as the
                             subject line.
                         </p>
                     </li>
                 </ul>
 
 
-                <p className={"last-line"}>We have created a  <Link to={"/contributors"}>'<span className={"contributor-link"}>Contributors</span>'</Link>
-                 page on our website where we showcase the photos and names of all our contributors. We are committed to recognizing their efforts.</p>
+                <p className={"last-line"}>We have created a <Link to={"/contributors"}>'<span
+                    className={"contributor-link"}>Contributors</span>'</Link>
+                    page on our website where we showcase the photos and names of all our contributors. We are committed
+                    to recognizing their efforts.</p>
 
 
             </div>
+
+            <div className={"user-container"}>
+                <h1>Issues & Pull Request</h1>
+                <div className={"user-list"}>
+                    {Array.isArray(issues) && issues.slice(0, 10).map(issues => (
+                        <div key={issues.id} className={"commits-post issue-post"}>
+                            <Link to={issues.html_url} className={"commits-post-link"}>
+                                <img src={issues.user.avatar_url} alt={issues.user.login}
+                                     style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
+                                <p className={"issue-title"}>{issues.title}</p>
+
+                                <p>{issues.body}</p>
+                            </Link>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
 
             <div className={""} style={check}>
                 <h3>Currently working on this page</h3>

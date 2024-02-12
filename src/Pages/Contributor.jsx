@@ -190,9 +190,11 @@ function Contribution() {
                 <div className={"user-list"}>
                     {Array.isArray(forks) && forks.map(forks => (
                         <div key={forks.id} className={"user"}>
+                            <Link to={forks.owner.html_url}>
                             <img src={forks.owner.avatar_url} alt={forks.owner.login}
                                  style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
-                            <p>{forks.owner.login}</p>
+                            <p className={"contributor-name"} >{forks.owner.login}</p>
+                            </Link>
                         </div>
                     ))}
                 </div>
@@ -204,9 +206,11 @@ function Contribution() {
                 <div className={"user-list"}>
                     {Array.isArray(stargazers) && stargazers.map(stargazer => (
                         <div key={stargazer.id} className={"user"}>
+                            <Link to={stargazer.html_url}>
                             <img src={stargazer.avatar_url} alt={stargazer.login}
                                  style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
-                            <p>{stargazer.login}</p>
+                            <p className={"contributor-name"} >{stargazer.login}</p>
+                            </Link>
                         </div>
                     ))}
                 </div>
@@ -216,7 +220,7 @@ function Contribution() {
             <div className={"user-container"}>
                 <h1>Recent Commits</h1>
                 <div className={"user-list"}>
-                    {Array.isArray(commits) && commits.slice(0, 10).map(commits => (
+                    {Array.isArray(commits) && commits.slice(0, 14).map(commits => (
                         <div key={commits.node_id} className={"commits-post"}>
                             <Link to={commits.html_url} className={"commits-post-link"}>
                                 <img src={commits.author.avatar_url} alt={commits.author.login}

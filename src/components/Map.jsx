@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import map from "../assets/images/map-uttarakhand.svg";
 import "./map.css";
-
 const Map = () => {
     console.log("Map.jsx")
     const zoomLevelRef = useRef(1);

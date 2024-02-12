@@ -22,6 +22,8 @@ const Contribution = lazy(() => import("./Pages/Contribution.jsx"));
 const Map = lazy(() => import("./components/Map.jsx"));
 const Contributor = lazy(() => import("./Pages/Contributor.jsx"));
 
+const UnderWorkingPage = lazy(() => import("./components/UnderWorkingPage.jsx"));
+
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -36,6 +38,7 @@ const router = createBrowserRouter(
 
             {/* Food */}
             <Route path='food' element={<Food />} />
+            <Route path='food/*' element={<UnderWorkingPage />} />
 
             {/* Useful Links */}
             <Route path='map' element={<Map />} />

@@ -19,6 +19,7 @@
     aspect-ratio: 10800/6900;
     object-fit: cover;
     cursor: grab;
+    background-color: white;
 
     transition: transform 0.3s ease-out;
 

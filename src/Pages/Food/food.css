@@ -1,6 +1,6 @@
 .food{
     color: white;
-    margin: 0 1em 0 1em;
+    /*margin: 0 1em 0 1em;*/
 }
 
 .food-banner > img {
@@ -9,4 +9,93 @@
     aspect-ratio: 1200/468;
     object-fit: cover;
     margin-bottom: 1em;
+
+    -webkit-mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));
+
+}
+.food-description{
+    font-size: 1.3em;
+    margin: 2em 1em 0 1em;
+}
+
+@media only screen and (max-width: 900px) {
+    .food-description{
+        font-size: 1em;
+    }
+}
+
+
+
+.explore-section{
+    margin: 30px 50px 10px 50px;
+}
+.explore-uttarakhand{
+    text-align: center;
+    color: #FF9800;
+    font-size: 40px;
+    margin-top: 2em;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 480px) {
+    .explore-uttarakhand{
+        font-size: 30px;
+    }
+}
+
+
+.explore-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 5px;
+    /*margin-left: -10px;*/
+    /*margin-right: -10px;*/
+    margin: 0 1em 0 1em;
+}
+
+@media only screen and (max-width: 400px) {
+    .explore-card-list{
+        margin: 0 2px 0 2px;
+    }
+}
+@media only screen and (min-width: 450px) {
+    .explore-card-list{
+        gap: 1em;
+    }
+}
+.explore-card{
+    margin-top: 20px;
+    border-radius: 3.5%;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    text-decoration: none;
+}
+.explore-card-image-container {
+    border-radius: 3%;
+    margin: 5px 5px 2px 5px;
+    height: 210px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.explore-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+.explore-card-image:hover {
+    transform: scale(1.2);
+}
+.explore-card-text-container{
+    text-align: center;
+}
+.explore-card-text{
+    color: #B80000;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.explore-card-text:hover{
+    color: #FF9800;
 }

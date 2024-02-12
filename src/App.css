@@ -19,7 +19,6 @@
     height: auto;
     aspect-ratio: 10800/6900;
     object-fit: cover;
-    cursor: grab;
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);

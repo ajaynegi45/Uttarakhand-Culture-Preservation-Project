@@ -1,22 +1,40 @@
-import React from 'react';
 import {Link} from "react-router-dom";
-import Linguistic from "../assets/images/Linguistic.webp";
+import "./card.css";
+import {useEffect} from "react";
 
-function Card() {
+function Card({img,imgDescription,heading,description,link}) {
+
+    useEffect(() => {
+        function isSafari() {
+            return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        }
+
+        if (isSafari()) {
+            const carouselWrapper = document.getElementById('card-container');
+            if (carouselWrapper) {
+                carouselWrapper.classList.remove('card-container-animation');
+            }
+        }
+    }, []);
+
+    console.log("Card Render");
     return (
-            <div className="explore-card-list">
-                <div className="explore-card">
-                    <Link to={"/language"} className="explore-card-link" >
-                        <div className="explore-card-image-container">
-                            <img src={Linguistic} alt="Linguistic Survey of India Book Image"
-                                 className="explore-card-image" loading="lazy" decoding="async" />
-                        </div>
-                        <div className="explore-card-text-container">
-                            <p className="explore-card-text">Language</p>
-                        </div>
-                    </Link>
-                </div>
+        <div id={"card-container"} className={"card-container card-container-animation"}>
+
+            <div className={"card-image-container"} >
+                <img src={img} alt={imgDescription} className={"card-image"} />
             </div>
+
+            <div className={"card-description-container"} >
+                <h4 className={"card-description-heading"} >{heading}</h4>
+                <p className={"card-description"} >{description}</p>
+
+                <Link to={link}>
+                    <button className={"card-description-button"} >Read more</button>
+                </Link>
+            </div>
+
+        </div>
     );
 }
 

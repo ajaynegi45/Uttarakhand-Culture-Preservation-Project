@@ -2,12 +2,39 @@ import {useEffect, useState} from 'react';
 import "./contributor.css";
 import user from '../assets/images/contributor.webp';
 import {Link} from "react-router-dom";
+
+
+function getTimeAgo(commitDate) {
+    // Parse commit date
+    const commitTime = new Date(commitDate);
+
+    // Get current time
+    const currentTime = new Date();
+
+    // Calculate the difference in milliseconds
+    const differenceMs = currentTime - commitTime;
+
+    // Convert milliseconds to minutes
+    const minutesAgo = Math.round(differenceMs / (1000 * 60));
+
+    if (minutesAgo < 60) {
+        return minutesAgo + " minutes ago";
+    } else {
+        // Convert minutes to hours
+        const hoursAgo = Math.round(minutesAgo / 60);
+        return hoursAgo + " hours ago";
+    }
+}
+
+
+
+
 function Contribution() {
     const [stargazers, setStargazers] = useState([]);
     const [forks, setForks] = useState([]);
     const [contributors, setContributors] = useState([]);
     const [commits, setCommits] = useState([]);
-    const [issues, setIssues] = useState([]);
+    // const [issues, setIssues] = useState([]);
 
 
     console.log("Render Contributor");
@@ -87,23 +114,23 @@ function Contribution() {
     }, []);
 
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch(`${import.meta.env.VITE_GITHUB_ISSUES}`, {
-                    headers: {
-                        Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
-                        "X-GitHub-Api-Version": "2022-11-28"
-                    }
-                });
-                const data = await response.json();
-                setIssues(data);
-            } catch (error) {
-                console.error('Error fetching commits:', error);
-            }
-        };
-        fetchData();
-    }, []);
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         try {
+    //             const response = await fetch(`${import.meta.env.VITE_GITHUB_ISSUES}`, {
+    //                 headers: {
+    //                     Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
+    //                     "X-GitHub-Api-Version": "2022-11-28"
+    //                 }
+    //             });
+    //             const data = await response.json();
+    //             setIssues(data);
+    //         } catch (error) {
+    //             console.error('Error fetching commits:', error);
+    //         }
+    //     };
+    //     fetchData();
+    // }, []);
 
 
     return (
@@ -123,10 +150,13 @@ function Contribution() {
                 <div className={"user-list"}>
                     {Array.isArray(contributors) && contributors.map(contributors => (
                         <div key={contributors.id} className={"user"}>
+                            <Link to={contributors.html_url}>
                             <img src={contributors.avatar_url} alt={contributors.login}
                                  style={{width: 90, height: 90, borderRadius: '50%', margin: '5px'}}/>
-                            <p>{contributors.login}</p>
+                            <p className={"contributor-name"}>{contributors.login}</p>
+                            </Link>
                         </div>
+
                     ))}
                     <div className={"user"}>
                         <img src={user} alt={"User-profile"}
@@ -137,22 +167,22 @@ function Contribution() {
             </div>
 
 
-            <div className={"user-container"}>
-                <h1>Issues & Pull Request</h1>
-                <div className={"user-list"}>
-                    {Array.isArray(issues) && issues.slice(0, 10).map(issues => (
-                        <div key={issues.id} className={"commits-post issue-post"}>
-                            <Link to={issues.html_url} className={"commits-post-link"}>
-                                <img src={issues.user.avatar_url} alt={issues.user.login}
-                                     style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
-                                <p className={"issue-title"}>{issues.title}</p>
+            {/*<div className={"user-container"}>*/}
+            {/*    <h1>Issues & Pull Request</h1>*/}
+            {/*    <div className={"user-list"}>*/}
+            {/*        {Array.isArray(issues) && issues.slice(0, 10).map(issues => (*/}
+            {/*            <div key={issues.id} className={"commits-post issue-post"}>*/}
+            {/*                <Link to={issues.html_url} className={"commits-post-link"}>*/}
+            {/*                    <img src={issues.user.avatar_url} alt={issues.user.login}*/}
+            {/*                         style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>*/}
+            {/*                    <p className={"issue-title"}>{issues.title}</p>*/}
 
-                                <p>{issues.body}</p>
-                            </Link>
-                        </div>
-                    ))}
-                </div>
-            </div>
+            {/*                    <p>{issues.body}</p>*/}
+            {/*                </Link>*/}
+            {/*            </div>*/}
+            {/*        ))}*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
 
             <div className={"user-container"}>
@@ -193,6 +223,7 @@ function Contribution() {
                                      style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
                                 <p className={"commits-post-auther"}>{commits.author.login}</p>
                                 <p className={"commits-post-info"}>{commits.commit.message}</p>
+                                <p className={"Time"}>{getTimeAgo(commits.commit.author.date)}</p>
                             </Link>
                         </div>
                     ))}

@@ -65,7 +65,7 @@ const App = () => {
                 </div>
 
                 <p>Click to view more</p>
-                <p>ok</p>
+              
             </div>
             </Link>
 

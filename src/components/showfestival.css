@@ -1,0 +1,7 @@
+.display-festival-container{
+    margin-top: 10em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

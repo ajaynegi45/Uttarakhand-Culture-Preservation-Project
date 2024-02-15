@@ -45,6 +45,8 @@
     width: 195px;
     overflow: auto;
     padding: 2px;
+    /*flex-wrap: wrap;*/
+    /*text-align: center;*/
 }
 .commits-post::-webkit-scrollbar {
     display: none; /* Hide scrollbar */

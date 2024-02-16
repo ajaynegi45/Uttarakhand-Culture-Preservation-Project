@@ -6,6 +6,8 @@ import Contributor from './assets/images/contributor.webp';
 import mapAvif from "./assets/images/map-uttarakhand.avif"
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
+
+import Showfestival from "./components/Showfestival.jsx";
 const App = () => {
     console.log("App.jsx");
     useEffect(() => {
@@ -68,6 +70,8 @@ const App = () => {
               
             </div>
             </Link>
+
+            <Showfestival/>
 
 
             {/*<PdfViewer pdfUrl={MapUk}/>*/}

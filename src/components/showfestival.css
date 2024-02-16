@@ -1,0 +1,87 @@
+.display-festival-container{
+    margin-top: 10em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10em 1em 5em 1em;
+}
+
+
+
+
+.display-festival-container > a > h1 {
+    color: var(--orange);
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+.display-festival-container > a > .festival-container{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.display-festival-container > a > .festival-container > h3 {
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--green);
+}
+.display-festival-container > a > .festival-container > .festival-date{
+    text-align: center;
+    color: var(--green);
+}
+.display-festival-container > a > .festival-container > p {
+    color: grey;
+}
+
+@media only screen and (max-width: 400px) {
+    .display-festival-container > a > .festival-container > p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .display-festival-container > a > h1 {
+        font-size: 1.5em;
+    }
+
+    .display-festival-container > a > .festival-container > h3 {
+        font-size: 1.3em;
+    }
+}
+
+/* button */
+/*.display-festival-container > a > .festival-container > a{*/
+/*    text-align: center;*/
+/*}*/
+/*.display-festival-container > a > .festival-container > a > .festival-button {*/
+/*    border: none;*/
+/*    font-size: 16px;*/
+/*    color: #FFF;*/
+/*    padding: 6px 14px;*/
+/*    background-color: var(--red);*/
+/*    border-radius: 6px;*/
+/*    !*margin: 2px 0 5px 0 ;*!*/
+/*}*/
+/*.display-festival-container > a > .festival-container > a > .festival-button:hover{*/
+/*    background-color: var(--orange);*/
+/*}*/
+
+
+
+
+
+
+
+
+
+/**{*/
+/*    border: 0.1px solid red;*/
+
+/*}*/

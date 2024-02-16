@@ -15,7 +15,7 @@ function UnderWorkingPage() {
             color: 'var(--orange)',
         }}>
             <h1>😅 Oops! 😅</h1>
-            <p style={{color: "white"}}>Currently, we are working on this '<span
+            <p style={{color: "white", textAlign: "center"}}>Currently, we are working on this '<span
                 style={{color: "var(--green)"}}>{currentUrl}</span>' page.</p>
             <p style={{color: "white"}}>Check back later.</p>
 

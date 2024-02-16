@@ -40,6 +40,9 @@ const router = createBrowserRouter(
             <Route path='food' element={<Food />} />
             <Route path='food/*' element={<UnderWorkingPage />} />
 
+            {/* Festival */}
+            <Route path='festival/*' element={<UnderWorkingPage />} />
+
             {/* Useful Links */}
             <Route path='map' element={<Map />} />
             <Route path='contact' element={<Contact/>} />

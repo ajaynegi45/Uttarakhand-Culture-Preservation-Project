@@ -19,6 +19,12 @@
     margin: 2em 1em 0 1em;
 }
 
+@media only screen and (max-width: 400px) {
+    .food-description > p {
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .food-description{
         font-size: 1em;

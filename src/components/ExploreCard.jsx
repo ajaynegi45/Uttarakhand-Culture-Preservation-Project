@@ -30,11 +30,14 @@ function ExploreCard() {
     return (
         <section className="explore-section">
             <h1 className="explore-uttarakhand">Explore Uttarakhand</h1>
+            <p className={"explore-uttarakhand-info"}>Click card to know about them</p>
+
             <div className="explore-card-list">
+
                 <div id="explore-card" className="explore-card explore-card-animation">
-                    <Link to={"/language"} className="explore-card-link" >
+                    <Link to={'/language'} className="explore-card-link" >
                         <div className="explore-card-image-container">
-                            <img src={Linguistic} alt="Linguistic Survey of India Book Image"
+                            <img src={`${Linguistic}`} alt="Linguistic Survey of India Book Image"
                                  className="explore-card-image" loading="lazy" decoding="async" />
                         </div>
                         <div className="explore-card-text-container">
@@ -42,10 +45,11 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
+
                 <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"/food"} className="explore-card-link" >
                         <div className="explore-card-image-container">
-                            <img src={Food1} alt="Food Image"
+                            <img src={`${Food1}`} alt="Food Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
@@ -53,10 +57,11 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
+
                 <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
-                            <img src={Temple} alt="Temple Image"
+                            <img src={`${Temple}`} alt="Temple Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
@@ -64,10 +69,11 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
+
                 <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
-                            <img src={Dress} alt="Dress Image"
+                            <img src={`${Dress}`} alt="Dress Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
@@ -75,10 +81,11 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
+
                 <div  id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
-                            <img src={aipanArt} alt="Aipan Image"
+                            <img src={`${aipanArt}`} alt="Aipan Image"
                                  className="explore-card-image" loading="lazy"  decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
@@ -86,10 +93,11 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
+
                 <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
-                            <img src={Dance} alt="Dance Image"
+                            <img src={`${Dance}`} alt="Dance Image"
                                  className="explore-card-image" loading="lazy" decoding="async" />
                         </div>
                         <div className="explore-card-text-container">
@@ -97,10 +105,11 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
+
                 <div  id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
-                            <img src={Dhol} alt="Dhol Image"
+                            <img src={`${Dhol}`} alt="Dhol Image"
                                  className="explore-card-image" loading="lazy" decoding="async"   />
                         </div>
                         <div className="explore-card-text-container">
@@ -108,10 +117,11 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
+
                 <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"#"} className="explore-card-link" onClick={showAlert}>
                         <div className="explore-card-image-container">
-                            <img src={Architecture} alt="Dhol Image"
+                            <img src={`${Architecture}`} alt="Dhol Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
@@ -119,6 +129,7 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
+
             </div>
         </section>
     );

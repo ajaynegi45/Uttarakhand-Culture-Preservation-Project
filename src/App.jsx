@@ -6,7 +6,6 @@ import Contributor from './assets/images/contributor.webp';
 import mapAvif from "./assets/images/map-uttarakhand.avif"
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
-
 import Showfestival from "./components/Showfestival.jsx";
 const App = () => {
     console.log("App.jsx");
@@ -24,27 +23,37 @@ const App = () => {
     }, []);
     return (
         <div>
+            {/* Header Image Section */}
             <div>
                 <ImageSlider/>
             </div>
+
+            {/* Explore Card Section*/}
             <ExploreCard/>
 
+            {/* Festival Section */}
+            <Showfestival/>
+
+            {/* Map Section */}
             <div>
                 <Link to={"map"}>
                     <div className={"uttarakhand-map"}>
                         <h1 className={"uttarakhand-map-heading"}>Map of Uttarakhand</h1>
-                        <p>Detailed map of uttarakhand</p>
-                        <div className={"uttarakhand-fake-map-container"}>
-                            <img className={"map-image"} src={mapAvif} alt="Important Map of Uttarakhand" decoding="async"/>
-                        </div>
+                        {/*<p>Detailed map of uttarakhand</p>*/}
                         <p>Click to view map</p>
+                        <div className={"uttarakhand-fake-map-container"}>
+                            <img className={"map-image"} src={mapAvif} alt="Important Map of Uttarakhand"
+                                 decoding="async"/>
+                        </div>
+                        {/*<p>Click to view map</p>*/}
                     </div>
                 </Link>
             </div>
 
-            <Link to={"/contributors"}>
 
-            <div className={"contributor-section"}>
+            {/* Contributors Section */}
+            <Link to={"/contributors"}>
+              <div className={"contributor-section"}>
                 <h1 className={"uttarakhand-map-heading"}>Contributor</h1>
                 <div id={"contributor-cardlist-ani"} className={"contributor-cardlist contributor-cardlist-animation"}>
                     <div className={"contributor-profile"}>
@@ -65,16 +74,9 @@ const App = () => {
                         </div>
                     </div>
                 </div>
-
                 <p>Click to view more</p>
-              
-            </div>
+              </div>    
             </Link>
-
-            <Showfestival/>
-
-
-            {/*<PdfViewer pdfUrl={MapUk}/>*/}
         </div>
     );
 };

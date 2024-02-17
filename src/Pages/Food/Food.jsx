@@ -1,9 +1,6 @@
-import React from 'react';
 import "./food.css"
-import {Link} from "react-router-dom";
 import Chainsoo from "../../assets/images/Food/Chainsoo.jpg";
 import Card from "../../components/Card.jsx";
-import UnderWorkingPage from "../../components/UnderWorkingPage.jsx";
 
 function Food() {
     console.log("Food Render");
@@ -52,8 +49,6 @@ function Food() {
                     honest and courageous as we know about it. Owing to milk abundance are very fond of dairy product
                     are the food people of Garhwal also get change with season. These cuisine are among in pilgrims also
                     unique traditional very famous.
-
-
                 </p>
             </div>
 

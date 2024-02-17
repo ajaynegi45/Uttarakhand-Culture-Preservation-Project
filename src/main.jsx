@@ -56,9 +56,7 @@ const router = createBrowserRouter(
     )
 );
 ReactDOM.createRoot(document.getElementById('root')).render(
-    // <React.StrictMode>
         <Suspense fallback={<div className={"loading"}> <img src={"/loading.svg"}/> </div>}>
             <RouterProvider router={router} />
         </Suspense>
-    /*</React.StrictMode>*/
 );

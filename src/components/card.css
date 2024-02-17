@@ -56,10 +56,13 @@
     color: var(--green);
 }
 
+
 .card-container > .card-description-container > .card-description {
     font-size: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    overflow: hidden;
+    height: 40px;
 }
 
 .card-container > .card-description-container > a > .card-description-button {

@@ -14,7 +14,9 @@ const Garhwali = lazy(() => import('./Pages/Language/Garhwali.jsx'));
 
 const Food = lazy(()=> import("./Pages/Food/Food.jsx"));
 
-const ErrorPage = lazy(() => import('./components/ErrorPage.jsx'));
+const Temple = lazy(()=> import("./Pages/Temple/Temple.jsx"));
+
+
 
 const Contact = lazy(() => import("./Pages/Contact.jsx"));
 const About = lazy(() => import("./Pages/About.jsx"));
@@ -23,7 +25,7 @@ const Map = lazy(() => import("./Pages/Map.jsx"));
 const Contributor = lazy(() => import("./Pages/Contributor.jsx"));
 
 const UnderWorkingPage = lazy(() => import("./components/UnderWorkingPage.jsx"));
-
+const ErrorPage = lazy(() => import('./components/ErrorPage.jsx'));
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -39,6 +41,10 @@ const router = createBrowserRouter(
             {/* Food */}
             <Route path='food' element={<Food />} />
             <Route path='food/*' element={<UnderWorkingPage />} />
+
+            {/* Temple */}
+            <Route path='temple' element={<Temple />} />
+            <Route path='temple/*' element={<UnderWorkingPage />} />
 
             {/* Festival */}
             <Route path='festival/*' element={<UnderWorkingPage />} />

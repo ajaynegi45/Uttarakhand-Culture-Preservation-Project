@@ -42,7 +42,7 @@ footer{
 .footer-content{
     max-width: 500px;
 }
-.footer-content > h1{
+.footer-content > a > h1{
     /*color: #FF9800;*/
     color: var(--green);
 }

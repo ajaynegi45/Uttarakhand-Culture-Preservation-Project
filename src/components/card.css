@@ -9,15 +9,20 @@
     margin-bottom: 1em;
 }
 
-@media only screen and (max-width: 356px) {
+@media only screen and (max-width: 349px) {
     .card-container {
         width: 200px;
     }
+    .card-container > .card-description-container > .card-description {
+        height: 40px;
+    }
 }
-
 @media only screen and (min-width: 450px) {
     .card-container {
         width: 200px;
+    }
+    .card-container > .card-description-container > .card-description {
+        height: 40px;
     }
 }
 
@@ -38,6 +43,7 @@
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s;
+    color: white;
 }
 .card-container > .card-image-container > img:hover {
     transform: scale(1.2);
@@ -62,8 +68,10 @@
     margin-top: 5px;
     margin-bottom: 5px;
     overflow: hidden;
-    height: 40px;
+    height: 48px;
 }
+
+
 
 .card-container > .card-description-container > a > .card-description-button {
     border: none;

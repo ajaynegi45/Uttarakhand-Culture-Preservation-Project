@@ -59,7 +59,7 @@ function ExploreCard() {
                 </div>
 
                 <div id="explore-card" className="explore-card explore-card-animation">
-                    <Link to={"#"} className="explore-card-link" onClick={showAlert}>
+                    <Link to={"/temple"} className="explore-card-link" >
                         <div className="explore-card-image-container">
                             <img src={`${Temple}`} alt="Temple Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>

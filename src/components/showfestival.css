@@ -16,7 +16,11 @@
     font-size: 2em;
     text-align: center;
 }
-
+.display-festival-container > a > .display-festival-container-info{
+    color: grey;
+    text-align: center;
+    font-size: 0.8em;
+}
 
 
 .display-festival-container > a > .festival-container{

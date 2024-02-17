@@ -72,6 +72,7 @@
     font-weight: bold;
     text-align: center;
     color: grey;
+    margin-bottom: 2em;
 }
 .contributor-cardlist{
     display: flex;

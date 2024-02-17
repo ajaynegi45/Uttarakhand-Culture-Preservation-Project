@@ -98,6 +98,7 @@ function Showfestival() {
             <Link to={`/festival/${festival.replace(/\s/g, '').toLowerCase()}`}>
 
             <h1>Upcoming Uttarakhand Festival</h1>
+                <p className={"display-festival-container-info"} >Click to view more</p>
                 <div className={"festival-container"}>
                     <h3>{festival}</h3>
                     <p className={"festival-date"}>{festivalDate}</p>

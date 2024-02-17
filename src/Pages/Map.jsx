@@ -1,4 +1,4 @@
-import {useRef, useState} from 'react';
+import {useRef} from 'react';
 import map from "../assets/images/map-uttarakhand.svg";
 import "./map.css";
 

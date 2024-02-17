@@ -149,12 +149,12 @@ function Kumaoni() {
                     <tr>
                         <td>Here</td>
                         <td>यहां पर</td>
-                        <td>एतला (etla)</td>
+                        <td>ऐतले (etle)</td>
                     </tr>
                     <tr>
                         <td>There</td>
                         <td>वहां पर</td>
-                        <td>उतला (utla)</td>
+                        <td>वैतले (wetle)</td>
                     </tr>
                     <tr>
                         <td>Is</td>

@@ -11,7 +11,56 @@ function Temple() {
             </div>
 
             <div className={"temple-description"}>
-                <p></p>
+
+                <div className={"yatra-list"}>
+
+                    <div className={""}>
+                        <h3>Char Dham</h3>
+
+                        <ul>
+                            <li>Yamunotri: Source of the Yamuna river, dedicated to Goddess Yamuna.</li>
+                            <li>Gangotri: Origin of the Ganges river, dedicated to Goddess Ganga.</li>
+                            <li>Kedarnath: One of the twelve Jyotirlingas, dedicated to Lord Shiva.</li>
+                            <li>Badrinath: Dedicated to Lord Vishnu, one of the Char Dham sites.</li>
+                        </ul>
+                    </div>
+
+                    <div className={""}>
+                        <h3>Panch Prayag</h3>
+                        <ul>
+                            <li>Vishnuprayag: Confluence of the Alaknanda and Dhauliganga rivers.</li>
+                            <li>Nandaprayag: Confluence of the Alaknanda and Nandakini rivers.</li>
+                            <li>Karnaprayag: Confluence of the Alaknanda and Pindar rivers.</li>
+                            <li>Rudraprayag: Confluence of the Alaknanda and Mandakini rivers.</li>
+                            <li>Devprayag: Confluence of the Alaknanda and Bhagirathi rivers, forming the Ganges.</li>
+                        </ul>
+                    </div>
+
+
+                    <div className={""}>
+                        <h3>Panch Kedar</h3>
+                        <ul>
+                            <li>Kedarnath: As mentioned, it houses the hump of Lord Shiva.</li>
+                            <li>Madhmaheshwar: Where the navel of Lord Shiva is believed to have emerged.</li>
+                            <li>Tungnath: The temple dedicated to Lord Shiva's arms.</li>
+                            <li>Rudranath: Lord Shiva's face is said to be present here.</li>
+                            <li>Kalpeshwar: Associated with Lord Shiva's hair.</li>
+                        </ul>
+                    </div>
+
+
+                    <div className={""}>
+                        <h3>Panch Badri</h3>
+                        <ul>
+                            <li>Yogdhyan Badri: Where Pandu, father of the Pandavas, is said to have meditated.</li>
+                            <li>Bhavishya Badri: It is believed that this will be the future (bhavishya) abode of Lord Badri.</li>
+                            <li>Vridha Badri: This temple is located in Animath and is believed to be the "Old Badri".</li>
+                            <li>Adi Badri: Group of 16 temples dedicated to Lord Vishnu.</li>
+                            <li>Vishal Badri: Refers to the main Badrinath temple among the Panch Badri sites.</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
 
 
@@ -20,7 +69,10 @@ function Temple() {
             {/* Temple Card */}
             <p className={"temple-district-title"}>Almora</p>
             <div className={"temple-card-container"}>
-                <Card   heading={"Kasar Devi Temple"}     description={"Associated with Shakti and cosmic powers, said to bless wishes and creativity."}                              link={"kasardevi"}         img={"https://upload.wikimedia.org/wikipedia/commons/0/01/Goddess_Kasar_Devi.jpg"}                                               imgDescription={"Kasar Devi Temple Image"}/>
+                <Card heading={"Kasar Devi Temple"}
+                      description={"Associated with Shakti and cosmic powers, said to bless wishes and creativity."}
+                      link={"kasardevi"}
+                      img={"https://upload.wikimedia.org/wikipedia/commons/0/01/Goddess_Kasar_Devi.jpg"} imgDescription={"Kasar Devi Temple Image"}/>
                 <Card   heading={"Katarmal Sun"}          description={"9th century temple dedicated to the Sun God, known for its intricate stonework and beautiful location."}      link={"katarmalsun"}       img={"https://assets.cntraveller.in/photos/61f9153c5dabee8b6de788c9/master/pass/katarmal%20temple%20lead.jpg"}                   imgDescription={"Katarmal Sun Temple Image"}/>
                 <Card   heading={"Chitai Golu Devta"}     description={"Shrine dedicated to Golu Devta, a local deity known for his justice and protection of the Kumaon region."}    link={"chitaigoludevta"}   img={"https://www.jagranimages.com/images/newimg/20062022/20_06_2022-golu_devta_mandir_applications_22821223_203927302.webp"}    imgDescription={"Chitai Golu Devta Temple Image"}/>
                 <Card   heading={"Jageshwar Dham"}        description={"127 temples dedicated to Lord Shiva, showcasing ancient architectural styles."}                               link={"jageshwardham"}     img={"https://i.pinimg.com/originals/9a/6a/1d/9a6a1dd42fee8a76fc324421644d83b0.jpg"}                                             imgDescription={"Jageshwar Dham Temple Image"}/>
@@ -45,6 +97,7 @@ function Temple() {
                 <Card   heading={"Bhavishya Badri"}         description={"Believed to be the future abode of Lord Vishnu after Kali Yuga"} link={"bhavishyabadri"} img={"https://www.sacredyatra.com/images/temples/bhavishya-badri-temple.webp"} imgDescription={"Bhavishya Badri Temple Image"}/>
                 <Card   heading={"Vridha Badri Temple"}     description={"8th-century temple enshrines Lord Vishnu in his aged form."} link={"vridhabadri"} img={"https://www.chardhamtours.in/gallery/cityImage/1463377458_vridh-badri.jpg"} imgDescription={"Vridha Badri Temple Image"}/>
                 <Card   heading={"Yogadhyan Badri"}         description={"Depicting Lord Vishnu in a meditative posture, temple offers tranquility and is associated with spiritual practices. "} link={"yogadhyanbadri"} img={"https://www.chardhamtours.in/gallery/cityImage/1462776303_Yog-dhyan-badri-temples.jpg"} imgDescription={"Yogadhyan Badri Temple Image"}/>
+                <Card   heading={"Hemkund Sahib"}         description={"Depicting Lord Vishnu in a meditative posture, temple offers tranquility and is associated with spiritual practices. "} link={"hemkundsahib"} img={"https://www.chardhamtours.in/gallery/cityImage/1462776303_Yog-dhyan-badri-temples.jpg"} imgDescription={"Gurudwara Sri Hemkunt Sahib Ji Image"}/>
             </div>
 
             <p className={"temple-district-title"}>Champawat</p>

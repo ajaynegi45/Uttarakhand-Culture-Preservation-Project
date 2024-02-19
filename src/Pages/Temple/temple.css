@@ -13,6 +13,36 @@
     mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));
 }
 
+.temple-container > .temple-description{
+    color: white;
+}
+
+.temple-container > .temple-description > .yatra-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 1em 0 1em;
+    gap: 1em;
+}
+
+.temple-container > .temple-description > .yatra-list > div > h3{
+    margin-top: 2em;
+    color: var(--green);
+}
+
+.temple-container > .temple-description > .yatra-list > div > ul > li {
+    margin-left: 3em;
+    /*border: 1px solid red;*/
+}
+
+.temple-description > dl > dt {
+    margin-top: 2em;
+}
+
+.temple-description > dl > dd {
+    margin-left: 2em;
+}
 
 .explore-uttarakhand-title{
     text-align: center;

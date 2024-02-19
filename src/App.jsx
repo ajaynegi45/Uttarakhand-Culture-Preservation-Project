@@ -7,6 +7,7 @@ import mapAvif from "./assets/images/map-uttarakhand.avif"
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
 import Showfestival from "./components/Showfestival.jsx";
+import LoadInfo from "./components/LoadInfo.jsx";
 const App = () => {
     console.log("App.jsx");
     useEffect(() => {
@@ -23,6 +24,10 @@ const App = () => {
     }, []);
     return (
         <div>
+
+            {/*<LoadInfo/>*/}
+
+
             {/* Header Image Section */}
             <div>
                 <ImageSlider/>

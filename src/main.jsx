@@ -2,6 +2,7 @@ import {lazy,Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import {Route,RouterProvider,createBrowserRouter,createRoutesFromElements} from 'react-router-dom';
 import './index.css';
+import Architecture from "./assets/images/Architecture.webp";
 console.log("main.jsx");
 
 
@@ -45,6 +46,21 @@ const router = createBrowserRouter(
             {/* Temple */}
             <Route path='temple' element={<Temple />} />
             <Route path='temple/*' element={<UnderWorkingPage />} />
+
+            {/* Art */}
+            <Route path='art' element={<UnderWorkingPage />} />
+
+            {/* Music */}
+            <Route path='music' element={<UnderWorkingPage />} />
+
+            {/* Dance */}
+            <Route path='dance' element={<UnderWorkingPage />} />
+
+            {/* architecture */}
+            <Route path='architecture' element={<UnderWorkingPage />} />
+
+            {/* Dress */}
+            <Route path='dress' element={<UnderWorkingPage />} />
 
             {/* Festival */}
             <Route path='festival/*' element={<UnderWorkingPage />} />

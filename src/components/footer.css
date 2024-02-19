@@ -54,6 +54,7 @@ footer{
     list-style: none;
     margin-top: 10px;
 }
+
 .footer-content > ul > li > a {
     display: block;
     color: white;

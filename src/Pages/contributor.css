@@ -29,6 +29,13 @@
     color: white;
 }
 
+.user:hover > a > .contributor-name {
+    color: var(--orange);
+}
+.commits-post:hover > .commits-post-link > .commits-post-info{
+    color: var(--orange);
+}
+
 .contributors-container > .user-container{
     margin-top: 5em;
     color: var(--green);

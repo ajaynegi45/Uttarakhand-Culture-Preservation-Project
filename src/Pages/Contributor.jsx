@@ -3,31 +3,23 @@ import "./contributor.css";
 import user from '../assets/images/contributor.webp';
 import {Link} from "react-router-dom";
 
-
 function getTimeAgo(commitDate) {
-    // Parse commit date
     const commitTime = new Date(commitDate);
-
-    // Get current time
     const currentTime = new Date();
-
-    // Calculate the difference in milliseconds
     const differenceMs = currentTime - commitTime;
-
-    // Convert milliseconds to minutes
     const minutesAgo = Math.round(differenceMs / (1000 * 60));
-
     if (minutesAgo < 60) {
         return minutesAgo + " minutes ago";
     } else {
-        // Convert minutes to hours
         const hoursAgo = Math.round(minutesAgo / 60);
-        return hoursAgo + " hours ago";
+        if (hoursAgo > 48) {
+            const daysAgo = parseInt(hoursAgo / 24);
+            return daysAgo + " days ago";
+        } else {
+            return hoursAgo + (hoursAgo === 1 ? " hour ago" : " hours ago");
+        }
     }
 }
-
-
-
 
 function Contribution() {
     const [stargazers, setStargazers] = useState([]);
@@ -75,7 +67,6 @@ function Contribution() {
         fetchData();
     }, []);
 
-
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -114,25 +105,6 @@ function Contribution() {
     }, []);
 
 
-    // useEffect(() => {
-    //     const fetchData = async () => {
-    //         try {
-    //             const response = await fetch(`${import.meta.env.VITE_GITHUB_ISSUES}`, {
-    //                 headers: {
-    //                     Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
-    //                     "X-GitHub-Api-Version": "2022-11-28"
-    //                 }
-    //             });
-    //             const data = await response.json();
-    //             setIssues(data);
-    //         } catch (error) {
-    //             console.error('Error fetching commits:', error);
-    //         }
-    //     };
-    //     fetchData();
-    // }, []);
-
-
     return (
         <section className={"contributors-container"}>
 
@@ -151,9 +123,9 @@ function Contribution() {
                     {Array.isArray(contributors) && contributors.map(contributors => (
                         <div key={contributors.id} className={"user"}>
                             <Link to={contributors.html_url}>
-                            <img src={contributors.avatar_url} alt={contributors.login}
-                                 style={{width: 90, height: 90, borderRadius: '50%', margin: '5px'}}/>
-                            <p className={"contributor-name"}>{contributors.login}</p>
+                                <img src={contributors.avatar_url} alt={contributors.login}
+                                     style={{width: 90, height: 90, borderRadius: '50%', margin: '5px'}}/>
+                                <p className={"contributor-name"}>{contributors.login}</p>
                             </Link>
                         </div>
 
@@ -167,33 +139,15 @@ function Contribution() {
             </div>
 
 
-            {/*<div className={"user-container"}>*/}
-            {/*    <h1>Issues & Pull Request</h1>*/}
-            {/*    <div className={"user-list"}>*/}
-            {/*        {Array.isArray(issues) && issues.slice(0, 10).map(issues => (*/}
-            {/*            <div key={issues.id} className={"commits-post issue-post"}>*/}
-            {/*                <Link to={issues.html_url} className={"commits-post-link"}>*/}
-            {/*                    <img src={issues.user.avatar_url} alt={issues.user.login}*/}
-            {/*                         style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>*/}
-            {/*                    <p className={"issue-title"}>{issues.title}</p>*/}
-
-            {/*                    <p>{issues.body}</p>*/}
-            {/*                </Link>*/}
-            {/*            </div>*/}
-            {/*        ))}*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-
-
             <div className={"user-container"}>
                 <h1>Forked Users</h1>
                 <div className={"user-list"}>
                     {Array.isArray(forks) && forks.map(forks => (
                         <div key={forks.id} className={"user"}>
                             <Link to={forks.owner.html_url}>
-                            <img src={forks.owner.avatar_url} alt={forks.owner.login}
-                                 style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
-                            <p className={"contributor-name"} >{forks.owner.login}</p>
+                                <img src={forks.owner.avatar_url} alt={forks.owner.login}
+                                     style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
+                                <p className={"contributor-name"} >{forks.owner.login}</p>
                             </Link>
                         </div>
                     ))}
@@ -207,9 +161,9 @@ function Contribution() {
                     {Array.isArray(stargazers) && stargazers.map(stargazer => (
                         <div key={stargazer.id} className={"user"}>
                             <Link to={stargazer.html_url}>
-                            <img src={stargazer.avatar_url} alt={stargazer.login}
-                                 style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}}/>
-                            <p className={"contributor-name"} >{stargazer.login}</p>
+                                <img src={stargazer.avatar_url} alt={stargazer.login}
+                                     style={{width: 50, height: 50, borderRadius: '50%', margin: '5px'}} />
+                                <p className={"contributor-name"} >{stargazer.login}</p>
                             </Link>
                         </div>
                     ))}

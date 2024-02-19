@@ -1,5 +1,4 @@
 .temple-container{
-
 }
 
 .temple-banner > img{
@@ -9,24 +8,41 @@
     object-fit: cover;
     margin-bottom: 1em;
 
+    /* Blur Effect */
     -webkit-mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));
 }
 
-.temple-container > .temple-card-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    gap: 1em;
-    margin: 0 1em 0 1em;
-}
-@media only screen and (max-width: 450px) {
-    .temple-container > .temple-card-container{
-        margin: 0 2px 0 2px;
-        gap: 3px;
-    }
+.temple-container > .temple-description{
+    color: white;
 }
 
+.temple-container > .temple-description > .yatra-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 1em 0 1em;
+    gap: 1em;
+}
+
+.temple-container > .temple-description > .yatra-list > div > h3{
+    margin-top: 2em;
+    color: var(--green);
+}
+
+.temple-container > .temple-description > .yatra-list > div > ul > li {
+    margin-left: 3em;
+    /*border: 1px solid red;*/
+}
+
+.temple-description > dl > dt {
+    margin-top: 2em;
+}
+
+.temple-description > dl > dd {
+    margin-left: 2em;
+}
 
 .explore-uttarakhand-title{
     text-align: center;
@@ -47,10 +63,20 @@
 }
 
 
-
-
-
-
+ /* Card */
+.temple-container > .temple-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 1em;
+    margin: 0 1em 0 1em;
+}
+@media only screen and (max-width: 450px) {
+    .temple-container > .temple-card-container{
+        margin: 0 2px 0 2px;
+        gap: 3px;
+    }
+}
 .temple-district-title {
     color: var(--green);
     font-weight: bold;

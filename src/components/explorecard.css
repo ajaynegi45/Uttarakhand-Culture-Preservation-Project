@@ -76,10 +76,13 @@
     text-align: center;
 }
 .explore-card-text{
-    color: #B80000;
+    color: var(--red);
     font-size: 1.2em;
     font-weight: bold;
 }
-.explore-card-text:hover{
-    color: #FF9800;
+
+.explore-card:hover > a > .explore-card-text-container > .explore-card-text{
+    transition: all .45s ease-in-out;
+    color: var(--orange);
+    text-decoration: underline;
 }

@@ -169,7 +169,7 @@ function Kumaoni() {
                     <tr>
                         <td>Wherever</td>
                         <td>जहां</td>
-                        <td>जां (jaa-n)</td>
+                        <td>जैति (jeti)</td>
                     </tr>
                     <tr>
                         <td>Yes</td>
@@ -184,12 +184,12 @@ function Kumaoni() {
                     <tr>
                         <td>Which way / direction?</td>
                         <td>किधर / कहाँ को</td>
-                        <td>कत्थै / कत्थकै (kat-thai/katth-kai)</td>
+                        <td>कति / कत्थकै (kati/katth-kai)</td>
                     </tr>
                     <tr>
                         <td>That way / direction?</td>
                         <td>उधर / वहां को</td>
-                        <td>उत्थै / उत्थकै (utthai / uttha-kai)</td>
+                        <td>वैति/ उत्थकै (weti / uttha-kai)</td>
                     </tr>
                     </tbody>
                 </table>
@@ -210,7 +210,7 @@ function Kumaoni() {
                     <tr>
                         <td>Morning</td>
                         <td>सुबह</td>
-                        <td>रात्त्तै (rattai)</td>
+                        <td>राति (rattai)</td>
                     </tr>
 
                     <tr>
@@ -234,13 +234,13 @@ function Kumaoni() {
                     <tr>
                         <td>Evening</td>
                         <td>शाम</td>
-                        <td>ब्याक्ल/बास्स (byakla/bassa)</td>
+                        <td>ब्या/बास्स (byaa/bassa)</td>
                     </tr>
 
                     <tr>
                         <td>Yesterday</td>
                         <td>बीता हुआ कल</td>
-                        <td>ब्याल (byal)</td>
+                        <td>बेही (behi)</td>
                     </tr>
 
                     <tr>

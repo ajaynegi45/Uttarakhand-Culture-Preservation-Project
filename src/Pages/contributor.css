@@ -29,6 +29,9 @@
     color: white;
 }
 
+.user:hover > a > .contributor-name {
+    color: var(--orange);
+}
 .contributors-container > .user-container{
     margin-top: 5em;
     color: var(--green);

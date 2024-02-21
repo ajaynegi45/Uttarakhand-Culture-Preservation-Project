@@ -9,6 +9,7 @@ import Dress from '../assets/images/dressArt.webp';
 import Dhol from '../assets/images/Dhol.webp';
 import Architecture from '../assets/images/Architecture.webp';
 import {useEffect} from "react";
+import Jewellery from "../assets/images/Jewellery.jpeg"
 function ExploreCard() {
     function showAlert() {
         alert("We are currently working on it. You can come back after a few days to check.\nCurrently, only the Language card is live, you can check it out. \n\nThank you for your patience! ❤️");
@@ -63,7 +64,7 @@ function ExploreCard() {
                 <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"/temple"} className="explore-card-link">
                         <div className="explore-card-image-container">
-                            <img src={`${Temple}`} alt="Temple Image"
+                            <img src={`https://i.pinimg.com/564x/2b/ed/85/2bed85b89037e104e94b8a3d3397819f.jpg`} alt="Temple Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
@@ -74,7 +75,22 @@ function ExploreCard() {
 
 
                 <div id="explore-card" className="explore-card explore-card-animation">
-                    <Link to={"/dance"} className="explore-card-link" >
+                    <Link to={"/jewellery"} className="explore-card-link">
+                        <div className="explore-card-image-container">
+                            <img
+                                src={`https://ukacademe.com/Images/UKPedia/CultureAndReligion/Header_Bulakh_1557369910.jpg`}
+                                alt="Jewellery Image"
+                                className="explore-card-image jewellery" loading="lazy" decoding="async"/>
+                        </div>
+                        <div className="explore-card-text-container">
+                            <p className="explore-card-text">Jewellery</p>
+                        </div>
+                    </Link>
+                </div>
+
+
+                <div id="explore-card" className="explore-card explore-card-animation">
+                    <Link to={"/dance"} className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={`${Dance}`} alt="Dance Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
@@ -87,7 +103,7 @@ function ExploreCard() {
 
 
                 <div id="explore-card" className="explore-card explore-card-animation not-active-card">
-                    <Link to={"/dress"} className="explore-card-link" >
+                    <Link to={"/dress"} className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={`${Dress}`} alt="Dress Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
@@ -100,7 +116,7 @@ function ExploreCard() {
 
 
                 <div id="explore-card" className="explore-card explore-card-animation">
-                    <Link to={"/art"} className="explore-card-link" >
+                    <Link to={"/art"} className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={`${aipanArt}`} alt="Aipan Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
@@ -112,9 +128,8 @@ function ExploreCard() {
                 </div>
 
 
-
                 <div id="explore-card" className="explore-card explore-card-animation">
-                    <Link to={"/music"} className="explore-card-link" >
+                    <Link to={"/music"} className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={`${Dhol}`} alt="Dhol Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
@@ -127,7 +142,7 @@ function ExploreCard() {
 
 
                 <div id="explore-card" className="explore-card explore-card-animation">
-                    <Link to={"/architecture"} className="explore-card-link" >
+                    <Link to={"/architecture"} className="explore-card-link">
                         <div className="explore-card-image-container">
                             <img src={`${Architecture}`} alt="Dhol Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
@@ -137,6 +152,8 @@ function ExploreCard() {
                         </div>
                     </Link>
                 </div>
+
+
             </div>
 
         </section>

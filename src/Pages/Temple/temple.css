@@ -36,6 +36,10 @@
     /*border: 1px solid red;*/
 }
 
+.temple-container > .temple-description > .yatra-list > div > ul > li > span {
+    font-weight: bold;
+}
+
 .temple-description > dl > dt {
     margin-top: 2em;
 }
@@ -43,6 +47,8 @@
 .temple-description > dl > dd {
     margin-left: 2em;
 }
+
+ /* Title */
 
 .explore-uttarakhand-title{
     text-align: center;

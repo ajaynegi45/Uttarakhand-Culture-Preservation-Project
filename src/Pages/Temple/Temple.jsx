@@ -3,6 +3,7 @@ import Card from "../../components/Card.jsx";
 import Badrinath from "../../assets/images/Temple/badrinath.webp";
 import Tungnath from "../../assets/images/Temple/Tungnath.png";
 import LakshmanSiddh from "../../assets/images/Temple/lakshmansiddh.png";
+import KalpeshwarMahadev from "../../assets/images/Temple/KalpeshwarMahadev.png";
 function Temple() {
     return (
         <div className={"temple-container"}>
@@ -17,10 +18,10 @@ function Temple() {
                     <div className={""}>
                         <h3>Char Dham</h3>
                         <ul>
-                            <li>Yamunotri: Source of the Yamuna river, dedicated to Goddess Yamuna.</li>
-                            <li>Gangotri: Origin of the Ganges river, dedicated to Goddess Ganga.</li>
-                            <li>Kedarnath: One of the twelve Jyotirlingas, dedicated to Lord Shiva.</li>
-                            <li>Badrinath: Dedicated to Lord Vishnu, one of the Char Dham sites.</li>
+                            <li><span>Yamunotri</span>: Source of the Yamuna river, dedicated to Goddess Yamuna.</li>
+                            <li><span>Gangotri</span>: Origin of the Ganges river, dedicated to Goddess Ganga.</li>
+                            <li><span>Kedarnath</span>: One of the twelve Jyotirlingas, dedicated to Lord Shiva.</li>
+                            <li><span>Badrinath</span>: Dedicated to Lord Vishnu, one of the Char Dham sites.</li>
                         </ul>
                     </div>
 
@@ -129,24 +130,25 @@ function Temple() {
 
             <p className={"temple-district-title"}>Pauri Garhwal</p>
             <div className={"temple-card-container"}>
-                <Card heading={"Kedarnath Temple"} description={"Lord Shiva's majestic abode in the Himalayas, one of the Char Dhams."} link={"kedarnath"} img={"https://vl-prod-static.b-cdn.net/system/images/000/603/362/b8be572d6fdb0c50b5e66491e67aa232/banner/jpg-20220401-231304-0000.jpg?1656025793"} imgDescription={"Kedarnath Temple Temple Image"}/>
-                <Card heading={"Triyuginarayan"} description={"Ancient temple dedicated to Lord Vishnu, nestled amidst scenic mountains."} link={"triyuginarayan"} img={"https://i.pinimg.com/originals/55/8e/c9/558ec9107bac63654ba3ff6613de6cc7.jpg"} imgDescription={"Triyuginarayan Temple Image"}/>
-                <Card heading={"Kartik Swami"} description={"Picturesque temple perched on a hill, offering panoramic views and religious significance."} link={"kartikswami"} img={"https://rishikeshdaytour.com/blog/wp-content/uploads/2019/06/Trek-To-Kartik-Swami-Temple.jpg"} imgDescription={"Kartik Swami Temple Image"}/>
                 <Card heading={"Dhari Devi"} description={"Himalayan shrine dedicated to the guardian deity of Uttarakhand."} link={"dharidevi"} img={"https://i.pinimg.com/736x/ba/04/7a/ba047a53fca19311f545f142a8733ad9.jpg"} imgDescription={"Dhari Devi Temple Image"}/>
                 {/*<Card heading={"Agastyamuni"} description={"Legendary sage's abode, known for its spiritual aura and scenic beauty."} link={""} img={""} imgDescription={"Temple Image"}/>*/}
-                <Card heading={"Ukhimath Temple"} description={"Winter abode of Lord Shiva, vibrant pilgrimage site with mythological connections."} link={"ukhimath"} img={"https://www.trawell.in/admin/images/upload/387998123Kedarnath_Ukhimath_Main.jpg"} imgDescription={"Ukhimath Temple Image"}/>
             </div>
 
             <p className={"temple-district-title"}>Pithoragarh</p>
             <div className={"temple-card-container"}>
                 <Card heading={"Patal Bhuvaneshwar"} description={"A cave temple dedicated to Lord Shiva, with intricate carvings and a naturally formed Shivling."} link={"patalbhuvaneshwar"} img={"https://live-liamtra-blog.s3.ap-south-1.amazonaws.com/2020/12/LMV5pn6XjqAg-1024x576.jpg"} imgDescription={"Patal Bhuvaneshwar Temple Image"}/>
                 {/*<Card heading={"Gangolihat Temple"} description={"A group of temples dedicated to various deities, including Shiva, Parvati, and Hanuman."} link={"gangolihat"} img={""} imgDescription={"Gangolihat Temple Image"}/>*/}
-                <Card heading={"Kapileshwar Mahadev"} description={"Dedicated to Lord Shiva, known for its intricate stonework and peaceful atmosphere."} link={"kapileshwarmahadev"} img={""} imgDescription={"Kapileshwar Mahadev Temple Image"}/>
-                <Card heading={"Arjuneshwar Shiva"} description={"Dedicated to Lord Shiva, believed to be built by Pandavas, offering religious and historical significance."} link={"arjuneshwarshiva"} img={""} imgDescription={"Arjuneshwar Shiva Temple Image"}/>
+                <Card heading={"Kapileshwar Mahadev"} description={"Dedicated to Lord Shiva, known for its intricate stonework and peaceful atmosphere."} link={"kapileshwarmahadev"} img={KalpeshwarMahadev} imgDescription={"Kapileshwar Mahadev Temple Image"}/>
+                <Card heading={"Arjuneshwar Shiva"} description={"Dedicated to Lord Shiva, believed to be built by Pandavas, offering religious and historical significance."} link={"arjuneshwarshiva"} img={"https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/18/98b86f447093d18ce372bdb5bfb5138d_1000x1000.jpg"} imgDescription={"Arjuneshwar Shiva Temple Image"}/>
             </div>
 
             <p className={"temple-district-title"}>Rudraprayag</p>
             <div className={"temple-card-container"}>
+                <Card heading={"Kedarnath Temple"} description={"Lord Shiva's majestic abode in the Himalayas, one of the Char Dhams."} link={"kedarnath"} img={"https://vl-prod-static.b-cdn.net/system/images/000/603/362/b8be572d6fdb0c50b5e66491e67aa232/banner/jpg-20220401-231304-0000.jpg?1656025793"} imgDescription={"Kedarnath Temple Temple Image"}/>
+                <Card heading={"Triyuginarayan"} description={"Ancient temple dedicated to Lord Vishnu, nestled amidst scenic mountains."} link={"triyuginarayan"} img={"https://i.pinimg.com/originals/55/8e/c9/558ec9107bac63654ba3ff6613de6cc7.jpg"} imgDescription={"Triyuginarayan Temple Image"}/>
+                <Card heading={"Kartik Swami"} description={"Picturesque temple perched on a hill, offering panoramic views and religious significance."} link={"kartikswami"} img={"https://rishikeshdaytour.com/blog/wp-content/uploads/2019/06/Trek-To-Kartik-Swami-Temple.jpg"} imgDescription={"Kartik Swami Temple Image"}/>
+                <Card heading={"Ukhimath Temple"} description={"Winter abode of Lord Shiva, vibrant pilgrimage site with mythological connections."} link={"ukhimath"} img={"https://www.trawell.in/admin/images/upload/387998123Kedarnath_Ukhimath_Main.jpg"} imgDescription={"Ukhimath Temple Image"}/>
+
                 <Card heading={"Kashi Vishwanath"} description={"Dedicated to Lord Shiva. Ukhimath"} link={""} img={""} imgDescription={""}/>
                 <Card heading={"Augustmuni Temple"} description={"Cave temple revered for its natural beauty and association with sage Agastya."} link={""} img={""} imgDescription={"Temple Image"}/>
                 <Card heading={"Koteshwar Mahadev"} description={" Ancient temple adorned with intricate carvings, known for its spiritual atmosphere."} link={""} img={""} imgDescription={"Temple Image"}/>

@@ -2,7 +2,6 @@ import {lazy,Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import {Route,RouterProvider,createBrowserRouter,createRoutesFromElements} from 'react-router-dom';
 import './index.css';
-import Architecture from "./assets/images/Architecture.webp";
 console.log("main.jsx");
 
 
@@ -17,6 +16,7 @@ const Food = lazy(()=> import("./Pages/Food/Food.jsx"));
 
 const Temple = lazy(()=> import("./Pages/Temple/Temple.jsx"));
 
+const Jewellery = lazy(() => import('./Pages/Jewellery/Jewellery.jsx'));
 
 
 const Contact = lazy(() => import("./Pages/Contact.jsx"));
@@ -46,6 +46,10 @@ const router = createBrowserRouter(
             {/* Temple */}
             <Route path='temple' element={<Temple />} />
             <Route path='temple/*' element={<UnderWorkingPage />} />
+
+            {/* Jewellery */}
+            <Route path='jewellery' element={<Jewellery />} />
+            <Route path='jewellery/*' element={<UnderWorkingPage />} />
 
             {/* Art */}
             <Route path='art' element={<UnderWorkingPage />} />

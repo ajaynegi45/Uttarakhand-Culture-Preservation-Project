@@ -9,7 +9,7 @@ function Jewellery() {
                 <img src="https://ukacademe.com/Images/UKPedia/CultureAndReligion/Header_Bulakh_1557369910.jpg"
                      alt="Jewellery Image"/>
             </div>
-            <div>
+            <div className={""} >
 
             </div>
 

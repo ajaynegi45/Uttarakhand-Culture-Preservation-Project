@@ -18,6 +18,7 @@ const Temple = lazy(()=> import("./Pages/Temple/Temple.jsx"));
 
 const Jewellery = lazy(() => import('./Pages/Jewellery/Jewellery.jsx'));
 
+const Community = lazy(() => import('./Pages/Community/Community.jsx'));
 
 const Contact = lazy(() => import("./Pages/Contact.jsx"));
 const About = lazy(() => import("./Pages/About.jsx"));
@@ -68,6 +69,9 @@ const router = createBrowserRouter(
 
             {/* Festival */}
             <Route path='festival/*' element={<UnderWorkingPage />} />
+
+            {/* Community */}
+            <Route path='community' element={<Community />} />
 
             {/* Useful Links */}
             <Route path='map' element={<Map />} />

@@ -1,9 +1,9 @@
 import "./App.css";
 import ExploreCard from "./components/ExploreCard.jsx";
 import ImageSlider from "./components/ImageSlider.jsx";
-import Ajay from './assets/images/ajay.webp';
-import Contributor from './assets/images/contributor.webp';
-import mapAvif from "./assets/images/map-uttarakhand.avif"
+import Ajay from './assets/App/ajay.webp';
+import Contributor from './assets/App/contributor.webp';
+import mapAvif from "./assets/App/map-uttarakhand.avif"
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
 import Showfestival from "./components/Showfestival.jsx";

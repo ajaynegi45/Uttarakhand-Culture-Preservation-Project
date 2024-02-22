@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import "./contributor.css";
-import user from '../assets/images/contributor.webp';
+import user from '../assets/App/contributor.webp';
 import {Link} from "react-router-dom";
 
 function getTimeAgo(commitDate) {

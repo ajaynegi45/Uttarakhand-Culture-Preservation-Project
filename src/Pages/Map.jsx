@@ -1,5 +1,5 @@
 import {useRef} from 'react';
-import map from "../assets/images/map-uttarakhand.svg";
+import map from "../assets/map-uttarakhand.svg";
 import "./map.css";
 
 // import SVGComponent from "../components/SVGComponent.jsx";

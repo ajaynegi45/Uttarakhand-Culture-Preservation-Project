@@ -1,5 +1,5 @@
 import "./footer.css";
-import forest from "../assets/images/forest.svg";
+import forest from "../assets/forest.svg";
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
 function Footer() {

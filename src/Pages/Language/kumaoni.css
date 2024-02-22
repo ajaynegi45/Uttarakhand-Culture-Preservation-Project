@@ -13,6 +13,7 @@
 .kumaoni-language-about > div > h4 {
     color: #FF9800;
     font-weight: bold;
+    margin: 1em 0 0.3em 0;
 }
 
 
@@ -21,13 +22,34 @@
     list-style: disc;
 }
 
-.Language-family > ul{
-    list-style: none;
+.kumaoni-language-about > .Language-family > ul {
+    margin: 1em 0 2em -1em;
+}
+.Language-family  li {
+    list-style-type: none;
+    margin-left: 0.75em;
+}
+.Language-family  summary {
+    margin-top: 0.4em;
 }
 .kumaoni-language-table-container {
     margin: 2em;
     color: white;
     /*overflow: hidden;*/
+}
+.language-point{
+    margin: 0.2em 0 0 1.2em;
+}
+
+#language-point-li{
+    color: var(--green);
+    list-style-type: disc;
+}
+
+@media only screen and (min-width: 365px) {
+    .Language-family  li {
+        margin-left: 1em;
+    }
 }
 
 .kumaoni-language-table-container > .table-caption {

@@ -4,7 +4,45 @@
     aspect-ratio: 1200/468;
     object-fit: cover;
     margin-bottom: 1em;
+}
 
-    -webkit-mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));
-    mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));
+.community-header > img {
+    width: 100%;
+
+    -webkit-mask-image: linear-gradient(to bottom, #000000 40%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, #000000 40%, rgba(0, 0, 0, 0));
+}
+
+.community-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 1em;
+    margin: 0 1em 0 1em;
+}
+@media only screen and (max-width: 450px) {
+    .community-list {
+        margin: 0 2px 0 2px;
+        gap: 3px;
+    }
+}
+
+/* Title */
+
+.explore-uttarakhand-title{
+    text-align: center;
+    color: #FF9800;
+    font-size: 40px;
+    margin-top: 2em;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 800px) {
+    .explore-uttarakhand-title{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .explore-uttarakhand-title{
+        font-size: 25px;
+    }
 }

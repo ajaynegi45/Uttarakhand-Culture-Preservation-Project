@@ -1,6 +1,6 @@
 import './imageSlider.css';
-import lake from "../assets/images/lake.webp";
-import lakeMin from "../assets/images/lake-min.webp";
+import lake from "../assets/App/lake.webp";
+import lakeMin from "../assets/App/lake-min.webp";
 import {useEffect} from "react";
 // import snowImage from "../assets/images/snow.webp";
 // import snow500 from "../assets/images/snow-min.webp";

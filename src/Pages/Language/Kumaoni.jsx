@@ -48,55 +48,53 @@ function Kumaoni() {
                     <h4>Language family</h4>
                     <ul>
                         <li>
-                            <details>
+                            <details open={true} >
                                 <summary>Indo-European</summary>
                                 <ul>
                                     <li>
-                                        <details>
+                                        <details open={true} >
                                             <summary>Classical Indo-European</summary>
                                             <ul>
                                                 <li>
-                                                    <details>
+                                                    <details open={true} >
                                                         <summary>Indo-Iranian</summary>
                                                         <ul>
                                                             <li>
-                                                                <details>
+                                                                <details open={true} >
                                                                     <summary>Indo-Aryan</summary>
                                                                     <ul>
                                                                         <li>
-                                                                            <details>
+                                                                            <details open={true} >
                                                                                 <summary>Middle-Modern Indo-Aryan
                                                                                 </summary>
                                                                                 <ul>
                                                                                     <li>
-                                                                                        <details>
+                                                                                        <details open={true} >
                                                                                             <summary>Continental
                                                                                                 Indo-Aryan
                                                                                             </summary>
                                                                                             <ul>
                                                                                                 <li>
-                                                                                                    <details>
+                                                                                                    <details open={true} >
                                                                                                         <summary>Midlands
                                                                                                             Indo-Aryan
                                                                                                         </summary>
                                                                                                         <ul>
                                                                                                             <li>
-                                                                                                                <details>
+                                                                                                                <details open={true} >
                                                                                                                     <summary>Indo-Aryan
                                                                                                                         Northern
                                                                                                                         Zone
                                                                                                                     </summary>
                                                                                                                     <ul>
                                                                                                                         <li>
-                                                                                                                            <details>
+                                                                                                                            <details open={true}  >
                                                                                                                                 <summary>Central
                                                                                                                                     Pahari
                                                                                                                                 </summary>
-                                                                                                                                <ul>
-                                                                                                                                    <li>
-                                                                                                                                        Kumaoni
-                                                                                                                                    </li>
-                                                                                                                                    <li>Garhwali</li>
+                                                                                                                                <ul className={"language-point"} >
+                                                                                                                                    <li id={"language-point-li"} >Kumaoni</li>
+                                                                                                                                    <li id={"language-point-li"} >Garhwali</li>
                                                                                                                                 </ul>
                                                                                                                             </details>
                                                                                                                         </li>

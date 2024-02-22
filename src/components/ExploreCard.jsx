@@ -1,15 +1,15 @@
 import "./explorecard.css"
 import {Link} from "react-router-dom";
-import aipanArt from '../assets/images/aipanart.webp';
-import Linguistic from '../assets/images/Linguistic.webp';
-import Food1 from '../assets/images/foodUk.webp';
-import Temple from '../assets/images/Temple.webp';
-import Dance from '../assets/images/dress.webp';
-import Dress from '../assets/images/dressArt.webp';
-import Dhol from '../assets/images/Dhol.webp';
-import Architecture from '../assets/images/Architecture.webp';
+import aipanArt from '../assets/App/aipanart.webp';
+import Linguistic from '../assets/Language/Linguistic.webp';
+import Food1 from '../assets/App/foodUk.webp';
+import Temple from '../assets/App/Temple.webp';
+import Dance from '../assets/App/dress.webp';
+import Dress from '../assets/App/dressArt.webp';
+import Dhol from '../assets/App/Dhol.webp';
+import Architecture from '../assets/App/Architecture.webp';
 import {useEffect} from "react";
-import Jewellery from "../assets/images/Jewellery.jpeg"
+import Jewellery from "../assets/App/Jewellery.jpeg"
 function ExploreCard() {
     function showAlert() {
         alert("We are currently working on it. You can come back after a few days to check.\nCurrently, only the Language card is live, you can check it out. \n\nThank you for your patience! ❤️");

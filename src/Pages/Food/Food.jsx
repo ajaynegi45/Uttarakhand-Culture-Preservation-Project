@@ -1,5 +1,5 @@
 import "./food.css"
-import Chainsoo from "../../assets/images/Food/Chainsoo.jpg";
+import Chainsoo from "../../assets/Food/Chainsoo.jpg";
 import Card from "../../components/Card.jsx";
 
 function Food() {

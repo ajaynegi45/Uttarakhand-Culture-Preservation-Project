@@ -2,7 +2,7 @@ import {lazy,Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import {Route,RouterProvider,createBrowserRouter,createRoutesFromElements} from 'react-router-dom';
 import './index.css';
-console.log("main.jsx");
+console.log("Routes.jsx");
 
 
 const Layout = lazy(() => import('./Layout.jsx'));

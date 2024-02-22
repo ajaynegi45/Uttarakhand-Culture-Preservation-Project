@@ -72,6 +72,10 @@
 }
 
 
+.card-container > .card-description-container > a:hover {
+    cursor: pointer;
+}
+
 
 .card-container > .card-description-container > a > .card-description-button {
     border: none;

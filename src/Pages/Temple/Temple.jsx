@@ -1,9 +1,9 @@
 import "./temple.css";
 import Card from "../../components/Card.jsx";
-import Badrinath from "../../assets/images/Temple/badrinath.webp";
-import Tungnath from "../../assets/images/Temple/Tungnath.png";
-import LakshmanSiddh from "../../assets/images/Temple/lakshmansiddh.png";
-import KalpeshwarMahadev from "../../assets/images/Temple/KalpeshwarMahadev.png";
+import Badrinath from "../../assets/Temple/badrinath.webp";
+import Tungnath from "../../assets/Temple/Tungnath.png";
+import LakshmanSiddh from "../../assets/Temple/lakshmansiddh.png";
+import KalpeshwarMahadev from "../../assets/Temple/KalpeshwarMahadev.png";
 function Temple() {
     return (
         <div className={"temple-container"}>
@@ -169,10 +169,10 @@ function Temple() {
 
             <p className={"temple-district-title"}>Uttarkashi</p>
             <div className={"temple-card-container"}>
-                <Card heading={"Gangotri Temple"} description={"Source of Ganges River, dedicated to Goddess Ganga, one of Char Dhams."} link={""} img={""} imgDescription={"Temple Image"}/>
-                <Card heading={"Yamunotri Temple"} description={"Source of Yamuna River, dedicated to Goddess Yamuna, sister of Ganga."} link={""} img={""} imgDescription={"Temple Image"}/>
-                <Card heading={"Uttarkashi Vishwanath"} description={"Ancient Shiva temple, known for its spiritual aura and intricate carvings."} link={""} img={""} imgDescription={"Temple Image"}/>
-                <Card heading={"Kuteti Devi Temple"} description={"Local goddess temple, associated with prosperity and well-being, offers panoramic views."} link={""} img={""} imgDescription={"Temple Image"}/>
+                <Card heading={"Gangotri Temple"} description={"Source of Ganges River, dedicated to Goddess Ganga, one of Char Dhams."} link={"/gangotri"} img={"https://www.tourmyindia.com/chardham/images/gangotri-dham1.jpg"} imgDescription={"Temple Image"}/>
+                <Card heading={"Yamunotri Temple"} description={"Source of Yamuna River, dedicated to Goddess Yamuna, sister of Ganga."} link={"/yamunotri"} img={""} imgDescription={"Temple Image"}/>
+                <Card heading={"Uttarkashi Vishwanath"} description={"Ancient Shiva temple, known for its spiritual aura and intricate carvings."} link={"/uttarkashivishwanath"} img={""} imgDescription={"Temple Image"}/>
+                <Card heading={"Kuteti Devi Temple"} description={"Local goddess temple, associated with prosperity and well-being, offers panoramic views."} link={"/kutetidevi"} img={""} imgDescription={"Temple Image"}/>
             </div>
 
         </div>

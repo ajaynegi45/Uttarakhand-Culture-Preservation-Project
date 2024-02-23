@@ -28,11 +28,11 @@ function Temple() {
                     <div className={""}>
                         <h3>Panch Prayag</h3>
                         <ul>
-                            <li>Vishnuprayag: Confluence of the Alaknanda and Dhauliganga rivers.</li>
-                            <li>Nandaprayag: Confluence of the Alaknanda and Nandakini rivers.</li>
-                            <li>Karnaprayag: Confluence of the Alaknanda and Pindar rivers.</li>
-                            <li>Rudraprayag: Confluence of the Alaknanda and Mandakini rivers.</li>
-                            <li>Devprayag: Confluence of the Alaknanda and Bhagirathi rivers, forming the Ganges.</li>
+                            <li><span>Vishnuprayag</span>: Confluence of the Alaknanda and Dhauliganga rivers.</li>
+                            <li><span>Nandaprayag</span>: Confluence of the Alaknanda and Nandakini rivers.</li>
+                            <li><span>Karnaprayag</span>: Confluence of the Alaknanda and Pindar rivers.</li>
+                            <li><span>Rudraprayag</span>: Confluence of the Alaknanda and Mandakini rivers.</li>
+                            <li><span>Devprayag</span>: Confluence of the Alaknanda and Bhagirathi rivers, forming the Ganges.</li>
                         </ul>
                     </div>
 
@@ -40,11 +40,11 @@ function Temple() {
                     <div className={""}>
                         <h3>Panch Kedar</h3>
                         <ul>
-                            <li>Kedarnath: As mentioned, it houses the hump of Lord Shiva.</li>
-                            <li>Madhmaheshwar: Where the navel of Lord Shiva is believed to have emerged.</li>
-                            <li>Tungnath: The temple dedicated to Lord Shiva's arms.</li>
-                            <li>Rudranath: Lord Shiva's face is said to be present here.</li>
-                            <li>Kalpeshwar: Associated with Lord Shiva's hair.</li>
+                            <li><span>Kedarnath</span>: As mentioned, it houses the hump of Lord Shiva.</li>
+                            <li><span>Madhmaheshwar</span>: Where the navel of Lord Shiva is believed to have emerged.</li>
+                            <li><span>Tungnath</span>: The temple dedicated to Lord Shiva's arms.</li>
+                            <li><span>Rudranath</span>: Lord Shiva's face is said to be present here.</li>
+                            <li><span>Kalpeshwar</span>: Associated with Lord Shiva's hair.</li>
                         </ul>
                     </div>
 
@@ -52,11 +52,11 @@ function Temple() {
                     <div className={""}>
                         <h3>Panch Badri</h3>
                         <ul>
-                            <li>Yogdhyan Badri: Where Pandu, father of the Pandavas, is said to have meditated.</li>
-                            <li>Bhavishya Badri: It is believed that this will be the future (bhavishya) abode of Lord Badri.</li>
-                            <li>Vridha Badri: This temple is located in Animath and is believed to be the "Old Badri".</li>
-                            <li>Adi Badri: Group of 16 temples dedicated to Lord Vishnu.</li>
-                            <li>Vishal Badri: Refers to the main Badrinath temple among the Panch Badri sites.</li>
+                            <li><span>Yogdhyan Badri</span>: Where Pandu, father of the Pandavas, is said to have meditated.</li>
+                            <li><span>Bhavishya Badri</span>: It is believed that this will be the future (bhavishya) abode of Lord Badri.</li>
+                            <li><span>Vridha Badri</span>: This temple is located in Animath and is believed to be the "Old Badri".</li>
+                            <li><span>Adi Badri</span>: Group of 16 temples dedicated to Lord Vishnu.</li>
+                            <li><span>Vishal Badri</span>: Refers to the main Badrinath temple among the Panch Badri sites.</li>
                         </ul>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ function Temple() {
             <p className={"temple-district-title"}>Tehri Garhwal</p>
             <div className={"temple-card-container"}>
                 <Card heading={"Chandrabadni"} description={"Himalayan peak with a temple dedicated to Shakti, offering panoramic views and challenging treks."} link={""} img={""} imgDescription={"Temple Image"}/>
-                <Card heading={"Surkanda Devi"} description={"Hilltop shrine dedicated to Sati, offering scenic beauty and religious significance."} link={""} img={""} imgDescription={"Temple Image"}/>
+                <Card heading={"Surkanda Devi"} description={"Hilltop shrine dedicated to Sati, offering scenic beauty and religious significance."} link={"/surkandadevi"} img={"https://upload.wikimedia.org/wikipedia/commons/0/05/Surkanda_Devi_Mandir.jpg"} imgDescription={"Temple Image"}/>
                 <Card heading={"Kunjapuri Temple"} description={"Siddhपीठ dedicated to Maa Kali, known for its panoramic views and spiritual energy."} link={""} img={""} imgDescription={"Temple Image"}/>
             </div>
 
@@ -170,7 +170,7 @@ function Temple() {
             <p className={"temple-district-title"}>Uttarkashi</p>
             <div className={"temple-card-container"}>
                 <Card heading={"Gangotri Temple"} description={"Source of Ganges River, dedicated to Goddess Ganga, one of Char Dhams."} link={"/gangotri"} img={"https://www.tourmyindia.com/chardham/images/gangotri-dham1.jpg"} imgDescription={"Temple Image"}/>
-                <Card heading={"Yamunotri Temple"} description={"Source of Yamuna River, dedicated to Goddess Yamuna, sister of Ganga."} link={"/yamunotri"} img={""} imgDescription={"Temple Image"}/>
+                <Card heading={"Yamunotri Temple"} description={"Source of Yamuna River, dedicated to Goddess Yamuna, sister of Ganga."} link={"/yamunotri"} img={"https://upload.wikimedia.org/wikipedia/commons/6/6b/Yamunotri_Temple_-_panoramio.jpg"} imgDescription={"Temple Image"}/>
                 <Card heading={"Uttarkashi Vishwanath"} description={"Ancient Shiva temple, known for its spiritual aura and intricate carvings."} link={"/uttarkashivishwanath"} img={""} imgDescription={"Temple Image"}/>
                 <Card heading={"Kuteti Devi Temple"} description={"Local goddess temple, associated with prosperity and well-being, offers panoramic views."} link={"/kutetidevi"} img={""} imgDescription={"Temple Image"}/>
             </div>

@@ -11,7 +11,7 @@ function Community() {
                     alt=""/>
             </div>
 
-            <div>
+            <div className={"community-description"}>
 
             </div>
 

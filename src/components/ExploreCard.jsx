@@ -157,7 +157,7 @@ function ExploreCard() {
                 <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"/community"} className="explore-card-link">
                         <div className="explore-card-image-container">
-                            <img src={``} alt="Community Image"
+                            <img src={`https://uttarakhandjournal.com/wp-content/uploads/2022/08/Raji-Tribe-of-Uttarakhand.png`} alt="Community Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">

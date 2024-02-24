@@ -20,6 +20,9 @@ const Jewellery = lazy(() => import('./Pages/Jewellery/Jewellery.jsx'));
 
 const Community = lazy(() => import('./Pages/Community/Community.jsx'));
 
+const Utensil = lazy(() => import("./Pages/Utensil/Utensil.jsx"));
+
+
 const Contact = lazy(() => import("./Pages/Contact.jsx"));
 const About = lazy(() => import("./Pages/About.jsx"));
 const Contribution = lazy(() => import("./Pages/Contribution.jsx"));
@@ -74,6 +77,9 @@ const router = createBrowserRouter(
 
             {/* Community */}
             <Route path='community' element={<Community />} />
+
+            {/* Community */}
+            <Route path='utensils' element={<Utensil />} />
 
             {/* Useful Links */}
             <Route path='/login' element={<Login />} />

@@ -29,7 +29,7 @@ function Contact() {
             });
 
             const res = await fetch(
-                `${import.meta.env.VITE_DATABASE_URL}`,
+                `${import.meta.env.VITE_DATABASE_URL}/${subject}.json`,
                 {
                     method: "POST",
                     headers: {

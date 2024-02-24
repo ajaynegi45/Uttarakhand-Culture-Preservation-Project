@@ -64,7 +64,8 @@ function ExploreCard() {
                 <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"/temple"} className="explore-card-link">
                         <div className="explore-card-image-container">
-                            <img src={`https://i.pinimg.com/564x/2b/ed/85/2bed85b89037e104e94b8a3d3397819f.jpg`} alt="Temple Image"
+                            <img src={`https://i.pinimg.com/564x/2b/ed/85/2bed85b89037e104e94b8a3d3397819f.jpg`}
+                                 alt="Temple Image"
                                  className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
@@ -149,6 +150,18 @@ function ExploreCard() {
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Architecture</p>
+                        </div>
+                    </Link>
+                </div>
+
+                <div id="explore-card" className="explore-card explore-card-animation">
+                    <Link to={"/community"} className="explore-card-link">
+                        <div className="explore-card-image-container">
+                            <img src={`https://uttarakhandjournal.com/wp-content/uploads/2022/08/Raji-Tribe-of-Uttarakhand.png`} alt="Community Image"
+                                 className="explore-card-image" loading="lazy" decoding="async"/>
+                        </div>
+                        <div className="explore-card-text-container">
+                            <p className="explore-card-text">Community</p>
                         </div>
                     </Link>
                 </div>

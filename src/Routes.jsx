@@ -25,6 +25,8 @@ const About = lazy(() => import("./Pages/About.jsx"));
 const Contribution = lazy(() => import("./Pages/Contribution.jsx"));
 const Map = lazy(() => import("./Pages/Map.jsx"));
 const Contributor = lazy(() => import("./Pages/Contributor.jsx"));
+const Login = lazy(() => import("./Pages/Authentication/Login.jsx"));
+
 
 const UnderWorkingPage = lazy(() => import("./components/UnderWorkingPage.jsx"));
 const ErrorPage = lazy(() => import('./components/ErrorPage.jsx'));
@@ -74,6 +76,7 @@ const router = createBrowserRouter(
             <Route path='community' element={<Community />} />
 
             {/* Useful Links */}
+            <Route path='/login' element={<Login />} />
             <Route path='map' element={<Map />} />
             <Route path='contact' element={<Contact/>} />
             <Route path='about' element={<About/>} />

@@ -10,7 +10,7 @@ function Navbar() {
 
                 <nav className="navbar">
                     <ul className="navbar-list">
-                        <li><a className="navbar-link" href="#">Login</a></li>
+                        <li><a className="navbar-link" href="/login">Login</a></li>
                     </ul>
                 </nav>
             </header>

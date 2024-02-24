@@ -25,7 +25,7 @@ const SignInSignUpForm = () => {
 
         if(name && email && password){
             const res = await fetch(
-                `${import.meta.env.VITE_SIGNUP_URL}/${email}.json`,
+                `${import.meta.env.VITE_SIGNUP_URL}`,
                 {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },

@@ -1,115 +1,10 @@
-/*.login-container > div > img{*/
-/*    width: 100%;*/
-/*    -webkit-mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));*/
-/*    mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));*/
-/*}*/
-
-/*.login-container > .login-form-container {*/
-/*    display: flex;*/
-/*    !*justify-content: center;*!*/
-/*    !*align-items: center;*!*/
-/*    overflow: hidden;*/
-/*    border-radius: 25px;*/
-/*    margin: 2em 5vw 2em 5vw;*/
-/*    padding: 0;*/
-/*    !*border: 0.1px solid red;*!*/
-/*}*/
-/*.login-container > .login-form-container > .login-form-img-container {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
-/*@media only screen and (max-width: 700px) {*/
-/*    .login-container > .login-form-container > .login-form-img-container {*/
-/*        display: none;*/
-/*    }*/
-/*}*/
-/*.login-container > .login-form-container > .login-form-img-container > img {*/
-/*    width: 40vw;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
-/*.login-container > .login-form-container > form {*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*    !*align-items: center;*!*/
-/*    !*margin-left: 2em ;*!*/
-/*    width: 100%;*/
-/*}*/
-/*.login-container > .login-form-container > form > h1 {*/
-/*    color: var(--orange);*/
-/*    text-align: center;*/
-/*}*/
-/*.login-container > .login-form-container > form > label{*/
-/*    margin-top: 2em;*/
-/*    color: white;*/
-/*}*/
-/*.login-container > .login-form-container > form > input {*/
-/*    width: 20em;*/
-/*    height: 2em;*/
-/*}*/
-/*.login-container > .login-form-container > form > input:active {*/
-/*    color: #f45702;*/
-/*}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');*/
-
-/** {*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-/*body {*/
-/*    background: #f6f5f7;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    flex-direction: column;*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*    height: 100vh;*/
-/*    margin: -20px 0 50px;*/
-/*}*/
-
-
 .authentication-container{
     display: flex;
     justify-content: center;
     margin-top: 10%;
 }
+
+/* Styling for the header inside form containers */
 .form-container > form > h1 {
     font-size: 2em;
     font-weight: bold;
@@ -334,4 +229,15 @@
     margin: 0 5px;
     height: 40px;
     width: 40px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
 }

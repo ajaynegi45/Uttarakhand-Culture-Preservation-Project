@@ -1,0 +1,39 @@
+.utensils-container > .utensils-header-container > .utensils-img-container > img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1200/468;
+    object-fit: cover;
+    margin-bottom: 1em;
+
+    -webkit-mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0));
+}
+
+.explore-uttarakhand{
+    text-align: center;
+    color: #FF9800;
+    font-size: 40px;
+    margin-top: 2em;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 480px) {
+    .explore-uttarakhand{
+        font-size: 30px;
+    }
+}
+
+
+/* Card */
+.utensils-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 1em;
+    margin: 0 1em 0 1em;
+}
+@media only screen and (max-width: 450px) {
+    .utensils-list{
+        margin: 0 2px 0 2px;
+        gap: 3px;
+    }
+}

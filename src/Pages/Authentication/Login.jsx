@@ -122,8 +122,6 @@ const SignInSignUpForm = () => {
 
                 </div>
             </div>
-
-
         </div>
       </section>
     );

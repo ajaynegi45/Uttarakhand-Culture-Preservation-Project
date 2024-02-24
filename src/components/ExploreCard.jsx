@@ -157,11 +157,27 @@ function ExploreCard() {
                 <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"/community"} className="explore-card-link">
                         <div className="explore-card-image-container">
-                            <img src={`https://uttarakhandjournal.com/wp-content/uploads/2022/08/Raji-Tribe-of-Uttarakhand.png`} alt="Community Image"
-                                 className="explore-card-image" loading="lazy" decoding="async"/>
+                            <img
+                                src={`https://uttarakhandjournal.com/wp-content/uploads/2022/08/Raji-Tribe-of-Uttarakhand.png`}
+                                alt="Community Image"
+                                className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
                             <p className="explore-card-text">Community</p>
+                        </div>
+                    </Link>
+                </div>
+
+                <div id="explore-card" className="explore-card explore-card-animation">
+                    <Link to={"/utensils"} className="explore-card-link">
+                        <div className="explore-card-image-container">
+                            <img
+                                src={`https://m.media-amazon.com/images/I/4114rFrP0xL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg`}
+                                alt="Utensils Image"
+                                className="explore-card-image" loading="lazy" decoding="async"/>
+                        </div>
+                        <div className="explore-card-text-container">
+                            <p className="explore-card-text">Utensils</p>
                         </div>
                     </Link>
                 </div>

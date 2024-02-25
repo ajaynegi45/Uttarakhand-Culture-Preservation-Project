@@ -34,7 +34,7 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: -17px 1em 5em 1em;
+    margin: -17px 0em 5em 0em;
     justify-content: space-evenly;
     align-content: flex-start;
     gap : 2em
@@ -63,10 +63,18 @@ footer{
 .footer-content > ul > li > a:hover{
     color: #B80000;
 }
+
+.footer-icon-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2em;
+    margin: 1em 1em 1em 1em;
+}
 .footer-icon{
     width: 40px;
-    margin: 10px 30px 20px 0;
     transition: all .40s ease;
+    /*border: 0.1px solid red;*/
 }
 .footer-icon:hover{
     transform: translateY(-3px) translateX(-5px);
@@ -95,7 +103,7 @@ footer{
         text-align: left;
     }
     .footer-section{
-        margin: -17px 1em 5em 1em;
+        margin: -17px 0em 5em 0em;
     }
     .footer-links{
         gap: 2em;

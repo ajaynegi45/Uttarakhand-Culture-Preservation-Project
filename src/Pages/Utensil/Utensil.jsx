@@ -1,7 +1,6 @@
 import Card from "../../components/Card.jsx";
 import "./utensil.css"
 
-
 function Utensil() {
     return (
         <section className={"utensils-container"}>
@@ -19,14 +18,8 @@ function Utensil() {
             <h1 className="explore-uttarakhand">Explore Uttarakhand Utensils</h1>
 
             <div className={"utensils-list"}>
-                <Card heading={"Gagar / Gagri"} description={""} link={""} img={""} imgDescription={""}/>
-                <Card heading={"Bhaddu"} description={""} link={""} img={""} imgDescription={""}/>
-                <Card heading={""} description={""} link={""} img={""} imgDescription={""}/>
-                <Card heading={""} description={""} link={""} img={""} imgDescription={""}/>
-                <Card heading={""} description={""} link={""} img={""} imgDescription={""}/>
-                <Card heading={""} description={""} link={""} img={""} imgDescription={""}/>
-                <Card heading={""} description={""} link={""} img={""} imgDescription={""}/>
-                <Card heading={""} description={""} link={""} img={""} imgDescription={""}/>
+                <Card   heading={"Gagar / Gagri"}     description={""} link={""} img={""} imgDescription={""}/>
+                <Card   heading={"Bhaddu"}            description={""} link={""} img={""} imgDescription={""}/>
             </div>
         </section>
     );

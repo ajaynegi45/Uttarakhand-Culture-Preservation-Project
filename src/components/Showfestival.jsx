@@ -26,7 +26,7 @@ function Showfestival() {
             setFestivalDescription("During the time of Makar Sankranti, Ghughutiya or Kale Kauva is also celebrated in Uttarakhand. The locals prepare sweets made from deep-fried flour in different shapes like knives, swords, etc. The locals welcome them by feeding the crows and migratory birds and hope that they come back next year. The children also sing songs to attract these migratory birds.");
             setFestivalDate("Date: 14 January 2024");
         }
-        else if ((currentDate >= 15 || currentMonth >= 2) && (currentDate <= 9 || currentMonth <= 4)) {
+        else if ((currentDate >= 15 && currentMonth >= 2) && (currentDate <= 15 && currentMonth <= 3)) {
             setFestival("Phool Dei");
 
             setFestivalDescription(
@@ -37,9 +37,9 @@ function Showfestival() {
                 "Young girls are an integral part of this festival of Uttarakhand. They go from house to house, singing the folk song of 'Phool Dei' with jaggery, rice, and coconut offering. It is believed that they bless the homes by placing flowers and rice on the doorsteps. In return, the young girls are offered sweets and blessings for their act."
             );
 
-            setFestivalDate("Date: 9 April 2024");
+            setFestivalDate("Date: 15 March 2024");
         }
-        else if ((currentDate >= 10 || currentMonth >= 4) && (currentDate <= 30 || currentMonth <= 4)) {
+        else if ((currentDate >= 16 && currentMonth >= 3) && (currentDate <= 30 && currentMonth <= 4)) {
             setFestival("Syalde Bikauti Mela");
             setFestivalDescription("Syalde Bikhauti Mela is an annual fair held in April-May in the town of Dwarahat (Almora). The Syalde Bikhauti Mela is held in two phases; the first in the Vimandeshwar Temple and the other in the Dwarahat marketplace. During the mela, one can witness folk dances and songs with traditional foliage being adorned by the gathered people. An important ritual, 'Oda Bhetna' refers to the striking of the stone (Oda).\n" +
                 "\n" +
@@ -47,7 +47,7 @@ function Showfestival() {
 
             setFestivalDate("Date: April each year ");
         }
-        else if ((currentDate >= 1 || currentMonth >= 5) && (currentDate <= 14 || currentMonth <= 4)) {
+        else if ((currentDate >= 1 && currentMonth >= 5) && (currentDate <= 14 && currentMonth <= 4)) {
             setFestival("Harela");
             setFestivalDescription("Among the people of Uttarakhand, every season has some festivals, and each festival is celebrated appropriately. Harela is a festival that marks the beginning of the rainy season or monsoon. The people belonging to the Kumaon community celebrate this festival during the month of Shravana, i.e., July-August. Mythologically, this festival commemorates the wedding of Lord Shiva and Parvati. People make small idols or dikars of gods like Maheshwar, Ganesh.\n" +
                 "\n" +
@@ -56,13 +56,13 @@ function Showfestival() {
 
             setFestivalDate("Date: 16 July 2024");
         }
-        else if ((currentDate >= 17 || currentMonth >= 7) && (currentDate <= 16 || currentMonth <= 8)) {
+        else if ((currentDate >= 17 && currentMonth >= 7) && (currentDate <= 16 && currentMonth <= 8)) {
             setFestival("Ghee Sankranti");
             setFestivalDescription("Ghee Sankranti is a festival that portrays the gratitude of the locals who earn a living via the occupation of farming by marking the onset of the harvesting season. It is also known as the 'Olgia' festival and is celebrated on the first day of August (Bhado), a time wherein the crops are thriving, and the milk-laden cattle are ready to be milked. In terms of how the celebration has gradually evolved from over the years, the ancient tradition saw nephews and sons-in-laws give presents to their maternal uncles and fathers-in-laws respectively. However, today's context is summarised by the fact that agriculturists and artisans give presents to their landowners. Common presents that are exchanged include axes, ghee, datkhocha (metallic toothpick) and firewood. An important ritual of this festival includes that of eating ghee and chapatis stuffed with urad dal!");
 
             setFestivalDate("Date: 16 August 2024");
         }
-        else if ((currentDate >= 17 || currentMonth >= 8) && (currentDate <= 16 || currentMonth <= 9)) {
+        else if ((currentDate >= 17 && currentMonth >= 8) && (currentDate <= 16 && currentMonth <= 9)) {
             setFestival("Nanda Devi Raj Jat Yatra");
             setFestivalDescription("Also known as the 'Himalayan Mahakumbh', this festival of Uttarakhand marks commemoration to Goddess Nanda Devi wherein devotees from both the Garhwal and Kumaon regions come together to be a part of the sacred yatra. Held for three weeks and being organized once every twelve years, the Nanda Devi Raj Jat Yatra which spans over 280 km takes almost 22 days to complete. During this yatra, all sections of the society take part- dalits play drums, thakurs blow bhankauras, and brahmins take care of ceremonial parasols.\n" +
 
@@ -72,13 +72,13 @@ function Showfestival() {
 
             setFestivalDate("Date: August to September");
         }
-        else if ((currentDate >= 17 || currentMonth >= 8) && (currentDate <= 11 || currentMonth <= 11)) {
+        else if ((currentDate >= 17 && currentMonth >= 8) && (currentDate <= 11 && currentMonth <= 11)) {
             setFestival("Egaas");
             setFestivalDescription("People of Uttarakhand believe that Lord Rama returned from his exile 11 days late to the upper hilly regions, which is why they celebrate Egaas, 11 days after Diwali, by cooking various delicacies, performing folk dances and lighting up their homes. People even celebrate by spinning a rope called \"Bhailo\" with a fire lit at one end.");
 
             setFestivalDate("Date: 11 November 2024");
         }
-        else if (currentDate <= 12 || currentMonth <= 11) {
+        else if (currentDate <= 12 && currentMonth <= 11) {
             setFestival("Bagwal Fair");
             setFestivalDescription("Bagwal Fair in Uttarakhand is celebrated along with Raksha Bandhan every year. Prayers are offered to Goddess Varahi, and prasad is distributed. A very famous ritual that takes place is that people throw stones at each other and the ritual ends when the head priest signals to stop. Devotees from all the neighbouring regions come to witness this fair. ");
 

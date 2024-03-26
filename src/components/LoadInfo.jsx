@@ -13,7 +13,7 @@ function LoadInfo() {
             setTimeout(() => {
                 setLoad(true);
                 localStorage.setItem("hasVisitedBefore", true);
-            }, 3000);
+            }, 5000);
         }
     }, []);
 

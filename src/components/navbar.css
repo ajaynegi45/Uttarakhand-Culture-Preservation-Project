@@ -10,7 +10,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 100;
     background-color: hsla(147, 17%, 46%, 0.65);
 
 

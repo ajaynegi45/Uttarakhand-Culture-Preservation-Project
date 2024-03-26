@@ -13,7 +13,7 @@ function LoadInfo() {
             setTimeout(() => {
                 setLoad(true);
                 localStorage.setItem("hasVisitedBefore", true);
-            }, 2000);
+            }, 3000);
         }
     }, []);
 
@@ -26,13 +26,16 @@ function LoadInfo() {
     };
 
     return isVisible ? (
+        <>
+            <div className={"background"} style={style}></div>
             <div className="load-info-container" style={style}>
-                <div>
+                <div className={"information-div"} >
                     <h3>Welcome to Uttarakhand Culture</h3>
                     <p>If you encounter any inaccuracies or discrepancies in our content, please don't hesitate to contact us through our <Link to={"/contact"}>contact form</Link>. Your valuable feedback will help us in updating and enhancing our information. We appreciate your understanding and support.</p>
                     <button onClick={handleClose}>Close</button>
                 </div>
             </div>
+        </>
     ) : null;
 }
 

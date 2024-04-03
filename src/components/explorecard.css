@@ -79,7 +79,23 @@
     color: var(--red);
     font-size: 1.2em;
     font-weight: bold;
+    /*border: 1px solid red;*/
 }
+
+/*.explore-card-text::after{*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    width: 0;*/
+/*    height: 0.175rem;*/
+/*    left: 0;*/
+/*    bottom: 10px;*/
+/*    background-color: #f45702;*/
+/*    transition: 3.2s;*/
+/*}*/
+
+/*.explore-card-text:hover:after {*/
+/*    width: 100%;*/
+/*}*/
 
 .explore-card:hover > a > .explore-card-text-container > .explore-card-text{
     transition: all .45s ease-in-out;

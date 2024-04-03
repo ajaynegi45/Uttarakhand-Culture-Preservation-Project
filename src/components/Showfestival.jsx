@@ -6,20 +6,13 @@ function Showfestival() {
     const currentDate = new Date().getDate() ;
     const currentMonth = new Date().getMonth() + 1 ;
 
-    // let festival;
-    // let festivalDescription;
-
-
     const [festival, setFestival] = useState("");
     const [festivalDescription, setFestivalDescription] = useState("");
     const [festivalDate, setFestivalDate] = useState("");
 
     useEffect(() => {
-        // const currentDate = 2;
-        // const currentMonth = 1;
-
-        // console.log(currentDate);
-        // console.log(currentMonth);
+        console.log(currentDate);
+        console.log(currentMonth);
 
         if ((currentDate >= 14 && currentMonth >= 1) && ( currentMonth <= 1 && currentDate <= 14)) {
             setFestival("Ghughutiya");
@@ -39,7 +32,7 @@ function Showfestival() {
 
             setFestivalDate("Date: 15 March 2024");
         }
-        else if ((currentDate >= 16 && currentMonth >= 3) && (currentDate <= 30 && currentMonth <= 4)) {
+        else if ((currentDate >= 16 && currentMonth >= 3) || ( currentMonth <= 4 && currentDate <= 30)) {
             setFestival("Syalde Bikauti Mela");
             setFestivalDescription("Syalde Bikhauti Mela is an annual fair held in April-May in the town of Dwarahat (Almora). The Syalde Bikhauti Mela is held in two phases; the first in the Vimandeshwar Temple and the other in the Dwarahat marketplace. During the mela, one can witness folk dances and songs with traditional foliage being adorned by the gathered people. An important ritual, 'Oda Bhetna' refers to the striking of the stone (Oda).\n" +
                 "\n" +
@@ -47,7 +40,7 @@ function Showfestival() {
 
             setFestivalDate("Date: April each year ");
         }
-        else if ((currentDate >= 1 && currentMonth >= 5) && (currentDate <= 14 && currentMonth <= 4)) {
+        else if ((currentDate >= 1 && currentMonth >= 5) || (currentDate <= 14 && currentMonth <= 4)) {
             setFestival("Harela");
             setFestivalDescription("Among the people of Uttarakhand, every season has some festivals, and each festival is celebrated appropriately. Harela is a festival that marks the beginning of the rainy season or monsoon. The people belonging to the Kumaon community celebrate this festival during the month of Shravana, i.e., July-August. Mythologically, this festival commemorates the wedding of Lord Shiva and Parvati. People make small idols or dikars of gods like Maheshwar, Ganesh.\n" +
                 "\n" +

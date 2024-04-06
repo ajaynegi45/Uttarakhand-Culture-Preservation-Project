@@ -1,5 +1,6 @@
 import Card from "../../components/Card.jsx";
 import "./utensil.css"
+import UtensilImage from "../../assets/Utensils/DSC03013.jpg"
 
 function Utensil() {
     return (
@@ -7,7 +8,7 @@ function Utensil() {
 
             <div className={"utensils-header-container"}>
                 <div className={"utensils-img-container"}>
-                    <img src="https://rah-geer.com/wp-content/uploads/2018/01/DSC03013.jpg" alt="Utensil Image" />
+                    <img src={UtensilImage} alt="Utensil Image"/>
                 </div>
 
                 <div className={"utensils-description-container"}>

@@ -1,6 +1,6 @@
 import "./temple.css";
 import Card from "../../components/Card.jsx";
-import Badrinath from "../../assets/Temple/badrinath.webp";
+import Badrinath from "../../assets/Temple/badrinath.jpeg";
 import Tungnath from "../../assets/Temple/Tungnath.png";
 import LakshmanSiddh from "../../assets/Temple/lakshmansiddh.png";
 import KalpeshwarMahadev from "../../assets/Temple/KalpeshwarMahadev.png";
@@ -8,7 +8,7 @@ function Temple() {
     return (
         <div className={"temple-container"}>
             <div className={"temple-banner"}>
-                <img src={Badrinath} alt="badrinath.webp"/>
+                <img src={Badrinath} alt="badrinath Temple Image"/>
             </div>
 
             <div className={"temple-description"}>

@@ -17,7 +17,7 @@ function Dance() {
             <div className={"dance-list"}>
                 <Card heading={"Jhoda"} description={"Participants form circles, with a lead singer in the center playing the Hudki drum. The dance follows rhythmic beats set by the \"Hurka\" player."} link={"jhoda"} img={DanceImage} imgDescription={"Jhoda Image"}/>
 
-                <Card heading={"Choliya"} description={""} link={"choliya"} img={""} imgDescription={"Choliya Image"}/>
+                <Card heading={"Choliya"} description={"Also known as Chhaliya or Hudkeli, is a sword dance typically showcased during weddings and other festive gatherings."} link={"choliya"} img={"https://kafaltree.com/wp-content/uploads/2021/05/Choliya-Uttarakhand-Folk-Dance-1280x720.jpg"} imgDescription={"Choliya Image"}/>
 
             </div>
 

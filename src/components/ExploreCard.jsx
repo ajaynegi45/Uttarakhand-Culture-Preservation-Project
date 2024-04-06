@@ -177,7 +177,7 @@ function ExploreCard() {
                                 className="explore-card-image" loading="lazy" decoding="async"/>
                         </div>
                         <div className="explore-card-text-container">
-                            <p className="explore-card-text">Utensils</p>
+                            <p className="explore-card-text">Tools-Utensils</p>
                         </div>
                     </Link>
                 </div>

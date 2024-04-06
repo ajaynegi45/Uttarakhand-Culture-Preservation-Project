@@ -3,13 +3,13 @@
     mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
     overflow: clip;
 }
-.footer-image-container > img{
+.footer-image-container > picture > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 @media only screen and (min-width: 925px) {
-    .footer-image-container > .footer-image {
+    .footer-image-container > picture > .footer-image {
         animation: slide-ou 5s linear forwards; /* Corrected animation declaration */
         animation-timeline: view();
     }

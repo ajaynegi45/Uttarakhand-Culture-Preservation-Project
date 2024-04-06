@@ -1,5 +1,6 @@
 import "./footer.css";
 import forest from "../assets/forest.svg";
+import forestMin from "../assets/forest.webp";
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
 function Footer() {
@@ -19,8 +20,16 @@ function Footer() {
     return (
         <footer>
             <div className={"footer-image-container"}>
-                <img id={"footer-image"} className={"footer-image"} src={forest} alt="forest" loading="lazy"
-                     decoding="async"/>
+
+                <picture>
+                    <source media="(max-width: 500px)" srcSet={forestMin}/>
+                    <img id={"footer-image"} className={"footer-image"}
+                        src={forest}
+                        alt={"Forest Image"} loading="lazy"
+                         decoding="async"
+                    />
+                </picture>
+
             </div>
             <div className={"footer-section"}>
                 <div className={"footer-content"}>
@@ -67,7 +76,7 @@ function Footer() {
                                                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
                                                 alt="Chevron forward icon" className={"Chevron"}/>Traditional
                             Dress</Link></li>
-                        <li><Link to={"#"}><img loading="lazy" decoding="async"
+                        <li><Link to={"dance"}><img loading="lazy" decoding="async"
                                                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
                                                 alt="Chevron forward icon" className={"Chevron"}/>Dance</Link>
                         </li>

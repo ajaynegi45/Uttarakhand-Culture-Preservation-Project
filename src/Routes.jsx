@@ -18,6 +18,8 @@ const Temple = lazy(()=> import("./Pages/Temple/Temple.jsx"));
 
 const Jewellery = lazy(() => import('./Pages/Jewellery/Jewellery.jsx'));
 
+const Dance = lazy(() => import('./Pages/Dance/Dance.jsx'));
+
 const Community = lazy(() => import('./Pages/Community/Community.jsx'));
 
 const Utensil = lazy(() => import("./Pages/Utensil/Utensil.jsx"));
@@ -28,7 +30,7 @@ const About = lazy(() => import("./Pages/About.jsx"));
 const Contribution = lazy(() => import("./Pages/Contribution.jsx"));
 const Map = lazy(() => import("./Pages/Map.jsx"));
 const Contributor = lazy(() => import("./Pages/Contributor.jsx"));
-const Login = lazy(() => import("./Pages/Authentication/Login.jsx"));
+const Login = lazy(() => import("./Pages/Authentication/Authentication.jsx"));
 
 
 const UnderWorkingPage = lazy(() => import("./components/UnderWorkingPage.jsx"));
@@ -64,7 +66,8 @@ const router = createBrowserRouter(
             <Route path='music' element={<UnderWorkingPage />} />
 
             {/* Dance */}
-            <Route path='dance' element={<UnderWorkingPage />} />
+            <Route path='dance' element={<Dance />} />
+            <Route path='dance/*' element={<UnderWorkingPage />} />
 
             {/* architecture */}
             <Route path='architecture' element={<UnderWorkingPage />} />

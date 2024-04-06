@@ -1,5 +1,5 @@
 import {useRef, useState} from 'react';
-import "./login.css"
+import "./authentication.css"
 import {Link} from "react-router-dom";
 
 const SignInSignUpForm = () => {
@@ -40,7 +40,7 @@ const SignInSignUpForm = () => {
                 signUpNameRef.current.value = "";
                 signUpEmailRef.current.value = "";
                 signUpPasswordRef.current.value = "";
-                alert("Thank you for contacting us❤️\nYour message has been successfully submitted!");
+                alert("You are successfully register ✔️");
             }
             else {
                 alert("Failed to submit the form. Please try again later.");

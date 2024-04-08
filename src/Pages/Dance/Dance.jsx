@@ -25,11 +25,11 @@ function Dance() {
 
                 <Card heading={"Mukhota dance"} description={""} link={""} img={""} imgDescription={"Mukhota Dance Image"}/>
 
-                <Card heading={"Chanchari"} description={"Famous in the Danpur Patti of Bageshwar District"} link={""} img={""} imgDescription={"Image"}/>
+                <Card heading={"Chanchari"} description={"Famous in the Danpur Patti of Bageshwar District"} link={""} img={""} imgDescription={"Chanchari Image"}/>
 
-                <Card heading={"Ramola"} description={"Ramola is a popular dance form in the state and is mainly performed as worship to Lord Krishna"} link={""} img={""} imgDescription={"Image"}/>
+                <Card heading={"Ramola"} description={"Ramola is a popular dance form in the state and is mainly performed as worship to Lord Krishna"} link={""} img={""} imgDescription={"Ramola Image"}/>
 
-                <Card heading={"Jagar"} description={"Jagar is a particular dance form which falls in the spiritual category of worship"} link={""} img={""} imgDescription={"Image"}/>
+                <Card heading={"Jagar"} description={"Jagar is a particular dance form which falls in the spiritual category of worship"} link={""} img={""} imgDescription={"Jagar Image"}/>
 
                 <Card heading={"Jhumela"} description={""} link={""} img={""} imgDescription={"Jhumela Image"}/>
 

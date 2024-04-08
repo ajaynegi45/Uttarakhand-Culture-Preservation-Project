@@ -20,6 +20,8 @@ const Jewellery = lazy(() => import('./Pages/Jewellery/Jewellery.jsx'));
 
 const Dance = lazy(() => import('./Pages/Dance/Dance.jsx'));
 
+const Architecture = lazy(() => import('./Pages/Architecture/Architecture.jsx'));
+
 const Community = lazy(() => import('./Pages/Community/Community.jsx'));
 
 const Utensil = lazy(() => import("./Pages/Utensil/Utensil.jsx"));
@@ -70,7 +72,7 @@ const router = createBrowserRouter(
             <Route path='dance/*' element={<UnderWorkingPage />} />
 
             {/* architecture */}
-            <Route path='architecture' element={<UnderWorkingPage />} />
+            <Route path='architecture' element={<Architecture />} />
 
             {/* Dress */}
             <Route path='dress' element={<UnderWorkingPage />} />

@@ -2,6 +2,7 @@ import {lazy,Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import {Route,RouterProvider,createBrowserRouter,createRoutesFromElements} from 'react-router-dom';
 import './index.css';
+import Dress from "./Pages/Dress/Dress.jsx";
 console.log("Routes.jsx");
 
 
@@ -11,19 +12,14 @@ const App = lazy(() => import('./App.jsx'));
 const Language = lazy(() => import('./Pages/Language/Language.jsx'));
 const Kumaoni = lazy(() => import('./Pages/Language/Kumaoni.jsx'));
 const Garhwali = lazy(() => import('./Pages/Language/Garhwali.jsx'));
-
 const Food = lazy(()=> import("./Pages/Food/Food.jsx"));
-
 const Temple = lazy(()=> import("./Pages/Temple/Temple.jsx"));
-
 const Jewellery = lazy(() => import('./Pages/Jewellery/Jewellery.jsx'));
-
+const Art = lazy(() => import('./Pages/Art/Art.jsx'));
 const Dance = lazy(() => import('./Pages/Dance/Dance.jsx'));
-
+const Music = lazy(() => import('./Pages/Music/Music.jsx'));
 const Architecture = lazy(() => import('./Pages/Architecture/Architecture.jsx'));
-
 const Community = lazy(() => import('./Pages/Community/Community.jsx'));
-
 const Utensil = lazy(() => import("./Pages/Utensil/Utensil.jsx"));
 
 
@@ -62,10 +58,12 @@ const router = createBrowserRouter(
             <Route path='jewellery/*' element={<UnderWorkingPage />} />
 
             {/* Art */}
-            <Route path='art' element={<UnderWorkingPage />} />
+            <Route path='art' element={<Art />} />
+            <Route path='art/*' element={<UnderWorkingPage />} />
 
             {/* Music */}
-            <Route path='music' element={<UnderWorkingPage />} />
+            <Route path='music' element={<Music />} />
+            <Route path='music/*' element={<UnderWorkingPage />} />
 
             {/* Dance */}
             <Route path='dance' element={<Dance />} />
@@ -73,18 +71,24 @@ const router = createBrowserRouter(
 
             {/* architecture */}
             <Route path='architecture' element={<Architecture />} />
+            <Route path='architecture/*' element={<UnderWorkingPage />} />
 
             {/* Dress */}
-            <Route path='dress' element={<UnderWorkingPage />} />
+            <Route path='dress' element={<Dress />} />
+            <Route path='dress/*' element={<UnderWorkingPage />} />
 
             {/* Festival */}
             <Route path='festival/*' element={<UnderWorkingPage />} />
 
             {/* Community */}
             <Route path='community' element={<Community />} />
+            <Route path='community/*' element={<UnderWorkingPage />} />
+
 
             {/* Community */}
             <Route path='utensils' element={<Utensil />} />
+            <Route path='utensils/*' element={<UnderWorkingPage />} />
+
 
             {/* Useful Links */}
             <Route path='/login' element={<Login />} />

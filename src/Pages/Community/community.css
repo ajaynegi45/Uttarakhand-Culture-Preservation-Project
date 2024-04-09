@@ -1,13 +1,12 @@
 .community-header{
     width: 100%;
     height: auto;
-    aspect-ratio: 1200/468;
+    /*aspect-ratio: 1200/468;*/
     object-fit: cover;
     margin-bottom: 1em;
 }
 .community-header > img {
     width: 100%;
-
     -webkit-mask-image: linear-gradient(to bottom, #000000 40%, rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to bottom, #000000 40%, rgba(0, 0, 0, 0));
 }
@@ -18,7 +17,7 @@
     text-align: center;
     color: #FF9800;
     font-size: 40px;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 30px;
 }
 @media only screen and (max-width: 800px) {

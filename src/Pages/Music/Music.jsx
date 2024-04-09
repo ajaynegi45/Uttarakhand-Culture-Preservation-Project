@@ -12,7 +12,7 @@ function Music() {
 
             <div className={""}></div>
 
-            <h1 className="explore-uttarakhand-title">Explore Uttarakhand Jewellery</h1>
+            <h1 className="explore-uttarakhand-title">Explore Musical Instruments</h1>
             <div className={"music-list"}>
                 <Card heading={""} description={""} link={"dd"} img={""} imgDescription={" Image"}/>
             </div>

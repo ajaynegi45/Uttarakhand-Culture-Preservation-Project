@@ -75,12 +75,23 @@ function Showfestival() {
 
         // April
         else if (currentMonth === 4) {
-            setFestival("Syalde Bikauti Mela");
-            setFestivalDescription("Syalde Bikhauti Mela is an annual fair held in April-May in the town of Dwarahat (Almora). The Syalde Bikhauti Mela is held in two phases; the first in the Vimandeshwar Temple and the other in the Dwarahat marketplace. During the mela, one can witness folk dances and songs with traditional foliage being adorned by the gathered people. An important ritual, 'Oda Bhetna' refers to the striking of the stone (Oda).\n" +
+            if(currentDate >= 1 && currentDate <= 15){
+                setFestival("Syalde Bikauti Mela");
+                setFestivalDescription("Syalde Bikhauti Mela is an annual fair held in April-May in the town of Dwarahat (Almora). The Syalde Bikhauti Mela is held in two phases; the first in the Vimandeshwar Temple and the other in the Dwarahat marketplace. During the mela, one can witness folk dances and songs with traditional foliage being adorned by the gathered people. An important ritual, 'Oda Bhetna' refers to the striking of the stone (Oda).\n" +
                     "\n" +
                     "As per legend, the ancient times saw people worship their deity in a temple nearby and due to some friction between the followers of the two groups, a brawl broke out that lead to bloodshed. The leader of the group that lost the fight was beheaded and a stone (Oda) was placed near it to commemorate the fallen leader. The numerous traditions on display and the lip-smacking Indian delicacy of 'Jalebi' being an integral part of the fair, the Syalde Bikhauti Mela is one of cultural convergence.");
 
-            setFestivalDate("Date: April month each year ");
+                setFestivalDate("Date: April month each year ");
+            }else {
+                setFestival("Harela");
+                setFestivalDescription("Among the people of Uttarakhand, every season has some festivals, and each festival is celebrated appropriately. Harela is a festival that marks the beginning of the rainy season or monsoon. The people belonging to the Kumaon community celebrate this festival during the month of Shravana, i.e., July-August. Mythologically, this festival commemorates the wedding of Lord Shiva and Parvati. People make small idols or dikars of gods like Maheshwar, Ganesh.\n" +
+                    "\n" +
+                    "This festival is followed by Bhitauli, which is celebrated in the month of Chaitra, i.e., March - April. It revolves around agriculture where women sow seeds in the soil and by the end of the festival they reap the harvest which is called harela. This allows them to test the quality of their seeds. During this festival, brothers also provide gifts for their sisters.\n" +
+                    "\n");
+
+                setFestivalDate("Date: 16 July 2024");
+            }
+
         }
 
         // May

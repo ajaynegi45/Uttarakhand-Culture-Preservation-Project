@@ -5,15 +5,15 @@ import languageMap from '../../assets/Language/languageMap.png';
 import kumaoni from '../../assets/Language/Kumaoni.webp';
 import Garhwali from '../../assets/Language/Garhwali.webp';
 import Jaunsari from '../../assets/Language/Jaunsari.webp';
-import Rwalty from '../../assets/Language/Rwalty.webp';
-import Jaunpuri from '../../assets/Language/Jaunpuri.webp';
-import Bangani from '../../assets/Language/Bangani.webp';
-import Buksani from '../../assets/Language/Buksani.webp';
-import Marchha from '../../assets/Language/Marchha.webp';
-import Johari from '../../assets/Language/Johari.webp';
-import Tharu from '../../assets/Language/Tharu.webp';
-import Rad from '../../assets/Language/Rad.webp';
-import Raji from '../../assets/Language/Raji.webp';
+// import Rwalty from '../../assets/Language/Rwalty.webp';
+// import Jaunpuri from '../../assets/Language/Jaunpuri.webp';
+// import Bangani from '../../assets/Language/Bangani.webp';
+// import Buksani from '../../assets/Language/Buksani.webp';
+// import Marchha from '../../assets/Language/Marchha.webp';
+// import Johari from '../../assets/Language/Johari.webp';
+// import Tharu from '../../assets/Language/Tharu.webp';
+// import Rad from '../../assets/Language/Rad.webp';
+// import Raji from '../../assets/Language/Raji.webp';
 function Language() {
     return (
         <section>

@@ -3,17 +3,17 @@ import {Link} from "react-router-dom";
 import aipanArt from '../assets/App/aipanart.webp';
 import Linguistic from '../assets/Language/Linguistic.webp';
 import Food1 from '../assets/App/foodUk.webp';
-import Temple from '../assets/App/Temple.webp';
+// import Temple from '../assets/App/Temple.webp';
 import Dance from '../assets/App/dress.webp';
-import Dress from '../assets/App/dressArt.webp';
+// import Dress from '../assets/App/dressArt.webp';
 import Dhol from '../assets/App/Dhol.webp';
 import Architecture from '../assets/App/Architecture.webp';
 import {useEffect} from "react";
-import Jewellery from "../assets/App/Jewellery.jpeg"
+// import Jewellery from "../assets/App/Jewellery.jpeg"
 function ExploreCard() {
-    function showAlert() {
-        alert("We are currently working on it. You can come back after a few days to check.\nCurrently, only the Language card is live, you can check it out. \n\nThank you for your patience! ❤️");
-    }
+    // function showAlert() {
+    //     alert("We are currently working on it. You can come back after a few days to check.\nCurrently, only the Language card is live, you can check it out. \n\nThank you for your patience! ❤️");
+    // }
 
     useEffect(() => {
         function isSafari() {
@@ -103,17 +103,17 @@ function ExploreCard() {
                 </div>
 
 
-                <div id="explore-card" className="explore-card explore-card-animation not-active-card">
-                    <Link to={"/dress"} className="explore-card-link">
-                        <div className="explore-card-image-container">
-                            <img src={`${Dress}`} alt="Dress Image"
-                                 className="explore-card-image" loading="lazy" decoding="async"/>
-                        </div>
-                        <div className="explore-card-text-container">
-                            <p className="explore-card-text">Traditional Dresses</p>
-                        </div>
-                    </Link>
-                </div>
+                {/*<div id="explore-card" className="explore-card explore-card-animation not-active-card">*/}
+                {/*    <Link to={"/dress"} className="explore-card-link">*/}
+                {/*        <div className="explore-card-image-container">*/}
+                {/*            <img src={`${Dress}`} alt="Dress Image"*/}
+                {/*                 className="explore-card-image" loading="lazy" decoding="async"/>*/}
+                {/*        </div>*/}
+                {/*        <div className="explore-card-text-container">*/}
+                {/*            <p className="explore-card-text">Traditional Dresses</p>*/}
+                {/*        </div>*/}
+                {/*    </Link>*/}
+                {/*</div>*/}
 
 
                 <div id="explore-card" className="explore-card explore-card-animation">
@@ -154,19 +154,19 @@ function ExploreCard() {
                     </Link>
                 </div>
 
-                <div id="explore-card" className="explore-card explore-card-animation">
-                    <Link to={"/community"} className="explore-card-link">
-                        <div className="explore-card-image-container">
-                            <img
-                                src={`https://uttarakhandjournal.com/wp-content/uploads/2022/08/Raji-Tribe-of-Uttarakhand.png`}
-                                alt="Community Image"
-                                className="explore-card-image" loading="lazy" decoding="async"/>
-                        </div>
-                        <div className="explore-card-text-container">
-                            <p className="explore-card-text">Community</p>
-                        </div>
-                    </Link>
-                </div>
+                {/*<div id="explore-card" className="explore-card explore-card-animation">*/}
+                {/*    <Link to={"/community"} className="explore-card-link">*/}
+                {/*        <div className="explore-card-image-container">*/}
+                {/*            <img*/}
+                {/*                src={`https://uttarakhandjournal.com/wp-content/uploads/2022/08/Raji-Tribe-of-Uttarakhand.png`}*/}
+                {/*                alt="Community Image"*/}
+                {/*                className="explore-card-image" loading="lazy" decoding="async"/>*/}
+                {/*        </div>*/}
+                {/*        <div className="explore-card-text-container">*/}
+                {/*            <p className="explore-card-text">Community</p>*/}
+                {/*        </div>*/}
+                {/*    </Link>*/}
+                {/*</div>*/}
 
                 <div id="explore-card" className="explore-card explore-card-animation">
                     <Link to={"/utensils"} className="explore-card-link">

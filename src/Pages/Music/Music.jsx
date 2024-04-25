@@ -14,7 +14,7 @@ function Music() {
 
             <h1 className="explore-uttarakhand-title">Explore Musical Instruments</h1>
             <div className={"music-list"}>
-                <Card heading={""} description={""} link={"dd"} img={""} imgDescription={" Image"}/>
+                <Card heading={"Dhol & Damoun"} description={""} link={"dd"} img={""} imgDescription={" Image"}/>
             </div>
         </div>
     );

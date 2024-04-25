@@ -13,6 +13,8 @@ const Language = lazy(() => import('./Pages/Language/Language.jsx'));
 const Kumaoni = lazy(() => import('./Pages/Language/Kumaoni.jsx'));
 const Garhwali = lazy(() => import('./Pages/Language/Garhwali.jsx'));
 const Food = lazy(()=> import("./Pages/Food/Food.jsx"));
+const Chainsoo = lazy(()=> import("./Pages/Food/Chainsoo.jsx"));
+
 const Temple = lazy(()=> import("./Pages/Temple/Temple.jsx"));
 const Jewellery = lazy(() => import('./Pages/Jewellery/Jewellery.jsx'));
 const Art = lazy(() => import('./Pages/Art/Art.jsx'));
@@ -47,6 +49,8 @@ const router = createBrowserRouter(
 
             {/* Food */}
             <Route path='food' element={<Food />} />
+            <Route path='food/chainsoo' element={<Chainsoo />} />
+
             <Route path='food/*' element={<UnderWorkingPage />} />
 
             {/* Temple */}

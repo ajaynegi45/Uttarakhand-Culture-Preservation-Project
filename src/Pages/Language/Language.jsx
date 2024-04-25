@@ -139,6 +139,7 @@ function Language() {
                 {/*    </Link>*/}
                 {/*</div>*/}
 
+
                 {/*<div className="explore-card">*/}
                 {/*    <Link to="/language/garhwali" className="explore-card-link">*/}
                 {/*        <div className="explore-card-image-container">*/}
@@ -150,6 +151,7 @@ function Language() {
                 {/*        </div>*/}
                 {/*    </Link>*/}
                 {/*</div>*/}
+
 
                 {/*<div className="explore-card">*/}
                 {/*    <Link to="/language/garhwali" className="explore-card-link">*/}
@@ -163,6 +165,7 @@ function Language() {
                 {/*    </Link>*/}
                 {/*</div>*/}
 
+
                 {/*<div className="explore-card">*/}
                 {/*    <Link to="/language/garhwali" className="explore-card-link">*/}
                 {/*        <div className="explore-card-image-container">*/}
@@ -174,6 +177,7 @@ function Language() {
                 {/*        </div>*/}
                 {/*    </Link>*/}
                 {/*</div>*/}
+
 
                 {/*<div className="explore-card">*/}
                 {/*    <Link to="/language/garhwali" className="explore-card-link">*/}

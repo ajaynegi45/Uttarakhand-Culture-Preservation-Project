@@ -11,6 +11,8 @@ function Signup() {
 
     console.log("Sign up form render");
 
+    const resolveAfter3Sec = new Promise(resolve => setTimeout(resolve, 3000));
+
     const submitHandler = async (event) => {
         event.preventDefault();
         console.log("submitHandler is invoke");

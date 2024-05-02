@@ -1,4 +1,4 @@
-import {lazy , Suspense} from 'react'
+import React, { lazy , Suspense} from 'react'
 import { Outlet } from 'react-router-dom'
 import LoadInfo from "./components/LoadInfo.jsx";
 // import BuyMeACoffeeWidget from "./components/BuyMeACoffeeWidget.jsx";
@@ -10,7 +10,9 @@ function Layout() {
             <Suspense fallback={<div className={"loading"}> <img src={"/loading.svg"}/> </div>}>
                 <Navbar/>
                 <LoadInfo/>
-                <Outlet />
+                <React.StrictMode>
+                    <Outlet />
+                </React.StrictMode>
                 <Footer/>
                 {/*<BuyMeACoffeeWidget />*/}
             </Suspense>

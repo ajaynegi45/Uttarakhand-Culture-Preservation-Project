@@ -9,12 +9,10 @@ function Signup() {
     const password = useRef("");
     const email = useRef("");
 
-    console.log("Sign up form render");
+    const resolveAfter3Sec = new Promise(resolve => setTimeout(resolve, 3000));
 
     const submitHandler = async (event) => {
         event.preventDefault();
-        console.log("submitHandler is invoke");
-
         const options = {
             method: 'POST',
             headers: {
@@ -30,8 +28,6 @@ function Signup() {
         const response = await fetch("http://localhost:8080/api/v1/registration", options);
         try {
             const responseData = await response.json();
-            console.log("\n\n\n\n\n\n\n\n\n\n Data: ",responseData);
-
             if (response.ok) {
                 toast.promise(
                     resolveAfter3Sec,
@@ -101,6 +97,7 @@ function Signup() {
                     name="firstName"
                     ref={firstName}
                     placeholder="First Name"
+                    required={true}
                 />
 
                 <label htmlFor="lastName"/>
@@ -109,6 +106,7 @@ function Signup() {
                     name="lastName"
                     ref={lastName}
                     placeholder="Last Name"
+                    required={true}
                 />
 
                 <label htmlFor="password"/>
@@ -117,19 +115,20 @@ function Signup() {
                     name="password"
                     ref={password}
                     placeholder="Password"
+                    required={true}
                 />
 
                 <label htmlFor="email"/>
                 <input
-                    type="type"
+                    type="email"
                     name="email"
                     ref={email}
                     placeholder="Email Address"
+                    required={true}
                 />
 
                 <button type="submit">Sign Up</button>
             </form>
-
 
         </section>
     );

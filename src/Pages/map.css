@@ -5,6 +5,7 @@
     text-align: center;
     color: #FF9800;
 }
+
 .uttarakhand-map-container {
     background: white;
     padding: 0;
@@ -23,6 +24,7 @@
     transform: transale3d(0,0,0);
     /* will-change: transform; */
 }
+
 .uttarakhand-map-container > img {
     width: 100%;
     height: auto;

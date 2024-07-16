@@ -149,6 +149,7 @@ function Showfestival() {
             else {
                 setFestival("Nanda Devi Raj Jat Yatra");
                 setFestivalDescription("Also known as the 'Himalayan Mahakumbh', this festival of Uttarakhand marks commemoration to Goddess Nanda Devi wherein devotees from both the Garhwal and Kumaon regions come together to be a part of the sacred yatra. Held for three weeks and being organized once every twelve years, the Nanda Devi Raj Jat Yatra which spans over 280 km takes almost 22 days to complete. During this yatra, all sections of the society take part- dalits play drums, thakurs blow bhankauras, and brahmins take care of ceremonial parasols.\n" +
+
                     "The Nanda Devi Raj Jat Yatra dates are: 1905 (Aug 21 - Sep 4), 1925 (Aug 23 - Sep 6), 1951 (Aug 24 - Sep 7), 1968 (Aug 26 - Sep 9), 1987 (Aug 27 - Sep 10), 2000 (Aug 25 - Sep 8), 2014 (Aug 18 - Sep 6). The upcoming yatra is scheduled for 2026."
                 );
                 setFestivalDate("Date: August to September");

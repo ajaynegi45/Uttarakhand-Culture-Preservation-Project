@@ -8,6 +8,11 @@ Welcome to the Uttarakhand Culture Preservation Project! This project aims to di
 <br/>
 <a href="https://ukculture.netlify.app/" target="_blank">Live link 02</a>
 
+### How to use this website
+<video width="320" height="240" controls>
+  <source src="https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project/blob/main/Howtousethiswebsite.mp4" type="video/mp4">
+</video>
+
 
 ### Problem
 

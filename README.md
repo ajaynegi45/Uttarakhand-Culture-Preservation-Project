@@ -8,20 +8,10 @@ Welcome to the Uttarakhand Culture Preservation Project! This project aims to di
 <br/>
 <a href="https://ukculture.netlify.app/" target="_blank">Live link 02</a>
 
-
-### How to use this website
-
-[![How to use this website](hhttps://github.com/user-attachments/assets/c1dc7a9e-50c9-4844-82dc-5ef51f4bdd79
-)](https://github.com/user-attachments/assets/c1dc7a9e-50c9-4844-82dc-5ef51f4bdd79
-)
-
-
-
 ### Problem
+A concerning trend is emerging in Uttarakhand, where the younger generation is gradually forgetting their cultural heritage and traditional rituals. This decline in cultural knowledge is evident across generations, with each successive generation possessing less knowledge than the previous one. For instance, the amount of cultural knowledge possessed by grandparents is significantly more than that of their children, and the cultural knowledge of today's youth is likely to be even less than that of their parents. If this trend continues, there is a risk that the cultural heritage of Uttarakhand may eventually disappear from the society. This loss would not only erase the region's rich cultural identity but also deprive future generations of their cultural roots and traditions.
 
-As the younger generation in Uttarakhand grows, there is a concerning trend of forgetting their cultural heritage, traditional rituals etc. It's essential to bridge this gap and preserve Uttarakhandi culture for future generations. 
-
-This project aims to create a web platform that educates, celebrates, and safeguards the rich cultural heritage of Uttarakhand.
+To address this problem, we have come up with a solution to digitize this cultural knowledge. Since today's generation is more comfortable with technology, we aim to provide a platform where they can learn about their cultural heritage using their devices, from anywhere in the world. By doing so, we hope to make cultural knowledge more accessible and engaging for the younger generation, and thus help preserve the rich cultural heritage of Uttarakhand.
 
 Here are the features we offer:
 
@@ -77,10 +67,25 @@ Here are the features we offer:
         - Send us an email or create issues on Github with your proposed feature and details. We value your input and will carefully review each submission.
         - If we find your suggestion aligns with our mission to provide valuable and insightful content, we'll gladly incorporate it into our website, giving credit where it's due.
         - Together, we can create a more comprehensive resource that truly reflects the richness of Uttarakhand.
+     
+### How to use this website
+
+[![How to use this website](hhttps://github.com/user-attachments/assets/c1dc7a9e-50c9-4844-82dc-5ef51f4bdd79
+)](https://github.com/user-attachments/assets/c1dc7a9e-50c9-4844-82dc-5ef51f4bdd79
+)
+
+## Your Feedback Matters
+
+If you find any errors or inaccuracies, please let us know through our contact form. We'll update the information and appreciate your help in keeping our content accurate.
+
+You can also support us by contributing content or ideas. Fill out our contact form, and we'll connect with you soon. Your feedback will help us update and enhance our information.
+
 
 ## **How to Contribute to this Project** 👨🏻‍💻
 
-You can be a valuable part of our mission to showcase the rich culture, history, and nature of Uttarakhand. We welcome contributions in both code and non-code forms.
+You can be a valuable part of our mission to showcase the rich culture, history, and nature of Uttarakhand. 
+
+We welcome contributions in both code and non-code forms.
 
 Please take a moment to read the [Contributing.md](https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project/blob/main/contributing.md) file before making any contributions to the project. Your understanding and adherence to these guidelines are greatly appreciated
 

@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Welcome to the Uttarakhand Culture Preservation Project! This project aims to digitally document and celebrate the rich cultural heritage of Uttarakhand. We're dedicated to saving and promoting the culture of Uttarakhand.
+Welcome to the Uttarakhand Culture Preservation Project! We're dedicated to saving and promoting the rich cultural heritage of Uttarakhand. Our platform digitally documents and celebrates the region's culture, history, and natural beauty, making it accessible to the younger generation and preserving it for future generations.
 
 <a href="https://www.uttarakhandculture.co/" target="_blank">Live link 01</a>
 <br/>
@@ -13,60 +13,26 @@ A concerning trend is emerging in Uttarakhand, where the younger generation is g
 
 To address this problem, we have come up with a solution to digitize this cultural knowledge. Since today's generation is more comfortable with technology, we aim to provide a platform where they can learn about their cultural heritage using their devices, from anywhere in the world. By doing so, we hope to make cultural knowledge more accessible and engaging for the younger generation, and thus help preserve the rich cultural heritage of Uttarakhand.
 
-Here are the features we offer:
+Our platform offers a comprehensive journey through Uttarakhand's culture, history, and natural beauty. Discover:
 
-1. **Language**: Learn the native languages of Uttarakhand:
-    - Kumaoni
-    - Garhwali
-    - Jaunsari
-2. **Stories**: Card tales of:
-    - Historical Kings
-    - Famous Personalities
-3. **History of Uttarakhand**: Dive into the historical narratives of:
-    - The region's past
-    - Notable movements
-    - Kedarkhand
-    - Manaskhand
-4. **Temples of Uttarakhand**: Discover the spiritual heritage through:
-    - Temple stories
-    - Legends of deities
-5. **Food**: Delve into the flavors of Uttarakhand with authentic recipes.
-    - Relish the authentic tastes of Uttarakhand with traditional recipes.
-    - Learn to cook like a local.
-6. **Festivals and Fairs**: Celebrate the rich cultural events.
-7. **Event Calendar**: Highlight upcoming cultural events and festivals of Uttarakhand.
-8. **Architectural Wonders**: Discover the Building Marvels
-    - Marvel at the architectural gems that adorn Uttarakhand.
-    - Card the history and significance of these structures.
-9. **Art and Painting**: Appreciate Traditional Art
-    - Dive into the world of traditional art, including the intricate Aipan art.
-    - Learn about the techniques and symbolism behind the art.
-10. **Local Handicrafts and Artisans**: Craftsmanship at its Finest
-    - Appreciate the artistry of local artisans and traditional handicrafts.
-    - Learn about the techniques and cultural significance of these creations.
-11. **Traditional Dresses**: Attire That Tells a Story
-    - Get acquainted with the traditional clothing of Uttarakhand.
-    - Discover the cultural and historical significance of these outfits.
-12. **Music & Dance**: Experience the melodious traditions with details on:
-    - Card the regional music
-    - Understand the unique musical instruments like Dhol, Damama, Hurka, Binai, Turturi, Damru, Muruli, Mushak Been, etc., with detailed explanations.
-    - Experience the grace and rhythm of local dances, including Jhora, Mukhota, Cholia, Bhotia, Pandav Nritya, and more.
-13. **Flora and Fauna**: Discover the region's diverse plant and animal life.
-14. **Tourist Treasures**: Card Scenic Delights
-    - Plan your visit to Uttarakhand's most beautiful destinations.
-    - Get travel tips and recommendations for an unforgettable experience.
-15. **Glaciers and Rivers**: Nature's Lifelines
-    - Gain insights into the origin and routes of Uttarakhand's rivers.
-    - Card the majestic glaciers that feed these waterways.
-16. **Peaks & Mountains**: Stories of the Peaks
-    - Uncover the legends and tales behind the grand mountains of Uttarakhand.
-    - Learn about their significance and historical context.
-17. **User-Suggested Features**: Your Voice Matters
+1. **Language**: Kumaoni, Garhwali, and Jaunsari <br/>
+2. **Cultural Stories**: Historical kings, famous personalities, and regional tales <br/>
+3. **History**: Uttarakhand's past, notable movements and person<br/>
+4. **Spiritual Heritage**: Temple, deitie and architectural wonders <br/>
+5. **Cuisine**: Authentic recipes and traditional cooking methods <br/>
+6. **Festivals & Events**: Upcoming cultural events, festivals, and fairs <br/>
+7. **Art & Craft**: Traditional art, handicrafts, and local artisans <br/>
+8. **Music & Dance**: Regional music, unique instruments, and traditional dances <br/>
+9. **Traditional Dresses**: Discover the cultural and historical significance of these outfits. <br/>
+10. **Tourist Treasures**: Get travel tips and recommendations for an unforgettable experience. <br/>
+11. **Nature**: Flora, fauna, Glaciers , Rivers, Peaks & Mountains <br/>
+12. **User-Suggested Features**: Your Voice Matters
     - **Have a Feature in Mind? Share Your Ideas!**
         - If you believe there's a particular aspect of Uttarakhand's culture, history, or nature that should be featured on our website, we welcome your suggestions.
         - Send us an email or create issues on Github with your proposed feature and details. We value your input and will carefully review each submission.
         - If we find your suggestion aligns with our mission to provide valuable and insightful content, we'll gladly incorporate it into our website, giving credit where it's due.
         - Together, we can create a more comprehensive resource that truly reflects the richness of Uttarakhand.
+
      
 ### How to use this website
 

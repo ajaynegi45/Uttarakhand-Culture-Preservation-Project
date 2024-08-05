@@ -94,7 +94,7 @@ function Contribution() {
                 </ul>
 
 
-                <p className={"last-line"}>We have created a <Link to={"/contributors"}>'<span
+                <p className={"last-line"}>We have created a <Link to={"/contributors"}>' <span
                     className={"contributor-link"}>Contributors</span>'</Link>
                     page on our website where we showcase the photos and names of all our contributors. We are committed
                     to recognizing their efforts.</p>
@@ -132,3 +132,10 @@ function Contribution() {
 }
 
 export default Contribution;
+
+/**
+ * https://www.fontget.com/font/binary-family/
+ * https://upqode.com/aesthetic-fonts-for-excellent-design/
+ * https://webflow.com/blog/fonts-for-web-design
+ * */
+

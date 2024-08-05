@@ -98,3 +98,25 @@ This project is licensed under the [MIT License](LICENSE).
 
 Made with ❤️ by Ajay Negi
 © 2024 Uttarakhand Culture Preservation
+
+
+
+[//]: # (Stay rooted in tradition, yet branch out with modernity)
+
+[//]: # (Embrace the future, but honor the past)
+
+[//]: # (Modernize your approach, but keep your heritage in mind)
+
+[//]: # (Innovate with the times, but remember your origins)
+
+[//]: # (Progress with the present, but respect your roots)
+
+[//]: # (Keep pace with the modern world, but don't forget where you came from)
+
+[//]: # (Evolve with the generation, but stay connected to your roots)
+
+[//]: # (Be forward-thinking, yet mindful of your legacy)
+
+[//]: # (Grow with the times, but nurture your cultural heritage)
+
+[//]: # (Stay current, yet grounded in tradition)

@@ -2,37 +2,9 @@ import {useRef} from 'react';
 import map from "../assets/map-uttarakhand.svg";
 import "./map.css";
 
-// import SVGComponent from "../components/SVGComponent.jsx";
 const Map = () => {
-    // const [isDragging, setIsDragging] = useState(false);
-    // const [startX, setStartX] = useState(null);
-    // const [scrollLeft, setScrollLeft] = useState(0);
-    //
-    //
-    // const handleMouseDown = (e) => {
-    //     setIsDragging(true);
-    //     setStartX(e.pageX - mapBoxHeightRef.current.offsetLeft);
-    //     setScrollLeft(mapBoxHeightRef.current.scrollLeft);
-    // };
-    //
-    // const handleMouseMove = (e) => {
-    //     if (!isDragging) return;
-    //     const x = e.pageX - mapBoxHeightRef.current.offsetLeft;
-    //     const walk = (x - startX) * 2; // Adjust the multiplier for faster/slower scrolling
-    //     mapBoxHeightRef.current.scrollLeft = scrollLeft - walk;
-    // };
-    //
-    // const handleMouseUp = () => {
-    //     setIsDragging(false);
-    // };
-
-
-
-
 
     console.log("Map.jsx");
-
-
 
     const zoomLevelRef = useRef(1);
     const marginLeftLevelRef = useRef(0);
@@ -76,17 +48,9 @@ const Map = () => {
             <div className={"uttarakhand-map"}>
                 <h1 className={"uttarakhand-map-heading"}>Map of Uttarakhand</h1>
                 <p>Detailed map of uttarakhand</p>
-                <div ref={mapBoxHeightRef} className={"uttarakhand-map-container"}
-
-                     // style={{ overflowX: 'auto', cursor: isDragging ? 'grabbing' : 'grab' }}
-                     // onMouseDown={handleMouseDown}
-                     // onMouseMove={handleMouseMove}
-                     // onMouseUp={handleMouseUp}
-                     // onMouseLeave={handleMouseUp}
-                >
+                <div ref={mapBoxHeightRef} className={"uttarakhand-map-container"}>
                         <img className={"map-image"} ref={mapImageRef} src={map} alt="Important Map of Uttarakhand"
                          decoding="async"/>
-                    {/*<SVGComponent />*/}
                 </div>
                 <div className={"zoom-button-container"}>
                     <p onClick={handleZoomIn} className={"zoom-level-button"}>+</p>

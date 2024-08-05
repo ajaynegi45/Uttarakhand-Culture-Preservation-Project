@@ -23,9 +23,15 @@ function Signup() {
                 lastName: lastName.current.value,
                 password: password.current.value,
                 email: email.current.value
+
+
             })
         };
-        const response = await fetch("http://localhost:8080/api/v1/registration", options);
+
+        console.log(options.body);
+
+        const response = await fetch("http://localhost:8080/signup", options);
+
         try {
             const responseData = await response.json();
             if (response.ok) {

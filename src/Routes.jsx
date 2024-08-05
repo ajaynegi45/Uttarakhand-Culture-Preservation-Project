@@ -2,7 +2,6 @@ import {lazy,Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import {Route,RouterProvider,createBrowserRouter,createRoutesFromElements} from 'react-router-dom';
 import './index.css';
-import Dress from "./Pages/Dress/Dress.jsx";
 console.log("Routes.jsx");
 
 
@@ -23,6 +22,7 @@ const Music = lazy(() => import('./Pages/Music/Music.jsx'));
 const Architecture = lazy(() => import('./Pages/Architecture/Architecture.jsx'));
 const Community = lazy(() => import('./Pages/Community/Community.jsx'));
 const Utensil = lazy(() => import("./Pages/Utensil/Utensil.jsx"));
+const Dress = lazy(() => import("./Pages/Dress/Dress.jsx"));
 
 
 const Contact = lazy(() => import("./Pages/Contact.jsx"));
@@ -31,6 +31,7 @@ const Contribution = lazy(() => import("./Pages/Contribution.jsx"));
 const Map = lazy(() => import("./Pages/Map.jsx"));
 const Contributor = lazy(() => import("./Pages/Contributor.jsx"));
 const Signup = lazy(() => import("./Pages/Authentication/Signup.jsx"));
+const Signin = lazy(() => import("./Pages/Authentication/Signin.jsx"));
 
 
 const UnderWorkingPage = lazy(() => import("./components/UnderWorkingPage.jsx"));
@@ -96,7 +97,8 @@ const router = createBrowserRouter(
 
 
             {/* Useful Links */}
-            <Route path='/login' element={<Signup />} />
+            <Route path='/register' element={<Signup />} />
+            <Route path='/login' element={<Signin />} />
             <Route path='map' element={<Map />} />
             <Route path='contact' element={<Contact/>} />
             <Route path='about' element={<About/>} />

@@ -10,7 +10,11 @@ function Navbar() {
 
                 <nav className="navbar">
                     <ul className="navbar-list">
-                        <li><a className="navbar-link" href="/login">Login</a></li>
+                        <li>
+                            <Link className="navbar-link" to={"/login"}>
+                                Login
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
             </header>

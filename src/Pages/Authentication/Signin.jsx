@@ -1,12 +1,10 @@
-import "./signup.css";
+import "./signin.css";
 import {useRef} from "react";
 import {ToastContainer, toast, Bounce} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {Link} from "react-router-dom";
 
-function Signup() {
-    const firstName = useRef("");
-    const lastName = useRef("");
+function Signin() {
     const password = useRef("");
     const email = useRef("");
 
@@ -20,18 +18,14 @@ function Signup() {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                firstName: firstName.current.value,
-                lastName: lastName.current.value,
                 password: password.current.value,
                 email: email.current.value
-
-
             })
         };
 
         console.log(options.body);
 
-        const response = await fetch("http://localhost:8080/signup", options);
+        const response = await fetch("http://localhost:8080/login", options);
 
         try {
             const responseData = await response.json();
@@ -40,7 +34,7 @@ function Signup() {
                     resolveAfter3Sec,
                     {
                         pending: 'Registration is pending',
-                        success: `${responseData.message} 🤯`,
+                        success: `${responseData.message} 🥰`,
                         error: 'Registration is rejected 🤯'
                     },{
                         position: "bottom-right",
@@ -56,13 +50,6 @@ function Signup() {
                         progressStyle: true
                     }
                 );
-
-                // Reset field values after successful submission
-                firstName.current.value = "";
-                lastName.current.value = "";
-                password.current.value = "";
-                email.current.value = "";
-
             } else {
                 toast.error(responseData.message,{
                     position: "bottom-right",
@@ -104,25 +91,6 @@ function Signup() {
 
             <h1 className={"signup-title"}>Signup </h1>
             <form onSubmit={submitHandler}>
-
-                <label htmlFor="firstName"/>
-                <input
-                    type="text"
-                    name="firstName"
-                    ref={firstName}
-                    placeholder="First Name"
-                    required={true}
-                />
-
-                <label htmlFor="lastName"/>
-                <input
-                    type="text"
-                    name="lastName"
-                    ref={lastName}
-                    placeholder="Last Name"
-                    required={true}
-                />
-
                 <label htmlFor="password"/>
                 <input
                     type="password"
@@ -143,11 +111,11 @@ function Signup() {
 
                 <button type="submit">Sign Up</button>
 
-                <p className={"register_signin_link"} >Already a member? <Link to={"/login"}>Login</Link></p>
+                <p className={"register_signin_link"}>Not a member? <Link to={"/register"}>Register</Link></p>
             </form>
 
         </section>
     );
 }
 
-export default Signup;
+export default Signin;

@@ -8,6 +8,8 @@ Welcome to the Uttarakhand Culture Preservation Project! We're dedicated to savi
 <br/>
 <a href="https://ukculture.netlify.app/" target="_blank">Live link 02</a>
 
+Checkout <a href="https://github.com/ajaynegi45/Uttarakhand-Culture-NewUI" target="_blank">New UI 02</a>
+
 ### Problem
 A concerning trend is emerging in Uttarakhand, where the younger generation is gradually forgetting their cultural heritage and traditional rituals. This decline in cultural knowledge is evident across generations, with each successive generation possessing less knowledge than the previous one. For instance, the amount of cultural knowledge possessed by grandparents is significantly more than that of their children, and the cultural knowledge of today's youth is likely to be even less than that of their parents. If this trend continues, there is a risk that the cultural heritage of Uttarakhand may eventually disappear from the society. This loss would not only erase the region's rich cultural identity but also deprive future generations of their cultural roots and traditions.
 

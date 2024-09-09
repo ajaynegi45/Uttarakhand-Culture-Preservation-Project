@@ -1,3 +1,6 @@
+# Shifted to <a href="https://github.com/ajaynegi45/Uttarakhand-Culture-NewUI" target="_blank">New UI</a>
+
+
 # Uttarakhand-Culture-Preservation-Project
 
 ### Introduction

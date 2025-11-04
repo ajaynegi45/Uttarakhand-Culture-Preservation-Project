@@ -8,9 +8,7 @@ Checkout <a href="https://github.com/ajaynegi45/Uttarakhand-Culture-NewUI" targe
 
 Welcome to the Uttarakhand Culture Preservation Project! We're dedicated to saving and promoting the rich cultural heritage of Uttarakhand. Our platform digitally documents and celebrates the region's culture, history, and natural beauty, making it accessible to the younger generation and preserving it for future generations.
 
-<a href="https://www.uttarakhandculture.co/" target="_blank">Live link 01</a>
-<br/>
-<a href="https://ukculture.netlify.app/" target="_blank">Live link 02</a>
+<a href="https://ukculture.netlify.app/" target="_blank">Live link</a>
 
 
 ### Problem

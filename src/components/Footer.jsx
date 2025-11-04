@@ -72,19 +72,18 @@ function Footer() {
                                                       src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
                                                       alt="Chevron forward icon" className={"Chevron"}/>Temple</Link>
                         </li>
-                        <li><Link to={"#"}><img loading="lazy" decoding="async"
+                        <li><Link to={"/jewellery"}><img loading="lazy" decoding="async"
                                                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
-                                                alt="Chevron forward icon" className={"Chevron"}/>Traditional
-                            Dress</Link></li>
-                        <li><Link to={"dance"}><img loading="lazy" decoding="async"
+                                                alt="Chevron forward icon" className={"Chevron"}/>Jewellery</Link></li>
+                        <li><Link to={"/dance"}><img loading="lazy" decoding="async"
                                                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
                                                 alt="Chevron forward icon" className={"Chevron"}/>Dance</Link>
                         </li>
-                        <li><Link to={"#"}><img loading="lazy" decoding="async"
+                        <li><Link to={"/music"}><img loading="lazy" decoding="async"
                                                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
                                                 alt="Chevron forward icon" className={"Chevron"}/>Music</Link>
                         </li>
-                        <li><Link to={"#"}><img loading="lazy" decoding="async"
+                        <li><Link to={"/architecture"}><img loading="lazy" decoding="async"
                                                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjQ4cHgiIGQ9Im0xODQgMTEyIDE0NCAxNDQtMTQ0IDE0NCIvPgo8L3N2Zz4K"
                                                 alt="Chevron forward icon" className={"Chevron"}/>Architecture</Link>
                         </li>

@@ -1,109 +1,93 @@
 import "./contact.css"
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import { toast } from "sonner";
+
 function Contact() {
     console.log("Contact.jsx");
 
-    const nameRef = useRef();
-    const emailRef = useRef();
-    const subjectRef = useRef();
-    const messageRef = useRef();
+    const nameRef = useRef(null);
+    const emailRef = useRef(null);
+    const subjectRef = useRef(null);
+    const messageRef = useRef(null);
+
+    const [isLoading, setIsLoading] = useState(false);
 
     const submitData = async (event) => {
         event.preventDefault();
-        const name = nameRef.current.value;
-        const email = emailRef.current.value;
-        const subject = subjectRef.current.value;
-        const message = messageRef.current.value;
 
-        if (name &&  email && subject && message) {
-            const ipAddress = await getIPAddress();
-            const locationInfo = await getLocationInfo(ipAddress);
-            const currentDate = new Date();
-            const formattedDate = currentDate.toLocaleString('en-GB', {
-                day: '2-digit',
-                month: '2-digit',
-                year: 'numeric',
-                hour: '2-digit',
-                minute: '2-digit',
-                second: '2-digit'
-            });
+        const name = nameRef.current?.value || "";
+        const email = emailRef.current?.value || "";
+        const subject = subjectRef.current?.value || "";
+        const message = messageRef.current?.value || "";
 
+        if (!name || !email || !subject || !message) {
+            toast.error("Please fill in all fields!");
+            return;
+        }
+
+        const toastId = toast.loading("Submitting your message...");
+
+        setIsLoading(true);
+
+        try {
             const res = await fetch(
-                `${import.meta.env.VITE_DATABASE_URL}`,
+                "https://0u6n608iw4.execute-api.ap-south-1.amazonaws.com/formmailly/api/contact",
                 {
                     method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
+                    headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({
                         name,
                         email,
-                        subject,
+                        reason: `ukculture.netlify.app - ${subject}`, // ✅ Add identifier
                         message,
-                        date: formattedDate,
-                        location: locationInfo,
                     }),
                 }
             );
 
-            if (res) {
+            if (res.ok) {
+                toast.success("Message sent successfully! ❤️", {
+                    id: toastId,
+                });
+
                 nameRef.current.value = "";
                 emailRef.current.value = "";
                 subjectRef.current.value = "";
                 messageRef.current.value = "";
-                alert("Thank you for contacting us❤️\nYour message has been successfully submitted!");
             } else {
-                alert("Failed to submit the form. Please try again later.");
+                toast.error("Failed to submit form!", { id: toastId });
             }
-        } else {
-            alert("Please fill in all the required fields before submitting the form.");
+        } catch (error) {
+            toast.error("Something went wrong!", { id: toastId });
+            console.error(error);
+        } finally {
+            setIsLoading(false);
         }
     };
 
-    const getIPAddress = async () => {
-        const res = await fetch("https://api64.ipify.org?format=json");
-        const data = await res.json();
-        return data.ip;
-    };
-    const getLocationInfo = async (ipAddress) => {
-        const res = await fetch(`https://ipapi.co/${ipAddress}/json/`);
-        const data = await res.json();
-        console.log(data);
-        return {
-            country: data.country_name,
-            city: data.city,
-            region: data.region,
-            latitude: data.latitude,
-            longitude: data.longitude,
-            timezone: data.timezone,
-            service_provider: data.org,
-            country_calling_code: data.country_calling_code,
-        };
-    };
-
     return (
-        <section className={"contact-section"}>
+        <section className="contact-section">
             <div className="contact-us">
                 <form method="POST" onSubmit={submitData}>
-
-                    <div className={"form-title"}>
+                    <div className="form-title">
                         <h1>Contact Us</h1>
                     </div>
 
-                    <label htmlFor="name">NAME <em>&#x2a;</em></label>
-                    <input id="name" name="name" type="text" ref={nameRef} autoFocus={true} required/>
+                    <label htmlFor="name">NAME <em>*</em></label>
+                    <input id="name" name="name" type="text" ref={nameRef} required />
 
-                    <label htmlFor="email">EMAIL <em>&#x2a;</em></label>
-                    <input id="email" name="email" type="email" ref={emailRef} required/>
+                    <label htmlFor="email">EMAIL <em>*</em></label>
+                    <input id="email" name="email" type="email" ref={emailRef} required />
 
-                    <label htmlFor="subject">SUBJECT <em>&#x2a;</em></label>
+                    <label htmlFor="subject">SUBJECT <em>*</em></label>
                     <input id="subject" name="subject" type="text" ref={subjectRef} required />
 
-                    <label htmlFor="message">YOUR MESSAGE <em>&#x2a;</em></label>
+                    <label htmlFor="message">YOUR MESSAGE <em>*</em></label>
                     <textarea id="message" name="message" rows="4" ref={messageRef} required />
 
-                    <div className={"submit-button"}>
-                        <button id="form-submit" type={"submit"}>SUBMIT</button>
+                    <div className="submit-button">
+                        <button id="form-submit" type="submit" disabled={isLoading}>
+                            {isLoading ? "Submitting..." : "SUBMIT"}
+                        </button>
                     </div>
                 </form>
             </div>
